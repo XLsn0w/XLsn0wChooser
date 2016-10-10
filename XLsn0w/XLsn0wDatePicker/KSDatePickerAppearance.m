@@ -8,7 +8,7 @@
 
 #import "KSDatePickerAppearance.h"
 static const float RealSrceenHight =  667.0;
-static const float RealSrceenWidth =  375.0;
+//static const float RealSrceenWidth =  375.0;
 #define AdaptationH(x) x/RealSrceenHight*[[UIScreen mainScreen]bounds].size.height
 #define AdaptationW(x) x/RealSrceenWidth*[[UIScreen mainScreen]bounds].size.width
 #define AdapationLabelFont(n) n*([[UIScreen mainScreen]bounds].size.width/375.0f)
