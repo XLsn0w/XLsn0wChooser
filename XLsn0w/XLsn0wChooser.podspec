@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |s|
 
-  s.version      = "1.0.2"
+  s.version      = "1.0.5"
   s.summary      = "XLsn0w Custom A good Chooser"
 
   s.license      = "MIT"
@@ -13,7 +13,13 @@ Pod::Spec.new do |s|
   s.homepage     = "https://github.com/XLsn0w/XLsn0wChooser"
   s.source       = { :git => "https://github.com/XLsn0w/XLsn0wChooser.git", :tag => s.version }
 
-  s.source_files = "XLsn0w/*.{h,m,xib}"
-#s.resources    = "XLsn0w/XLsn0wLoop/XLsn0wLoop.png"
+  s.source_files = "XLsn0w/*.{h,m}"
+
+  s.resources    = "XLsn0w/SGDatePickerCenterView.xib"
+  s.resources    = "XLsn0w/SGDatePickerSheetView.xib"
+  s.resources    = "XLsn0w/SGLocationPickerCenterView.xib"
+  s.resources    = "XLsn0w/SGLocationPickerSheetView.xib"
+
+  s.dependency 'Masonry'
 
 end
