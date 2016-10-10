@@ -15,10 +15,10 @@ Pod::Spec.new do |s|
 
   s.source_files = "XLsn0w/*.{h,m}"
 
-  s.resources    = "XLsn0w/SGDatePickerCenterView.xib"
-  s.resources    = "XLsn0w/SGDatePickerSheetView.xib"
-  s.resources    = "XLsn0w/SGLocationPickerCenterView.xib"
-  s.resources    = "XLsn0w/SGLocationPickerSheetView.xib"
+  s.resources    = "XLsn0w/XLsn0wChooser/SGDatePickerCenterView.xib"
+  s.resources    = "XLsn0w/XLsn0wChooser/SGDatePickerSheetView.xib"
+  s.resources    = "XLsn0w/XLsn0wChooser/SGLocationPickerCenterView.xib"
+  s.resources    = "XLsn0w/XLsn0wChooser/SGLocationPickerSheetView.xib"
 
   s.dependency 'Masonry'
 
