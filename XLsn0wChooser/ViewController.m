@@ -8,8 +8,6 @@
 
 #import "ViewController.h"
 
-#import "SGPickerView.h"
-
 @interface ViewController ()
 
 @end
@@ -21,19 +19,9 @@
     // Do any additional setup after loading the view, typically from a nib.
 }
 
-- (IBAction)show:(id)sender {
-    SGPickerView *pickerView = [[SGPickerView alloc] init];
-    pickerView.pickerViewType = SGPickerViewTypeCenter;
-    [pickerView show];
-    pickerView.locationMessage = ^(NSString *str){
-        self.title = str;
-    };
-}
-
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
-
 
 @end

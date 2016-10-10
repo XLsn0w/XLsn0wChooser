@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |s|
 
-  s.version      = "1.0.1"
+  s.version      = "1.0.2"
   s.summary      = "XLsn0w Custom A good Chooser"
 
   s.license      = "MIT"

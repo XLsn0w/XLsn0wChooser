@@ -64,7 +64,7 @@
                 <outlet property="datePicker" destination="v7m-V8-7cy" id="qQg-vA-8oL"/>
                 <outlet property="sureBtn" destination="ZJ4-Xi-MiZ" id="fZY-C5-heu"/>
             </connections>
-            <point key="canvasLocation" x="299" y="283"/>
+            <point key="canvasLocation" x="-8" y="-47"/>
         </view>
     </objects>
 </document>
