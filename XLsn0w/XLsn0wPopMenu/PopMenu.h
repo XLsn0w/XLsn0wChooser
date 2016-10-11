@@ -15,7 +15,7 @@
 
 @interface PopMenu : UIView
 
-@property (nonatomic, assign) id<PopMenuDelegate>popMenuDelegate;
+@property (nonatomic, assign) id<PopMenuDelegate> xlsn0wDelegate;
 
 + (instancetype)popMenuShowWithArray:(NSArray *)showArray; //显示弹出菜单
 + (void)popMenuDismiss;//隐藏弹出菜单
@@ -25,7 +25,7 @@
 @protocol PopMenuDelegate <NSObject>
 
 @required
-- (void)popMenu:(PopMenu *)menu didSelectItem:(id)item;
+- (void)popMenu:(PopMenu *)menu didSelectItem:(id)item selectedIndex:(NSInteger)selectedIndex;
 
 @end
 

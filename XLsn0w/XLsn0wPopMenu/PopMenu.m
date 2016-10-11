@@ -149,20 +149,19 @@
     [PopMenu popMenuDismiss];
     dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(0.01 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
         id item = [self.dataArray objectAtIndex:indexPath.row];
-        if (self.popMenuDelegate || [self.popMenuDelegate respondsToSelector:@selector(popMenu:didSelectItem:)]) {
-            [self.popMenuDelegate popMenu:self didSelectItem:item];
+        if (self.xlsn0wDelegate || [self.xlsn0wDelegate respondsToSelector:@selector(popMenu:didSelectItem:selectedIndex:)]) {
+            [self.xlsn0wDelegate popMenu:self didSelectItem:item selectedIndex:indexPath.row];
         }
     });
 }
 
-
 #pragma mark - 设置属性
-
 
 - (void)setDataArray:(NSArray *)dataArray{
     _dataArray = dataArray; 
     [self.menuTableView reloadData];
 }
+
 @end
 
 @implementation PopMenuCell
