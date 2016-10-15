@@ -145,12 +145,12 @@ static CGFloat const PickerViewLabelWeight = 30;
 
 - (void)initSevenDaysArray {
     //NSString *today = [NSString stringWithFormat:@"%ld-%ld-%ld", self.year, self.month, self.day+0];
-    NSString *today1 = [NSString stringWithFormat:@"%ld-%ld-%ld", self.year, self.month, self.day+1];
-    NSString *today2 = [NSString stringWithFormat:@"%ld-%ld-%ld", self.year, self.month, self.day+2];
-    NSString *today3 = [NSString stringWithFormat:@"%ld-%ld-%ld", self.year, self.month, self.day+3];
-    NSString *today4 = [NSString stringWithFormat:@"%ld-%ld-%ld", self.year, self.month, self.day+4];
-    NSString *today5 = [NSString stringWithFormat:@"%ld-%ld-%ld", self.year, self.month, self.day+5];
-    NSString *today6 = [NSString stringWithFormat:@"%ld-%ld-%ld", self.year, self.month, self.day+6];
+    NSString *today1 = [NSString stringWithFormat:@"%ld-%ld-%ld", (long)self.year, (long)self.month, (long)(self.day+1)];
+    NSString *today2 = [NSString stringWithFormat:@"%ld-%ld-%ld", (long)self.year, (long)self.month, (long)(self.day+2)];
+    NSString *today3 = [NSString stringWithFormat:@"%ld-%ld-%ld", (long)self.year, (long)self.month, (long)(self.day+3)];
+    NSString *today4 = [NSString stringWithFormat:@"%ld-%ld-%ld", (long)self.year, (long)self.month, (long)(self.day+4)];
+    NSString *today5 = [NSString stringWithFormat:@"%ld-%ld-%ld", (long)self.year, (long)self.month, (long)(self.day+5)];
+    NSString *today6 = [NSString stringWithFormat:@"%ld-%ld-%ld", (long)self.year, (long)self.month, (long)(self.day+6)];
     self.sevenDaysArray = @[@"今天", today1, today2, today3, today4, today5, today6];
 }
 
