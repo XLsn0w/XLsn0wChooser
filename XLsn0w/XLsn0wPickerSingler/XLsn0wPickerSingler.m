@@ -27,17 +27,19 @@
 #define STWeakSelf __weak typeof(self) weakSelf = self;
 
 static CGFloat const PickerViewHeight = 240;
-//static CGFloat const PickerViewLabelWeight = 32;
+static CGFloat const PickerViewLabelWeight = 200;
 
-@interface XLsn0wPickerSingler ()<UIPickerViewDataSource, UIPickerViewDelegate>
+@interface XLsn0wPickerSingler () <UIPickerViewDataSource, UIPickerViewDelegate>
 
 /** 1.选择器 */
-@property (nonatomic, strong, nullable)UIPickerView *pickerView;
+@property (nonatomic, strong, nullable) UIPickerView *pickerView;
 
 /** 3.边线 */
-@property (nonatomic, strong, nullable)UIView *lineView;
+@property (nonatomic, strong, nullable) UIView *lineView;
 /** 4.选中的字符串 */
-@property (nonatomic, strong, nullable)NSString *selectedTitle;
+@property (nonatomic, strong, nullable) NSString *selectedTitle;
+
+@property (nonatomic, assign) NSInteger selectedRow;
 
 @end
 
@@ -46,14 +48,13 @@ static CGFloat const PickerViewHeight = 240;
 #pragma mark - --- init 视图初始化 ---
 
 - (instancetype)initWithArrayData:(NSArray<NSString *>*)arrayData
-                        titleUnit:(NSString *)titleUnit
-                         delegate:(nullable id)delegate
-{
+                        unitTitle:(NSString *)unitTitle
+                   xlsn0wDelegate:(nullable id<XLsn0wPickerSinglerDelegate>)xlsn0wDelegate {
     self.arrayData = arrayData.mutableCopy;
-    self.titleUnit = titleUnit;
+    self.unitTitle = unitTitle;
     
     self = [self init];
-    self.delegate = delegate;
+    self.xlsn0wDelegate = xlsn0wDelegate;
     return self;
 }
 
@@ -95,27 +96,24 @@ static CGFloat const PickerViewHeight = 240;
     }
 }
 
-- (CGFloat)pickerView:(UIPickerView *)pickerView rowHeightForComponent:(NSInteger)component
-{
+- (CGFloat)pickerView:(UIPickerView *)pickerView rowHeightForComponent:(NSInteger)component {
     return 36;
 }
 
-//- (CGFloat)pickerView:(UIPickerView *)pickerView widthForComponent:(NSInteger)component
-//{
-//    
-//    if (component == 0) {
-//        return (ScreenWidth-PickerViewLabelWeight)/2;
-//    }else if (component == 1){
-//        return PickerViewLabelWeight;
-//    }else {
-//        return (ScreenWidth-PickerViewLabelWeight)/2;
-//    }
-//}
+- (CGFloat)pickerView:(UIPickerView *)pickerView widthForComponent:(NSInteger)component {
+    if (component == 0) {
+        return ([UIScreen mainScreen].bounds.size.width-PickerViewLabelWeight)/2;
+    }else if (component == 1){
+        return PickerViewLabelWeight;
+    }else {
+        return ([UIScreen mainScreen].bounds.size.width-PickerViewLabelWeight)/2;
+    }
+}
 
-- (void)pickerView:(UIPickerView *)pickerView didSelectRow:(NSInteger)row inComponent:(NSInteger)component
-{
+- (void)pickerView:(UIPickerView *)pickerView didSelectRow:(NSInteger)row inComponent:(NSInteger)component {
     self.selectedTitle = self.arrayData[row];
-    [self.toolbar setTitle:[NSString stringWithFormat:@"%@ %@", self.selectedTitle, self.titleUnit]];
+    _selectedRow = row;
+    [self.toolbar setTitle:[NSString stringWithFormat:@"%@ %@", self.selectedTitle, self.unitTitle]];
 }
 
 - (UIView *)pickerView:(UIPickerView *)pickerView viewForRow:(NSInteger)row forComponent:(NSInteger)component reusingView:(nullable UIView *)view
@@ -130,7 +128,7 @@ static CGFloat const PickerViewHeight = 240;
         return label;
     }else {
         UILabel *label = [[UILabel alloc]init];
-        [label setText:self.titleUnit];
+        [label setText:self.unitTitle];
         [label setTextAlignment:NSTextAlignmentLeft];
         return label;
     }
@@ -138,7 +136,7 @@ static CGFloat const PickerViewHeight = 240;
 #pragma mark - --- event response 事件相应 ---
 
 - (void)selectedOk {
-    [self.delegate pickerSingler:self selectedTitle:self.selectedTitle];
+    [self.xlsn0wDelegate pickerSingler:self selectedTitle:self.selectedTitle selectedRow:_selectedRow];
     [self remove];
 }
 
@@ -193,9 +191,8 @@ static CGFloat const PickerViewHeight = 240;
     [self.pickerView reloadAllComponents];
 }
 
-- (void)setTitleUnit:(NSString *)titleUnit
-{
-    _titleUnit = titleUnit;
+- (void)setUnitTitle:(NSString *)unitTitle {
+    _unitTitle = unitTitle;
     [self.pickerView reloadAllComponents];
 }
 

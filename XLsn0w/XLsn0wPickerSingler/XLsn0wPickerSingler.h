@@ -19,7 +19,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 @protocol  XLsn0wPickerSinglerDelegate<NSObject>
 
-- (void)pickerSingler:(XLsn0wPickerSingler *)pickerSingler selectedTitle:(NSString *)selectedTitle;
+- (void)pickerSingler:(XLsn0wPickerSingler *)pickerSingler selectedTitle:(NSString *)selectedTitle selectedRow:(NSInteger)selectedRow;
 
 @end
 
@@ -31,15 +31,15 @@ NS_ASSUME_NONNULL_BEGIN
 /** 1.设置字符串数据数组 */
 @property (nonatomic, strong)NSMutableArray<NSString *> *arrayData;
 /** 2.设置单位标题 */
-@property (nonatomic, strong)NSString *titleUnit;
+@property (nonatomic, strong)NSString *unitTitle;
 /** 3.标题 */
 @property (nonatomic, strong)NSString *title;
 
-@property(nonatomic, weak)id <XLsn0wPickerSinglerDelegate> delegate;
+@property(nonatomic, weak) id<XLsn0wPickerSinglerDelegate> xlsn0wDelegate;
 
 - (instancetype)initWithArrayData:(NSArray<NSString *>*)arrayData
-                        titleUnit:(NSString *)titleUnit
-                         delegate:(nullable id)delegate;
+                        unitTitle:(NSString *)unitTitle
+                   xlsn0wDelegate:(nullable id<XLsn0wPickerSinglerDelegate>)xlsn0wDelegate;
 
 - (void)show;
 @end

@@ -79,7 +79,7 @@ static const float RealSrceenWidth =  375.0;
 }
 
 - (IBAction)singler:(id)sender {
-    XLsn0wPickerSingler *singler = [[XLsn0wPickerSingler alloc] initWithArrayData:@[@"房屋问题", @"报修问题"] titleUnit:@"" delegate:self];
+    XLsn0wPickerSingler *singler = [[XLsn0wPickerSingler alloc] initWithArrayData:@[@"房屋问题", @"报修问题"] unitTitle:@"MB" xlsn0wDelegate:self];
     [singler show];
 }
 
@@ -93,8 +93,9 @@ static const float RealSrceenWidth =  375.0;
 - (IBAction)areaer:(id)sender {
 }
 
-- (void)pickerSingler:(XLsn0wPickerSingler *)pickerSingler selectedTitle:(NSString *)selectedTitle {
+- (void)pickerSingler:(XLsn0wPickerSingler *)pickerSingler selectedTitle:(NSString *)selectedTitle selectedRow:(NSInteger)selectedRow {
     NSLog(@"selectedTitle===%@", selectedTitle);
+    NSLog(@"selectedRow===%ld", selectedRow);
 }
 
 - (void)pickerDater:(XLsn0wPickerDater *)pickerDater selectedResult:(NSString *)selectedResult {
@@ -104,6 +105,7 @@ static const float RealSrceenWidth =  375.0;
 - (IBAction)centerDater:(id)sender {
     [self setupDateView:DateTypeOfStart];
 }
+
 - (void)setupDateView:(DateType)type {
     
     _pikerView = [XLsn0wCenterDatePicker instanceDatePickerView];
@@ -136,6 +138,5 @@ static const float RealSrceenWidth =  375.0;
             break;
     }
 }
-
 
 @end
