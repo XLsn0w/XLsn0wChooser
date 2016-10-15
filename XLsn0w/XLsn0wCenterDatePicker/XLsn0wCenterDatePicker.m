@@ -15,9 +15,9 @@
 
 @property (nonatomic, strong) NSString *selectDate;
 
-@property (weak, nonatomic) IBOutlet UIButton *cannelBtn;
-@property (weak, nonatomic) IBOutlet UIButton *sureBtn;
-@property (weak, nonatomic) IBOutlet UIView *backgVIew;
+@property (weak, nonatomic) UIButton *cannelBtn;
+@property (weak, nonatomic) UIButton *sureBtn;
+@property (weak, nonatomic) UIView *backgVIew;
 
 @end
 
@@ -77,7 +77,7 @@
 
 }
 
-- (IBAction)removeBtnClick:(id)sender {
+- (void)removeBtnClick:(id)sender {
     // 开始动画
     [self animationbegin:sender];
 
@@ -88,7 +88,7 @@
     }];
 }
 
-- (IBAction)sureBtnClick:(id)sender {
+- (void)sureBtnClick:(id)sender {
     // 开始动画
     [self animationbegin:sender];
     

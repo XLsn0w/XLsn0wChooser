@@ -30,7 +30,7 @@ typedef enum{
 
 + (XLsn0wCenterDatePicker *)instanceDatePickerView;
 
-@property (weak, nonatomic) IBOutlet UIDatePicker *datePickerView;
+@property (weak, nonatomic) UIDatePicker *datePickerView;
 
 @property (nonatomic, weak) id<XLsn0wCenterDatePickerDelegate> delegate;
 

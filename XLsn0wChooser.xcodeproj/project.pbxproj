@@ -22,7 +22,6 @@
 		3597ED171DB24A18000770C2 /* XLsn0wPickerAreaer.m in Sources */ = {isa = PBXBuildFile; fileRef = 3597ED161DB24A18000770C2 /* XLsn0wPickerAreaer.m */; };
 		3597ED1A1DB24A3B000770C2 /* area.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3597ED191DB24A3B000770C2 /* area.plist */; };
 		3597ED1F1DB24F34000770C2 /* XLsn0wCenterDatePicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 3597ED1D1DB24F34000770C2 /* XLsn0wCenterDatePicker.m */; };
-		3597ED201DB24F34000770C2 /* XLsn0wCenterDatePicker.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3597ED1E1DB24F34000770C2 /* XLsn0wCenterDatePicker.xib */; };
 		35A78C011DAB7A8100D9D180 /* XLsn0wDropMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 35A78BFD1DAB7A8100D9D180 /* XLsn0wDropMenu.m */; };
 		35A78CA91DAB827000D9D180 /* DPPopUpMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 35A78CA21DAB827000D9D180 /* DPPopUpMenu.m */; };
 		35A78CAA1DAB827000D9D180 /* KSDatePicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 35A78CA41DAB827000D9D180 /* KSDatePicker.m */; };
@@ -55,7 +54,6 @@
 		3597ED191DB24A3B000770C2 /* area.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = area.plist; sourceTree = "<group>"; };
 		3597ED1C1DB24F34000770C2 /* XLsn0wCenterDatePicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLsn0wCenterDatePicker.h; sourceTree = "<group>"; };
 		3597ED1D1DB24F34000770C2 /* XLsn0wCenterDatePicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLsn0wCenterDatePicker.m; sourceTree = "<group>"; };
-		3597ED1E1DB24F34000770C2 /* XLsn0wCenterDatePicker.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = XLsn0wCenterDatePicker.xib; sourceTree = "<group>"; };
 		35A78BFC1DAB7A8100D9D180 /* XLsn0wDropMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLsn0wDropMenu.h; sourceTree = "<group>"; };
 		35A78BFD1DAB7A8100D9D180 /* XLsn0wDropMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLsn0wDropMenu.m; sourceTree = "<group>"; };
 		35A78C031DAB7AA600D9D180 /* XLsn0wChooserKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLsn0wChooserKit.h; sourceTree = "<group>"; };
@@ -195,7 +193,6 @@
 			children = (
 				3597ED1C1DB24F34000770C2 /* XLsn0wCenterDatePicker.h */,
 				3597ED1D1DB24F34000770C2 /* XLsn0wCenterDatePicker.m */,
-				3597ED1E1DB24F34000770C2 /* XLsn0wCenterDatePicker.xib */,
 			);
 			path = XLsn0wCenterDatePicker;
 			sourceTree = "<group>";
@@ -320,7 +317,6 @@
 				3584E5CF1DAB3BFD00504539 /* XLsn0wChooser.podspec in Resources */,
 				3584E5AC1DAB3BE300504539 /* LaunchScreen.storyboard in Resources */,
 				3584E5A91DAB3BE300504539 /* Assets.xcassets in Resources */,
-				3597ED201DB24F34000770C2 /* XLsn0wCenterDatePicker.xib in Resources */,
 				3584E5A71DAB3BE300504539 /* Main.storyboard in Resources */,
 				3597ED1A1DB24A3B000770C2 /* area.plist in Resources */,
 			);
