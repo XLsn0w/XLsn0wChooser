@@ -453,10 +453,10 @@ static CGFloat const PickerViewLabelWeight = 30;
 {
     NSMutableArray *arrayComponents = [NSMutableArray array];
     
-    NSString *stringOne = [NSString stringWithFormat:@"%ld-%ld-%ld", componentsOne.year,
+    NSString *stringOne = [NSString stringWithFormat:@"%ld-%ld-%ld", (long)componentsOne.year,
                            componentsOne.month,
                            componentsOne.day];
-    NSString *stringTwo = [NSString stringWithFormat:@"%ld-%ld-%ld", componentsTwo.year,
+    NSString *stringTwo = [NSString stringWithFormat:@"%ld-%ld-%ld", (long)componentsTwo.year,
                            componentsTwo.month,
                            componentsTwo.day];
     NSDateFormatter *dateFormatter = [[NSDateFormatter alloc]init];
