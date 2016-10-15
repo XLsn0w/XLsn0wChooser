@@ -159,8 +159,6 @@
 				3584E5C41DAB3BFD00504539 /* XLsn0wChooser.podspec */,
 				35A78C031DAB7AA600D9D180 /* XLsn0wChooserKit.h */,
 				3597ED1B1DB24F34000770C2 /* XLsn0wCenterDatePicker */,
-				3597ED181DB24A3B000770C2 /* Resources */,
-				3597ED0B1DB248B5000770C2 /* XLsn0wToolbar */,
 				3597ED141DB24A18000770C2 /* XLsn0wPickerAreaer */,
 				3597ED081DB248B5000770C2 /* XLsn0wPickerSingler */,
 				3597ED0E1DB248B5000770C2 /* XLsn0wPickerDater */,
@@ -168,6 +166,8 @@
 				35A78BFE1DAB7A8100D9D180 /* XLsn0wPopMenu */,
 				35A78BFB1DAB7A8100D9D180 /* XLsn0wDropMenu */,
 				35A78CA01DAB827000D9D180 /* XLsn0wDatePicker */,
+				3597ED0B1DB248B5000770C2 /* XLsn0wToolbar */,
+				3597ED181DB24A3B000770C2 /* Resources */,
 			);
 			path = XLsn0w;
 			sourceTree = "<group>";
