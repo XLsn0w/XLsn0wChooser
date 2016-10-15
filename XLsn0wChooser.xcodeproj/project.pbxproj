@@ -28,16 +28,6 @@
 		35A78CAA1DAB827000D9D180 /* KSDatePicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 35A78CA41DAB827000D9D180 /* KSDatePicker.m */; };
 		35A78CAB1DAB827000D9D180 /* KSDatePickerAppearance.m in Sources */ = {isa = PBXBuildFile; fileRef = 35A78CA61DAB827000D9D180 /* KSDatePickerAppearance.m */; };
 		35A78CAC1DAB827000D9D180 /* UIColor+DPUIColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 35A78CA81DAB827000D9D180 /* UIColor+DPUIColor.m */; };
-		35A78CBE1DAB82A200D9D180 /* SGDatePicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 35A78CAF1DAB82A200D9D180 /* SGDatePicker.m */; };
-		35A78CBF1DAB82A200D9D180 /* SGDatePickerCenterView.m in Sources */ = {isa = PBXBuildFile; fileRef = 35A78CB11DAB82A200D9D180 /* SGDatePickerCenterView.m */; };
-		35A78CC01DAB82A200D9D180 /* SGDatePickerCenterView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 35A78CB21DAB82A200D9D180 /* SGDatePickerCenterView.xib */; };
-		35A78CC11DAB82A200D9D180 /* SGDatePickerSheetView.m in Sources */ = {isa = PBXBuildFile; fileRef = 35A78CB41DAB82A200D9D180 /* SGDatePickerSheetView.m */; };
-		35A78CC21DAB82A200D9D180 /* SGDatePickerSheetView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 35A78CB51DAB82A200D9D180 /* SGDatePickerSheetView.xib */; };
-		35A78CC31DAB82A200D9D180 /* SGLocationPickerCenterView.m in Sources */ = {isa = PBXBuildFile; fileRef = 35A78CB71DAB82A200D9D180 /* SGLocationPickerCenterView.m */; };
-		35A78CC41DAB82A200D9D180 /* SGLocationPickerCenterView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 35A78CB81DAB82A200D9D180 /* SGLocationPickerCenterView.xib */; };
-		35A78CC51DAB82A200D9D180 /* SGLocationPickerSheetView.m in Sources */ = {isa = PBXBuildFile; fileRef = 35A78CBA1DAB82A200D9D180 /* SGLocationPickerSheetView.m */; };
-		35A78CC61DAB82A200D9D180 /* SGLocationPickerSheetView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 35A78CBB1DAB82A200D9D180 /* SGLocationPickerSheetView.xib */; };
-		35A78CC71DAB82A200D9D180 /* SGPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 35A78CBD1DAB82A200D9D180 /* SGPickerView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -77,22 +67,6 @@
 		35A78CA61DAB827000D9D180 /* KSDatePickerAppearance.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KSDatePickerAppearance.m; sourceTree = "<group>"; };
 		35A78CA71DAB827000D9D180 /* UIColor+DPUIColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+DPUIColor.h"; sourceTree = "<group>"; };
 		35A78CA81DAB827000D9D180 /* UIColor+DPUIColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+DPUIColor.m"; sourceTree = "<group>"; };
-		35A78CAE1DAB82A200D9D180 /* SGDatePicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SGDatePicker.h; sourceTree = "<group>"; };
-		35A78CAF1DAB82A200D9D180 /* SGDatePicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SGDatePicker.m; sourceTree = "<group>"; };
-		35A78CB01DAB82A200D9D180 /* SGDatePickerCenterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SGDatePickerCenterView.h; sourceTree = "<group>"; };
-		35A78CB11DAB82A200D9D180 /* SGDatePickerCenterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SGDatePickerCenterView.m; sourceTree = "<group>"; };
-		35A78CB21DAB82A200D9D180 /* SGDatePickerCenterView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SGDatePickerCenterView.xib; sourceTree = "<group>"; };
-		35A78CB31DAB82A200D9D180 /* SGDatePickerSheetView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SGDatePickerSheetView.h; sourceTree = "<group>"; };
-		35A78CB41DAB82A200D9D180 /* SGDatePickerSheetView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SGDatePickerSheetView.m; sourceTree = "<group>"; };
-		35A78CB51DAB82A200D9D180 /* SGDatePickerSheetView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SGDatePickerSheetView.xib; sourceTree = "<group>"; };
-		35A78CB61DAB82A200D9D180 /* SGLocationPickerCenterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SGLocationPickerCenterView.h; sourceTree = "<group>"; };
-		35A78CB71DAB82A200D9D180 /* SGLocationPickerCenterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SGLocationPickerCenterView.m; sourceTree = "<group>"; };
-		35A78CB81DAB82A200D9D180 /* SGLocationPickerCenterView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SGLocationPickerCenterView.xib; sourceTree = "<group>"; };
-		35A78CB91DAB82A200D9D180 /* SGLocationPickerSheetView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SGLocationPickerSheetView.h; sourceTree = "<group>"; };
-		35A78CBA1DAB82A200D9D180 /* SGLocationPickerSheetView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SGLocationPickerSheetView.m; sourceTree = "<group>"; };
-		35A78CBB1DAB82A200D9D180 /* SGLocationPickerSheetView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SGLocationPickerSheetView.xib; sourceTree = "<group>"; };
-		35A78CBC1DAB82A200D9D180 /* SGPickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SGPickerView.h; sourceTree = "<group>"; };
-		35A78CBD1DAB82A200D9D180 /* SGPickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SGPickerView.m; sourceTree = "<group>"; };
 		385E2A34D343E2ABF2B79496 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		4661867F18E551152C79CE55 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		94C8E45D473FF92F97BDAD1A /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
@@ -262,22 +236,6 @@
 		35A78CAD1DAB82A200D9D180 /* XLsn0wChooser */ = {
 			isa = PBXGroup;
 			children = (
-				35A78CAE1DAB82A200D9D180 /* SGDatePicker.h */,
-				35A78CAF1DAB82A200D9D180 /* SGDatePicker.m */,
-				35A78CB01DAB82A200D9D180 /* SGDatePickerCenterView.h */,
-				35A78CB11DAB82A200D9D180 /* SGDatePickerCenterView.m */,
-				35A78CB21DAB82A200D9D180 /* SGDatePickerCenterView.xib */,
-				35A78CB31DAB82A200D9D180 /* SGDatePickerSheetView.h */,
-				35A78CB41DAB82A200D9D180 /* SGDatePickerSheetView.m */,
-				35A78CB51DAB82A200D9D180 /* SGDatePickerSheetView.xib */,
-				35A78CB61DAB82A200D9D180 /* SGLocationPickerCenterView.h */,
-				35A78CB71DAB82A200D9D180 /* SGLocationPickerCenterView.m */,
-				35A78CB81DAB82A200D9D180 /* SGLocationPickerCenterView.xib */,
-				35A78CB91DAB82A200D9D180 /* SGLocationPickerSheetView.h */,
-				35A78CBA1DAB82A200D9D180 /* SGLocationPickerSheetView.m */,
-				35A78CBB1DAB82A200D9D180 /* SGLocationPickerSheetView.xib */,
-				35A78CBC1DAB82A200D9D180 /* SGPickerView.h */,
-				35A78CBD1DAB82A200D9D180 /* SGPickerView.m */,
 			);
 			path = XLsn0wChooser;
 			sourceTree = "<group>";
@@ -362,11 +320,7 @@
 				3584E5CF1DAB3BFD00504539 /* XLsn0wChooser.podspec in Resources */,
 				3584E5AC1DAB3BE300504539 /* LaunchScreen.storyboard in Resources */,
 				3584E5A91DAB3BE300504539 /* Assets.xcassets in Resources */,
-				35A78CC61DAB82A200D9D180 /* SGLocationPickerSheetView.xib in Resources */,
 				3597ED201DB24F34000770C2 /* XLsn0wCenterDatePicker.xib in Resources */,
-				35A78CC41DAB82A200D9D180 /* SGLocationPickerCenterView.xib in Resources */,
-				35A78CC01DAB82A200D9D180 /* SGDatePickerCenterView.xib in Resources */,
-				35A78CC21DAB82A200D9D180 /* SGDatePickerSheetView.xib in Resources */,
 				3584E5A71DAB3BE300504539 /* Main.storyboard in Resources */,
 				3597ED1A1DB24A3B000770C2 /* area.plist in Resources */,
 			);
@@ -429,20 +383,14 @@
 			files = (
 				3597ED1F1DB24F34000770C2 /* XLsn0wCenterDatePicker.m in Sources */,
 				35A78C011DAB7A8100D9D180 /* XLsn0wDropMenu.m in Sources */,
-				35A78CC51DAB82A200D9D180 /* SGLocationPickerSheetView.m in Sources */,
 				3584E5A41DAB3BE300504539 /* ViewController.m in Sources */,
 				3584E5A11DAB3BE300504539 /* AppDelegate.m in Sources */,
 				3597ED171DB24A18000770C2 /* XLsn0wPickerAreaer.m in Sources */,
-				35A78CBF1DAB82A200D9D180 /* SGDatePickerCenterView.m in Sources */,
-				35A78CC11DAB82A200D9D180 /* SGDatePickerSheetView.m in Sources */,
 				35A78CA91DAB827000D9D180 /* DPPopUpMenu.m in Sources */,
 				35A78CAC1DAB827000D9D180 /* UIColor+DPUIColor.m in Sources */,
 				3597ED131DB248B5000770C2 /* XLsn0wPickerDater.m in Sources */,
-				35A78CC71DAB82A200D9D180 /* SGPickerView.m in Sources */,
 				357AE2B81DAC7F4D006BEB7A /* PopMenu.m in Sources */,
-				35A78CBE1DAB82A200D9D180 /* SGDatePicker.m in Sources */,
 				3584E59E1DAB3BE300504539 /* main.m in Sources */,
-				35A78CC31DAB82A200D9D180 /* SGLocationPickerCenterView.m in Sources */,
 				3597ED121DB248B5000770C2 /* XLsn0wToolbar.m in Sources */,
 				35A78CAA1DAB827000D9D180 /* KSDatePicker.m in Sources */,
 				3597ED111DB248B5000770C2 /* XLsn0wPickerSingler.m in Sources */,
