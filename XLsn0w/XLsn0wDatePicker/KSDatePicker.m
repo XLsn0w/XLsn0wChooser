@@ -254,21 +254,21 @@ static const float RealSrceenWidth =  375.0;
 {
     if (_appearance.resultCallBack) {
         NSCalendar *cal = [NSCalendar currentCalendar];
-        NSDateComponents *components = [cal components:( NSHourCalendarUnit | NSMinuteCalendarUnit | NSSecondCalendarUnit ) fromDate:[NSDate date]];
+        NSDateComponents *components = [cal components:(NSCalendarUnitHour | NSCalendarUnitMinute | NSCalendarUnitSecond ) fromDate:[NSDate date]];
         if (button.tag==KSDatePickerWeakButtonTag) {
-            components = [cal components:NSWeekdayCalendarUnit | NSYearCalendarUnit | NSMonthCalendarUnit | NSDayCalendarUnit fromDate:[NSDate date]];
+            components = [cal components:NSCalendarUnitWeekday | NSCalendarUnitYear | NSCalendarUnitMonth | NSCalendarUnitDay fromDate:[NSDate date]];
             [components setHour:-24*6];
             [components setMinute:0];
             [components setSecond:0];
             NSDate *lastWeek  = [cal dateFromComponents:components];
             _appearance.resultCallBack(self,lastWeek,button.tag);
         }else if (button.tag==KSDatePickerMonthButtonTag){
-            components = [cal components:NSWeekdayCalendarUnit | NSYearCalendarUnit | NSMonthCalendarUnit | NSDayCalendarUnit fromDate:[NSDate date]];
+            components = [cal components:NSCalendarUnitWeekday | NSCalendarUnitYear | NSCalendarUnitMonth | NSCalendarUnitDay fromDate:[NSDate date]];
             [components setMonth:([components month] - 1)];
             NSDate *lastMonth  = [cal dateFromComponents:components];
             _appearance.resultCallBack(self,lastMonth,button.tag);
         }else if (button.tag==KSDatePickerThreeMonthButtonTag){
-            components = [cal components:NSWeekdayCalendarUnit | NSYearCalendarUnit | NSMonthCalendarUnit | NSDayCalendarUnit fromDate:[NSDate date]];
+            components = [cal components:NSCalendarUnitWeekday | NSCalendarUnitYear | NSCalendarUnitMonth | NSCalendarUnitDay fromDate:[NSDate date]];
             [components setMonth:([components month] - 3)];
             NSDate *threeMonth  = [cal dateFromComponents:components];
             _appearance.resultCallBack(self,threeMonth,button.tag);

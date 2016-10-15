@@ -8,6 +8,8 @@
 
 #import "ViewController.h"
 
+#import "XLsn0wChooserKit.h"
+
 #import "KSDatePicker.h"
 #import "DPPopUpMenu.h"
 static const float RealSrceenHight =  667.0;
@@ -16,7 +18,9 @@ static const float RealSrceenWidth =  375.0;
 #define AdaptationW(x) x/RealSrceenWidth*[[UIScreen mainScreen]bounds].size.width
 #define AdapationLabelFont(n) n*([[UIScreen mainScreen]bounds].size.width/375.0f)
 
-@interface ViewController () <DPPopUpMenuDelegate>
+@interface ViewController () <DPPopUpMenuDelegate, XLsn0wPickerSinglerDelegate, XLsn0wPickerDaterDelegate, XLsn0wCenterDatePickerDelegate>
+
+@property (weak, nonatomic) XLsn0wCenterDatePicker *pikerView;
 
 @end
 
@@ -73,5 +77,65 @@ static const float RealSrceenWidth =  375.0;
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
+
+- (IBAction)singler:(id)sender {
+    XLsn0wPickerSingler *singler = [[XLsn0wPickerSingler alloc] initWithArrayData:@[@"房屋问题", @"报修问题"] titleUnit:@"" delegate:self];
+    [singler show];
+}
+
+
+- (IBAction)dater:(id)sender {
+    XLsn0wPickerDater *datePicker = [[XLsn0wPickerDater alloc] initWithXLsn0wDelegate:self];
+    [datePicker show];
+}
+
+
+- (IBAction)areaer:(id)sender {
+}
+
+- (void)pickerSingler:(XLsn0wPickerSingler *)pickerSingler selectedTitle:(NSString *)selectedTitle {
+    NSLog(@"selectedTitle===%@", selectedTitle);
+}
+
+- (void)pickerDater:(XLsn0wPickerDater *)pickerDater selectedResult:(NSString *)selectedResult {
+    NSLog(@"selectedResult===%@", selectedResult);
+}
+
+- (IBAction)centerDater:(id)sender {
+    [self setupDateView:DateTypeOfStart];
+}
+- (void)setupDateView:(DateType)type {
+    
+    _pikerView = [XLsn0wCenterDatePicker instanceDatePickerView];
+    _pikerView.frame = CGRectMake(0, 0, [UIScreen mainScreen].applicationFrame.size.width, [UIScreen mainScreen].applicationFrame.size.height + 20);
+    [_pikerView setBackgroundColor:[UIColor clearColor]];
+    _pikerView.delegate = self;
+    _pikerView.type = type;
+    [_pikerView.datePickerView setMinimumDate:[NSDate date]];
+    [self.view addSubview:_pikerView];
+    
+}
+
+- (void)getSelectDate:(NSString *)date type:(DateType)type {
+    NSLog(@"%d - %@", type, date);
+    
+    switch (type) {
+        case DateTypeOfStart:
+         
+            
+            NSLog(@"date===%@", date);
+            
+            break;
+            
+        case DateTypeOfEnd:
+             NSLog(@"date===%@", date);
+            
+            break;
+            
+        default:
+            break;
+    }
+}
+
 
 @end

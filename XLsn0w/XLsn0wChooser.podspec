@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |s|
 
-  s.version      = "1.0.8"
+  s.version      = "1.0.9"
   s.summary      = "XLsn0w Custom A good Chooser"
 
   s.license      = "MIT"
@@ -15,7 +15,7 @@ Pod::Spec.new do |s|
 
   s.source_files = "XLsn0w/*.{h,m}", "XLsn0w/XLsn0wChooser/*.{h,m}","XLsn0w/XLsn0wPopMenu/*.{h,m}","XLsn0w/XLsn0wDatePicker/*.{h,m}","XLsn0w/XLsn0wDropMenu/*.{h,m}"
 
-  s.resources    = "XLsn0w/XLsn0wChooser/SGDatePickerCenterView.xib","XLsn0w/XLsn0wChooser/SGDatePickerSheetView.xib","XLsn0w/XLsn0wChooser/SGLocationPickerCenterView.xib","XLsn0w/XLsn0wChooser/SGLocationPickerSheetView.xib"
+  s.resources    = "XLsn0w/XLsn0wChooser/SGDatePickerCenterView.xib","XLsn0w/XLsn0wChooser/SGDatePickerSheetView.xib","XLsn0w/XLsn0wChooser/SGLocationPickerCenterView.xib","XLsn0w/XLsn0wChooser/SGLocationPickerSheetView.xib", "XLsn0w/Resources/area.plist", "XLsn0w/XLsn0wCenterDatePicker/XLsn0wCenterDatePicker.xib"
 
   s.dependency 'Masonry'
 
