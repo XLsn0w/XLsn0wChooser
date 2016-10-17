@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		1C4D8C062E82C9525D09E533 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4661867F18E551152C79CE55 /* libPods.a */; };
+		3540921E1DB4F18C0066519E /* MXSCycleScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 354092191DB4F18C0066519E /* MXSCycleScrollView.m */; };
+		3540921F1DB4F18C0066519E /* UIColor+HcdCustom.m in Sources */ = {isa = PBXBuildFile; fileRef = 3540921B1DB4F18C0066519E /* UIColor+HcdCustom.m */; };
+		354092201DB4F18C0066519E /* XLsn0wChooserTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = 3540921D1DB4F18C0066519E /* XLsn0wChooserTimer.m */; };
 		357AE2B81DAC7F4D006BEB7A /* PopMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 357AE2B71DAC7F4D006BEB7A /* PopMenu.m */; };
 		3584E59E1DAB3BE300504539 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3584E59D1DAB3BE300504539 /* main.m */; };
 		3584E5A11DAB3BE300504539 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3584E5A01DAB3BE300504539 /* AppDelegate.m */; };
@@ -30,6 +33,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		354092181DB4F18C0066519E /* MXSCycleScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MXSCycleScrollView.h; sourceTree = "<group>"; };
+		354092191DB4F18C0066519E /* MXSCycleScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MXSCycleScrollView.m; sourceTree = "<group>"; };
+		3540921A1DB4F18C0066519E /* UIColor+HcdCustom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+HcdCustom.h"; sourceTree = "<group>"; };
+		3540921B1DB4F18C0066519E /* UIColor+HcdCustom.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+HcdCustom.m"; sourceTree = "<group>"; };
+		3540921C1DB4F18C0066519E /* XLsn0wChooserTimer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLsn0wChooserTimer.h; sourceTree = "<group>"; };
+		3540921D1DB4F18C0066519E /* XLsn0wChooserTimer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLsn0wChooserTimer.m; sourceTree = "<group>"; };
 		357AE2B61DAC7F4D006BEB7A /* PopMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PopMenu.h; sourceTree = "<group>"; };
 		357AE2B71DAC7F4D006BEB7A /* PopMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PopMenu.m; sourceTree = "<group>"; };
 		3584E5991DAB3BE300504539 /* XLsn0wChooser.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XLsn0wChooser.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -82,6 +91,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		354092171DB4F18C0066519E /* XLsn0wChooserTimer */ = {
+			isa = PBXGroup;
+			children = (
+				3540921C1DB4F18C0066519E /* XLsn0wChooserTimer.h */,
+				3540921D1DB4F18C0066519E /* XLsn0wChooserTimer.m */,
+				354092181DB4F18C0066519E /* MXSCycleScrollView.h */,
+				354092191DB4F18C0066519E /* MXSCycleScrollView.m */,
+				3540921A1DB4F18C0066519E /* UIColor+HcdCustom.h */,
+				3540921B1DB4F18C0066519E /* UIColor+HcdCustom.m */,
+			);
+			path = XLsn0wChooserTimer;
+			sourceTree = "<group>";
+		};
 		3584E5901DAB3BE300504539 = {
 			isa = PBXGroup;
 			children = (
@@ -130,6 +152,7 @@
 			children = (
 				3584E5C41DAB3BFD00504539 /* XLsn0wChooser.podspec */,
 				35A78C031DAB7AA600D9D180 /* XLsn0wChooserKit.h */,
+				354092171DB4F18C0066519E /* XLsn0wChooserTimer */,
 				3597ED1B1DB24F34000770C2 /* XLsn0wCenterDatePicker */,
 				3597ED081DB248B5000770C2 /* XLsn0wPickerSingler */,
 				3597ED141DB24A18000770C2 /* XLsn0wPickerAreaer */,
@@ -377,6 +400,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3540921F1DB4F18C0066519E /* UIColor+HcdCustom.m in Sources */,
 				3597ED1F1DB24F34000770C2 /* XLsn0wCenterDatePicker.m in Sources */,
 				35A78C011DAB7A8100D9D180 /* XLsn0wDropMenu.m in Sources */,
 				3584E5A41DAB3BE300504539 /* ViewController.m in Sources */,
@@ -386,7 +410,9 @@
 				35A78CAC1DAB827000D9D180 /* UIColor+DPUIColor.m in Sources */,
 				3597ED131DB248B5000770C2 /* XLsn0wPickerDater.m in Sources */,
 				357AE2B81DAC7F4D006BEB7A /* PopMenu.m in Sources */,
+				3540921E1DB4F18C0066519E /* MXSCycleScrollView.m in Sources */,
 				3584E59E1DAB3BE300504539 /* main.m in Sources */,
+				354092201DB4F18C0066519E /* XLsn0wChooserTimer.m in Sources */,
 				3597ED121DB248B5000770C2 /* XLsn0wToolbar.m in Sources */,
 				35A78CAA1DAB827000D9D180 /* KSDatePicker.m in Sources */,
 				3597ED111DB248B5000770C2 /* XLsn0wPickerSingler.m in Sources */,
