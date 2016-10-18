@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |s|
 
-  s.version      = "1.1.6"
+  s.version      = "1.1.7"
   s.summary      = "XLsn0w Custom A good Chooser"
 
   s.license      = "MIT"
@@ -18,5 +18,6 @@ Pod::Spec.new do |s|
   s.resources    = "XLsn0w/Resources/area.plist"
 
   s.dependency 'Masonry'
+  s.dependency 'UMengSocialCOM', '~> 5.1.0'
 
 end

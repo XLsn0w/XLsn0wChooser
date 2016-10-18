@@ -20,6 +20,7 @@
 		3584E5AC1DAB3BE300504539 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3584E5AA1DAB3BE300504539 /* LaunchScreen.storyboard */; };
 		3584E5CF1DAB3BFD00504539 /* XLsn0wChooser.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 3584E5C41DAB3BFD00504539 /* XLsn0wChooser.podspec */; };
 		3595990A1DB5AB680077667B /* XLsn0wActionSheet.m in Sources */ = {isa = PBXBuildFile; fileRef = 359599071DB5AB680077667B /* XLsn0wActionSheet.m */; };
+		3595990E1DB5B7510077667B /* UMSocialShareView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3595990D1DB5B7510077667B /* UMSocialShareView.m */; };
 		3597ED111DB248B5000770C2 /* XLsn0wPickerSingler.m in Sources */ = {isa = PBXBuildFile; fileRef = 3597ED0A1DB248B5000770C2 /* XLsn0wPickerSingler.m */; };
 		3597ED121DB248B5000770C2 /* XLsn0wToolbar.m in Sources */ = {isa = PBXBuildFile; fileRef = 3597ED0D1DB248B5000770C2 /* XLsn0wToolbar.m */; };
 		3597ED131DB248B5000770C2 /* XLsn0wPickerDater.m in Sources */ = {isa = PBXBuildFile; fileRef = 3597ED101DB248B5000770C2 /* XLsn0wPickerDater.m */; };
@@ -55,6 +56,8 @@
 		3584E5C41DAB3BFD00504539 /* XLsn0wChooser.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = XLsn0wChooser.podspec; sourceTree = "<group>"; };
 		359599061DB5AB680077667B /* XLsn0wActionSheet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLsn0wActionSheet.h; sourceTree = "<group>"; };
 		359599071DB5AB680077667B /* XLsn0wActionSheet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLsn0wActionSheet.m; sourceTree = "<group>"; };
+		3595990C1DB5B7510077667B /* UMSocialShareView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UMSocialShareView.h; sourceTree = "<group>"; };
+		3595990D1DB5B7510077667B /* UMSocialShareView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UMSocialShareView.m; sourceTree = "<group>"; };
 		3597ED091DB248B5000770C2 /* XLsn0wPickerSingler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLsn0wPickerSingler.h; sourceTree = "<group>"; };
 		3597ED0A1DB248B5000770C2 /* XLsn0wPickerSingler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLsn0wPickerSingler.m; sourceTree = "<group>"; };
 		3597ED0C1DB248B5000770C2 /* XLsn0wToolbar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLsn0wToolbar.h; sourceTree = "<group>"; };
@@ -155,6 +158,7 @@
 			children = (
 				3584E5C41DAB3BFD00504539 /* XLsn0wChooser.podspec */,
 				35A78C031DAB7AA600D9D180 /* XLsn0wChooserKit.h */,
+				3595990B1DB5B7510077667B /* UMSocialShareView */,
 				359599011DB5AB680077667B /* XLsn0wActionSheet */,
 				354092171DB4F18C0066519E /* XLsn0wChooserTimer */,
 				3597ED1B1DB24F34000770C2 /* XLsn0wCenterDatePicker */,
@@ -178,6 +182,15 @@
 				359599071DB5AB680077667B /* XLsn0wActionSheet.m */,
 			);
 			path = XLsn0wActionSheet;
+			sourceTree = "<group>";
+		};
+		3595990B1DB5B7510077667B /* UMSocialShareView */ = {
+			isa = PBXGroup;
+			children = (
+				3595990C1DB5B7510077667B /* UMSocialShareView.h */,
+				3595990D1DB5B7510077667B /* UMSocialShareView.m */,
+			);
+			path = UMSocialShareView;
 			sourceTree = "<group>";
 		};
 		3597ED081DB248B5000770C2 /* XLsn0wPickerSingler */ = {
@@ -430,6 +443,7 @@
 				3597ED121DB248B5000770C2 /* XLsn0wToolbar.m in Sources */,
 				35A78CAA1DAB827000D9D180 /* KSDatePicker.m in Sources */,
 				3597ED111DB248B5000770C2 /* XLsn0wPickerSingler.m in Sources */,
+				3595990E1DB5B7510077667B /* UMSocialShareView.m in Sources */,
 				35A78CAB1DAB827000D9D180 /* KSDatePickerAppearance.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -1,10 +1,13 @@
 PODS:
   - Masonry (1.0.2)
+  - UMengSocialCOM (5.1.0)
 
 DEPENDENCIES:
   - Masonry
+  - UMengSocialCOM (~> 5.1.0)
 
 SPEC CHECKSUMS:
   Masonry: 7c429b56da9d4ee0bbb3ed77a5ea710d6a5df39e
+  UMengSocialCOM: 8fa4732b03757161aaa8aab97be7d980adb9ccdb
 
 COCOAPODS: 0.39.0
