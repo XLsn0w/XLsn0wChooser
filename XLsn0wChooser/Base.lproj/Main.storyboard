@@ -71,6 +71,14 @@
                                     <action selector="centerDater:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ZqJ-DI-lks"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="J0p-xu-AlM">
+                                <frame key="frameInset" minX="198" minY="390" width="83" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="actionSheet"/>
+                                <connections>
+                                    <action selector="actionsheet:" destination="BYZ-38-t0r" eventType="touchUpInside" id="LKo-Cd-Igb"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>

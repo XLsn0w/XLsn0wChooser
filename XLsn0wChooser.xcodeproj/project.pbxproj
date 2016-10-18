@@ -19,6 +19,7 @@
 		3584E5A91DAB3BE300504539 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3584E5A81DAB3BE300504539 /* Assets.xcassets */; };
 		3584E5AC1DAB3BE300504539 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3584E5AA1DAB3BE300504539 /* LaunchScreen.storyboard */; };
 		3584E5CF1DAB3BFD00504539 /* XLsn0wChooser.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 3584E5C41DAB3BFD00504539 /* XLsn0wChooser.podspec */; };
+		3595990A1DB5AB680077667B /* XLsn0wActionSheet.m in Sources */ = {isa = PBXBuildFile; fileRef = 359599071DB5AB680077667B /* XLsn0wActionSheet.m */; };
 		3597ED111DB248B5000770C2 /* XLsn0wPickerSingler.m in Sources */ = {isa = PBXBuildFile; fileRef = 3597ED0A1DB248B5000770C2 /* XLsn0wPickerSingler.m */; };
 		3597ED121DB248B5000770C2 /* XLsn0wToolbar.m in Sources */ = {isa = PBXBuildFile; fileRef = 3597ED0D1DB248B5000770C2 /* XLsn0wToolbar.m */; };
 		3597ED131DB248B5000770C2 /* XLsn0wPickerDater.m in Sources */ = {isa = PBXBuildFile; fileRef = 3597ED101DB248B5000770C2 /* XLsn0wPickerDater.m */; };
@@ -52,6 +53,8 @@
 		3584E5AB1DAB3BE300504539 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3584E5AD1DAB3BE300504539 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3584E5C41DAB3BFD00504539 /* XLsn0wChooser.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = XLsn0wChooser.podspec; sourceTree = "<group>"; };
+		359599061DB5AB680077667B /* XLsn0wActionSheet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLsn0wActionSheet.h; sourceTree = "<group>"; };
+		359599071DB5AB680077667B /* XLsn0wActionSheet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLsn0wActionSheet.m; sourceTree = "<group>"; };
 		3597ED091DB248B5000770C2 /* XLsn0wPickerSingler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLsn0wPickerSingler.h; sourceTree = "<group>"; };
 		3597ED0A1DB248B5000770C2 /* XLsn0wPickerSingler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLsn0wPickerSingler.m; sourceTree = "<group>"; };
 		3597ED0C1DB248B5000770C2 /* XLsn0wToolbar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLsn0wToolbar.h; sourceTree = "<group>"; };
@@ -152,6 +155,7 @@
 			children = (
 				3584E5C41DAB3BFD00504539 /* XLsn0wChooser.podspec */,
 				35A78C031DAB7AA600D9D180 /* XLsn0wChooserKit.h */,
+				359599011DB5AB680077667B /* XLsn0wActionSheet */,
 				354092171DB4F18C0066519E /* XLsn0wChooserTimer */,
 				3597ED1B1DB24F34000770C2 /* XLsn0wCenterDatePicker */,
 				3597ED081DB248B5000770C2 /* XLsn0wPickerSingler */,
@@ -165,6 +169,15 @@
 				3597ED181DB24A3B000770C2 /* Resources */,
 			);
 			path = XLsn0w;
+			sourceTree = "<group>";
+		};
+		359599011DB5AB680077667B /* XLsn0wActionSheet */ = {
+			isa = PBXGroup;
+			children = (
+				359599061DB5AB680077667B /* XLsn0wActionSheet.h */,
+				359599071DB5AB680077667B /* XLsn0wActionSheet.m */,
+			);
+			path = XLsn0wActionSheet;
 			sourceTree = "<group>";
 		};
 		3597ED081DB248B5000770C2 /* XLsn0wPickerSingler */ = {
@@ -407,6 +420,7 @@
 				3584E5A11DAB3BE300504539 /* AppDelegate.m in Sources */,
 				3597ED171DB24A18000770C2 /* XLsn0wPickerAreaer.m in Sources */,
 				35A78CA91DAB827000D9D180 /* DPPopUpMenu.m in Sources */,
+				3595990A1DB5AB680077667B /* XLsn0wActionSheet.m in Sources */,
 				35A78CAC1DAB827000D9D180 /* UIColor+DPUIColor.m in Sources */,
 				3597ED131DB248B5000770C2 /* XLsn0wPickerDater.m in Sources */,
 				357AE2B81DAC7F4D006BEB7A /* PopMenu.m in Sources */,
