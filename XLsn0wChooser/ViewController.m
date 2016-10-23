@@ -204,5 +204,8 @@ static const float RealSrceenWidth =  375.0;
         NSLog(@"%@", datetimeStr);
     };
 }
+- (IBAction)XLsn0wImageSelector:(id)sender {
+   
+}
 
 @end

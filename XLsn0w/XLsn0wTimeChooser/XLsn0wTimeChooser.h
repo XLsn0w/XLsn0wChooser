@@ -70,11 +70,27 @@ typedef enum {
 typedef void(^DatePickerCompleteAnimationBlock)(BOOL Complete);
 typedef void(^ClickedOkBtn)(NSString *dateTimeStr);
 
+@class XLsn0wTimeChooser;
+
+@protocol XLsn0wTimeChooserDelegate <NSObject>
+
+- (void)timeChooser:(XLsn0wTimeChooser *)timeChooser didSelectTimeString:(NSString *)timeString;
+
+@end
+
 @interface XLsn0wTimeChooser : UIView <MXSCycleScrollViewDatasource, MXSCycleScrollViewDelegate>
+
+@property (nonatomic, weak) id<XLsn0wTimeChooserDelegate> xlsn0wDelegate;
 
 @property (nonatomic,strong) ClickedOkBtn clickedOkBtn;
 
 @property (nonatomic,assign) DatePickerMode datePickerMode;
+
+@property (nonatomic, strong) UIView   *topView;
+@property (nonatomic, strong) UIView   *line;
+@property (nonatomic, strong) UIButton *okBtn;
+@property (nonatomic, strong) UIButton *cancleBtn;
+@property (nonatomic, strong) UILabel *selectedLabel;
 
 @property (nonatomic,assign) NSInteger maxYear;
 @property (nonatomic,assign) NSInteger minYear;
@@ -86,7 +102,7 @@ typedef void(^ClickedOkBtn)(NSString *dateTimeStr);
 
 @end
 
-@interface UIColor (XLsn0wChooserTimer)
+@interface UIColor (XLsn0wTimeChooser)
 
 @property (nonatomic, readonly) CGColorSpaceModel colorSpaceModel;
 @property (nonatomic, readonly) BOOL canProvideRGBComponents;
@@ -100,6 +116,7 @@ typedef void(^ClickedOkBtn)(NSString *dateTimeStr);
 + (UIColor *)colorWithRGBHex:(UInt32)hex;
 + (UIColor *)colorWithHexString:(NSString *)stringToConvert;
 + (UIColor *)colorWithHexString:(NSString *)stringToConvert andAlpha:(CGFloat)alpha;
+
 @end
 
 /***************************************

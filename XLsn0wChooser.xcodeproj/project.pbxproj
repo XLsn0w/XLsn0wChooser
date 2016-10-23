@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		1C4D8C062E82C9525D09E533 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4661867F18E551152C79CE55 /* libPods.a */; };
-		354092201DB4F18C0066519E /* XLsn0wTimeChooser.m in Sources */ = {isa = PBXBuildFile; fileRef = 3540921D1DB4F18C0066519E /* XLsn0wTimeChooser.m */; };
+		353B53F31DBCC92200627DC1 /* XLsn0wTimeChooser.m in Sources */ = {isa = PBXBuildFile; fileRef = 353B53F21DBCC92200627DC1 /* XLsn0wTimeChooser.m */; };
 		357AE2B81DAC7F4D006BEB7A /* XLsn0wPopMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 357AE2B71DAC7F4D006BEB7A /* XLsn0wPopMenu.m */; };
 		3584E59E1DAB3BE300504539 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3584E59D1DAB3BE300504539 /* main.m */; };
 		3584E5A11DAB3BE300504539 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3584E5A01DAB3BE300504539 /* AppDelegate.m */; };
@@ -22,6 +22,8 @@
 		3593AD221DBC97EF0047B3FA /* XLsn0wChooserMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 3593AD211DBC97EF0047B3FA /* XLsn0wChooserMenu.m */; };
 		3593AD4C1DBC9C900047B3FA /* UIViewController+XLsn0wGuidePager.m in Sources */ = {isa = PBXBuildFile; fileRef = 3593AD4B1DBC9C900047B3FA /* UIViewController+XLsn0wGuidePager.m */; };
 		3593AD531DBCA4C00047B3FA /* XLsn0wAlertChooser.m in Sources */ = {isa = PBXBuildFile; fileRef = 3593AD511DBCA4C00047B3FA /* XLsn0wAlertChooser.m */; };
+		3593AD5A1DBCBB630047B3FA /* XLsn0wImageSelector.m in Sources */ = {isa = PBXBuildFile; fileRef = 3593AD561DBCBB630047B3FA /* XLsn0wImageSelector.m */; };
+		3593AD5B1DBCBB630047B3FA /* XLsn0wImageSelectorTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3593AD591DBCBB630047B3FA /* XLsn0wImageSelectorTableViewCell.m */; };
 		3595990A1DB5AB680077667B /* XLsn0wActionSheet.m in Sources */ = {isa = PBXBuildFile; fileRef = 359599071DB5AB680077667B /* XLsn0wActionSheet.m */; };
 		3595990E1DB5B7510077667B /* UMSocialShareView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3595990D1DB5B7510077667B /* UMSocialShareView.m */; };
 		3597ED111DB248B5000770C2 /* XLsn0wPickerSingler.m in Sources */ = {isa = PBXBuildFile; fileRef = 3597ED0A1DB248B5000770C2 /* XLsn0wPickerSingler.m */; };
@@ -34,8 +36,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		3540921C1DB4F18C0066519E /* XLsn0wTimeChooser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLsn0wTimeChooser.h; sourceTree = "<group>"; };
-		3540921D1DB4F18C0066519E /* XLsn0wTimeChooser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLsn0wTimeChooser.m; sourceTree = "<group>"; };
+		353B53F11DBCC92200627DC1 /* XLsn0wTimeChooser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLsn0wTimeChooser.h; sourceTree = "<group>"; };
+		353B53F21DBCC92200627DC1 /* XLsn0wTimeChooser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLsn0wTimeChooser.m; sourceTree = "<group>"; };
 		357AE2B61DAC7F4D006BEB7A /* XLsn0wPopMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLsn0wPopMenu.h; sourceTree = "<group>"; };
 		357AE2B71DAC7F4D006BEB7A /* XLsn0wPopMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLsn0wPopMenu.m; sourceTree = "<group>"; };
 		3584E5991DAB3BE300504539 /* XLsn0wChooser.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XLsn0wChooser.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -59,6 +61,10 @@
 		3593AD4B1DBC9C900047B3FA /* UIViewController+XLsn0wGuidePager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+XLsn0wGuidePager.m"; sourceTree = "<group>"; };
 		3593AD501DBCA4C00047B3FA /* XLsn0wAlertChooser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLsn0wAlertChooser.h; sourceTree = "<group>"; };
 		3593AD511DBCA4C00047B3FA /* XLsn0wAlertChooser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLsn0wAlertChooser.m; sourceTree = "<group>"; };
+		3593AD551DBCBB630047B3FA /* XLsn0wImageSelector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLsn0wImageSelector.h; sourceTree = "<group>"; };
+		3593AD561DBCBB630047B3FA /* XLsn0wImageSelector.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLsn0wImageSelector.m; sourceTree = "<group>"; };
+		3593AD581DBCBB630047B3FA /* XLsn0wImageSelectorTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLsn0wImageSelectorTableViewCell.h; sourceTree = "<group>"; };
+		3593AD591DBCBB630047B3FA /* XLsn0wImageSelectorTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLsn0wImageSelectorTableViewCell.m; sourceTree = "<group>"; };
 		359599061DB5AB680077667B /* XLsn0wActionSheet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLsn0wActionSheet.h; sourceTree = "<group>"; };
 		359599071DB5AB680077667B /* XLsn0wActionSheet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLsn0wActionSheet.m; sourceTree = "<group>"; };
 		3595990C1DB5B7510077667B /* UMSocialShareView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UMSocialShareView.h; sourceTree = "<group>"; };
@@ -94,13 +100,13 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		354092171DB4F18C0066519E /* XLsn0wChooserTimer */ = {
+		353B53F01DBCC92200627DC1 /* XLsn0wTimeChooser */ = {
 			isa = PBXGroup;
 			children = (
-				3540921C1DB4F18C0066519E /* XLsn0wTimeChooser.h */,
-				3540921D1DB4F18C0066519E /* XLsn0wTimeChooser.m */,
+				353B53F11DBCC92200627DC1 /* XLsn0wTimeChooser.h */,
+				353B53F21DBCC92200627DC1 /* XLsn0wTimeChooser.m */,
 			);
-			path = XLsn0wChooserTimer;
+			path = XLsn0wTimeChooser;
 			sourceTree = "<group>";
 		};
 		3584E5901DAB3BE300504539 = {
@@ -152,7 +158,8 @@
 				3584E5C41DAB3BFD00504539 /* XLsn0wChooser.podspec */,
 				35A78C031DAB7AA600D9D180 /* XLsn0wChooserKit.h */,
 				3593AD161DBC92940047B3FA /* XLsn0wChooser */,
-				354092171DB4F18C0066519E /* XLsn0wChooserTimer */,
+				353B53F01DBCC92200627DC1 /* XLsn0wTimeChooser */,
+				3593AD541DBCBB630047B3FA /* XLsn0wImageSelector */,
 				3593AD4D1DBCA4C00047B3FA /* XLsn0wChooserAlerter */,
 				3593AD491DBC9C900047B3FA /* XLsn0wGuidePager */,
 				3593AD1F1DBC97EF0047B3FA /* XLsn0wChooserMenu */,
@@ -222,6 +229,25 @@
 				3593AD511DBCA4C00047B3FA /* XLsn0wAlertChooser.m */,
 			);
 			path = XLsn0wChooserAlerter;
+			sourceTree = "<group>";
+		};
+		3593AD541DBCBB630047B3FA /* XLsn0wImageSelector */ = {
+			isa = PBXGroup;
+			children = (
+				3593AD551DBCBB630047B3FA /* XLsn0wImageSelector.h */,
+				3593AD561DBCBB630047B3FA /* XLsn0wImageSelector.m */,
+				3593AD571DBCBB630047B3FA /* XLsn0wImageSelectorTableViewCell */,
+			);
+			path = XLsn0wImageSelector;
+			sourceTree = "<group>";
+		};
+		3593AD571DBCBB630047B3FA /* XLsn0wImageSelectorTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				3593AD581DBCBB630047B3FA /* XLsn0wImageSelectorTableViewCell.h */,
+				3593AD591DBCBB630047B3FA /* XLsn0wImageSelectorTableViewCell.m */,
+			);
+			path = XLsn0wImageSelectorTableViewCell;
 			sourceTree = "<group>";
 		};
 		359599011DB5AB680077667B /* XLsn0wActionSheet */ = {
@@ -453,7 +479,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				353B53F31DBCC92200627DC1 /* XLsn0wTimeChooser.m in Sources */,
 				3597ED1F1DB24F34000770C2 /* XLsn0wCenterDatePicker.m in Sources */,
+				3593AD5A1DBCBB630047B3FA /* XLsn0wImageSelector.m in Sources */,
 				35A78C011DAB7A8100D9D180 /* XLsn0wDropMenu.m in Sources */,
 				3584E5A41DAB3BE300504539 /* ViewController.m in Sources */,
 				3584E5A11DAB3BE300504539 /* AppDelegate.m in Sources */,
@@ -463,11 +491,11 @@
 				3597ED131DB248B5000770C2 /* XLsn0wPickerDater.m in Sources */,
 				357AE2B81DAC7F4D006BEB7A /* XLsn0wPopMenu.m in Sources */,
 				3584E59E1DAB3BE300504539 /* main.m in Sources */,
-				354092201DB4F18C0066519E /* XLsn0wTimeChooser.m in Sources */,
 				3597ED121DB248B5000770C2 /* XLsn0wToolbar.m in Sources */,
 				3597ED111DB248B5000770C2 /* XLsn0wPickerSingler.m in Sources */,
 				3593AD4C1DBC9C900047B3FA /* UIViewController+XLsn0wGuidePager.m in Sources */,
 				3593AD531DBCA4C00047B3FA /* XLsn0wAlertChooser.m in Sources */,
+				3593AD5B1DBCBB630047B3FA /* XLsn0wImageSelectorTableViewCell.m in Sources */,
 				3595990E1DB5B7510077667B /* UMSocialShareView.m in Sources */,
 				3593AD221DBC97EF0047B3FA /* XLsn0wChooserMenu.m in Sources */,
 				3593AD191DBC92940047B3FA /* XLsn0wChooser.m in Sources */,

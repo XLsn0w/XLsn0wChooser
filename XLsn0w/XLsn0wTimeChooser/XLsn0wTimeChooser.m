@@ -17,17 +17,16 @@
 
 #import "XLsn0wTimeChooser.h"
 
+#import "Masonry.h"
+
 @interface XLsn0wTimeChooser () <UIGestureRecognizerDelegate> {
     UIView                      *timeBroadcastView;//定时播放显示视图
-    UIView                      *topView;
     MXSCycleScrollView          *yearScrollView;//年份滚动视图
     MXSCycleScrollView          *monthScrollView;//月份滚动视图
     MXSCycleScrollView          *dayScrollView;//日滚动视图
     MXSCycleScrollView          *hourScrollView;//时滚动视图
     MXSCycleScrollView          *minuteScrollView;//分滚动视图
     MXSCycleScrollView          *secondScrollView;//秒滚动视图
-    UIButton                    *okBtn;//自定义picker上的确认按钮
-    UIButton                    *cancleBtn;//
     NSString                    *dateTimeStr;
 }
 
@@ -88,9 +87,9 @@
 }
 
 #pragma mark -custompicker
+
 //设置自定义datepicker界面
-- (void)setTimeBroadcastView
-{
+- (void)setTimeBroadcastView {
     
     [self setFrame:CGRectMake(0, 0, kScreen_Width, kScreen_Height)];
     [self setBackgroundColor:[UIColor clearColor]];
@@ -99,29 +98,57 @@
     [dateFormatter setDateFormat:@"yyyy-MM-dd HH:mm:ss"];
     dateTimeStr = [dateFormatter stringFromDate:self.defaultDate];
     
-    topView = [[UIView alloc]initWithFrame:CGRectMake(0, 0, kScreen_Width, kTopViewHeight)];
-    topView.backgroundColor = [UIColor colorWithHexString:@"0x6271f3"];
+    _topView = [[UIView alloc]initWithFrame:CGRectMake(0, 0, kScreen_Width, kTopViewHeight)];
+    _topView.backgroundColor = [UIColor colorWithHexString:@"#F9F9F9"];
     
-    okBtn = [[UIButton alloc]initWithFrame:CGRectMake(kScreen_Width-60, 0, 60, kTopViewHeight)];
-    okBtn.titleLabel.font = [UIFont boldSystemFontOfSize:16];
-    [okBtn setBackgroundColor:[UIColor clearColor]];
-    [okBtn setTitleColor:[UIColor colorWithHexString:@"0xffffff"] forState:UIControlStateNormal];
-    [okBtn setTitle:@"确定" forState:UIControlStateNormal];
-    [okBtn addTarget:self action:@selector(removeXLsn0wChooserTimerEvent:) forControlEvents:UIControlEventTouchUpInside];
-    okBtn.tag = kOKBtnTag;
-    [self addSubview:okBtn];
+    _line = [[UIView alloc]initWithFrame:CGRectMake(0, kTopViewHeight-0.5, kScreen_Width, 0.5)];
+    _line.backgroundColor = [UIColor colorWithWhite:0 alpha:0.3];
+    [_topView addSubview:_line];
     
-    cancleBtn = [[UIButton alloc]initWithFrame:CGRectMake(0, 0, 60, kTopViewHeight)];
-    cancleBtn.titleLabel.font = [UIFont boldSystemFontOfSize:16];
-    [cancleBtn setBackgroundColor:[UIColor clearColor]];
-    [cancleBtn setTitleColor:[UIColor colorWithHexString:@"0xffffff"] forState:UIControlStateNormal];
-    [cancleBtn setTitle:@"取消" forState:UIControlStateNormal];
-    [cancleBtn addTarget:self action:@selector(removeXLsn0wChooserTimerEvent:) forControlEvents:UIControlEventTouchUpInside];
-    cancleBtn.tag = kCancleBtnTag;
-    [self addSubview:cancleBtn];
+    _okBtn = [[UIButton alloc] init];
+    _okBtn.titleLabel.font = [UIFont boldSystemFontOfSize:16];
+    [_okBtn setBackgroundColor:[UIColor colorWithHexString:@"0x6271f3"]];
+    [_okBtn setTitleColor:[UIColor colorWithHexString:@"0xffffff"] forState:UIControlStateNormal];
+    [_okBtn setTitle:@"确定" forState:UIControlStateNormal];
+    [_okBtn addTarget:self action:@selector(removeXLsn0wChooserTimerEvent:) forControlEvents:UIControlEventTouchUpInside];
+    _okBtn.tag = kOKBtnTag;
+    _okBtn.layer.masksToBounds = YES;
+    _okBtn.layer.cornerRadius = 5;
+    [_topView addSubview:_okBtn];
+    [_okBtn mas_makeConstraints:^(MASConstraintMaker *make) {
+        make.right.mas_equalTo(-10);
+        make.centerY.mas_equalTo(_topView);
+        make.height.mas_equalTo(kTopViewHeight-15);
+        make.width.mas_equalTo(kTopViewHeight);
+    }];
     
-    [topView addSubview:okBtn];
-    [topView addSubview:cancleBtn];
+    _cancleBtn = [[UIButton alloc] init];
+    _cancleBtn.titleLabel.font = [UIFont boldSystemFontOfSize:16];
+    [_cancleBtn setBackgroundColor:[UIColor colorWithHexString:@"0x6271f3"]];
+    [_cancleBtn setTitleColor:[UIColor colorWithHexString:@"0xffffff"] forState:UIControlStateNormal];
+    [_cancleBtn setTitle:@"取消" forState:UIControlStateNormal];
+    [_cancleBtn addTarget:self action:@selector(removeXLsn0wChooserTimerEvent:) forControlEvents:UIControlEventTouchUpInside];
+    _cancleBtn.tag = kCancleBtnTag;
+    _cancleBtn.layer.masksToBounds = YES;
+    _cancleBtn.layer.cornerRadius = 5;
+    [_topView addSubview:_cancleBtn];
+    [_cancleBtn mas_makeConstraints:^(MASConstraintMaker *make) {
+        make.left.mas_equalTo(10);
+        make.centerY.mas_equalTo(_topView);
+        make.height.mas_equalTo(kTopViewHeight-15);
+        make.width.mas_equalTo(kTopViewHeight);
+    }];
+    
+    _selectedLabel = [UILabel new];
+    [_topView addSubview:_selectedLabel];
+    [_selectedLabel mas_makeConstraints:^(MASConstraintMaker *make) {
+        make.centerX.mas_equalTo(_topView);
+        make.centerY.mas_equalTo(_topView);
+        make.height.mas_equalTo(kTopViewHeight-20);
+    }];
+    _selectedLabel.textColor = [UIColor colorWithHexString:@"0x6271f3"];
+    _selectedLabel.text = @"请选择";
+    _selectedLabel.font = [UIFont boldSystemFontOfSize:18];
     
     timeBroadcastView = [[UIView alloc] initWithFrame:CGRectMake(0, 0, kScreen_Width, kTimeBroadcastViewHeight)];
     timeBroadcastView.backgroundColor = [UIColor redColor];
@@ -182,7 +209,7 @@
         [self setMinuteScrollView];
     }
     
-    [timeBroadcastView addSubview:topView];
+    [timeBroadcastView addSubview:_topView];
     [timeBroadcastView setFrame:CGRectMake(0, kScreen_Height-100, kScreen_Width, kDatePickerHeight)];
 }
 //设置年月日时分的滚动视图
@@ -318,14 +345,14 @@
     UILabel *threeLabel = [[(UILabel*)[[scrollview subviews] objectAtIndex:0] subviews] objectAtIndex:pageNumber+3];
     [threeLabel setFont:[UIFont systemFontOfSize:16]];
     [threeLabel setTextColor:[UIColor colorWithHexString:@"0x717171"]];
+    
     UILabel *fourLabel = [[(UILabel*)[[scrollview subviews] objectAtIndex:0] subviews] objectAtIndex:pageNumber+4];
     [fourLabel setFont:[UIFont systemFontOfSize:14]];
     [fourLabel setTextColor:[UIColor colorWithHexString:@"0xBABABA"]];
 }
 #pragma mark mxccyclescrollview delegate
 #pragma mark mxccyclescrollview databasesource
-- (NSInteger)numberOfPages:(MXSCycleScrollView*)scrollView
-{
+- (NSInteger)numberOfPages:(MXSCycleScrollView*)scrollView {
     if (scrollView == yearScrollView) {
         
         if (self.datePickerMode == DatePickerDateMode || self.datePickerMode == DatePickerDateTimeMode) {
@@ -370,48 +397,48 @@
     return 60;
 }
 
-- (UIView *)pageAtIndex:(NSInteger)index andScrollView:(MXSCycleScrollView *)scrollView
-{
-    UILabel *l = [[UILabel alloc] initWithFrame:CGRectMake(0, 0, scrollView.bounds.size.width, scrollView.bounds.size.height/5)];
-    l.tag = index+1;
+- (UIView *)pageAtIndex:(NSInteger)index andScrollView:(MXSCycleScrollView *)scrollView {
+    UILabel *contentLabel = [[UILabel alloc] initWithFrame:CGRectMake(0, 0, scrollView.bounds.size.width, scrollView.bounds.size.height/5)];
+    contentLabel.tag = index+1;
     if (scrollView == yearScrollView) {
-        l.text = [NSString stringWithFormat:@"%ld年",(long)(_minYear+index)];
+        contentLabel.text = [NSString stringWithFormat:@"%ld年",(long)(_minYear+index)];
     }
     else if (scrollView == monthScrollView)
     {
-        l.text = [NSString stringWithFormat:@"%ld月",(long)(1+index)];
+        contentLabel.text = [NSString stringWithFormat:@"%ld月",(long)(1+index)];
     }
     else if (scrollView == dayScrollView)
     {
-        l.text = [NSString stringWithFormat:@"%ld日",(long)(1+index)];
+        contentLabel.text = [NSString stringWithFormat:@"%ld日",(long)(1+index)];
     }
     else if (scrollView == hourScrollView)
     {
         if (index < 10) {
-            l.text = [NSString stringWithFormat:@"0%ld时",(long)index];
+            contentLabel.text = [NSString stringWithFormat:@"0%ld时",(long)index];
         }
         else
-            l.text = [NSString stringWithFormat:@"%ld时",(long)index];
+            contentLabel.text = [NSString stringWithFormat:@"%ld时",(long)index];
     }
     else if (scrollView == minuteScrollView)
     {
         if (index < 10) {
-            l.text = [NSString stringWithFormat:@"0%ld分",(long)index];
+            contentLabel.text = [NSString stringWithFormat:@"0%ld分",(long)index];
         }
         else
-            l.text = [NSString stringWithFormat:@"%ld分",(long)index];
+            contentLabel.text = [NSString stringWithFormat:@"%ld分",(long)index];
     }
     else
         if (index < 10) {
-            l.text = [NSString stringWithFormat:@"0%ld秒",(long)index];
+            contentLabel.text = [NSString stringWithFormat:@"0%ld秒",(long)index];
         }
         else
-            l.text = [NSString stringWithFormat:@"%ld秒",(long)index];
+            contentLabel.text = [NSString stringWithFormat:@"%ld秒",(long)index];
     
-    l.font = [UIFont systemFontOfSize:12];
-    l.textAlignment = NSTextAlignmentCenter;
-    l.backgroundColor = [UIColor clearColor];
-    return l;
+    contentLabel.font = [UIFont systemFontOfSize:12];
+    contentLabel.textAlignment = NSTextAlignmentCenter;
+    contentLabel.backgroundColor = [UIColor clearColor];
+//    contentLabel.textColor = [UIColor redColor];
+    return contentLabel;
 }
 //设置现在时间
 - (NSInteger)setNowTimeShow:(NSInteger)timeType
@@ -487,9 +514,9 @@
     NSString *taskDateString = [NSString stringWithFormat:@"%ld%02ld%02ld%02ld%02ld%02ld",(long)yearInt,(long)monthInt,(long)dayInt,(long)hourInt,(long)minuteInt,(long)secondInt];
     NSLog(@"Now----%@",taskDateString);
 }
+
 //滚动时上下标签显示(当前时间和是否为有效时间)
-- (void)scrollviewDidChangeNumber
-{
+- (void)scrollviewDidChangeNumber {
     UILabel *yearLabel = [[(UILabel*)[[yearScrollView subviews] objectAtIndex:0] subviews] objectAtIndex:3];
     UILabel *monthLabel = [[(UILabel*)[[monthScrollView subviews] objectAtIndex:0] subviews] objectAtIndex:3];
     UILabel *dayLabel = [[(UILabel*)[[dayScrollView subviews] objectAtIndex:0] subviews] objectAtIndex:3];
@@ -526,11 +553,11 @@
     NSString *nowString = [dateFormatter stringFromDate:nowDate];
     NSDate *nowStrDate = [dateFormatter dateFromString:nowString];
     if (NSOrderedAscending == [selectDate compare:nowStrDate]) {//选择的时间与当前系统时间做比较
-        [okBtn setEnabled:YES];
+        [_okBtn setEnabled:YES];
     }
     else
     {
-        [okBtn setEnabled:YES];
+        [_okBtn setEnabled:YES];
     }
 }
 //通过日期求星期
@@ -663,6 +690,7 @@
             }
             
             weak.clickedOkBtn(dateTimeStr);
+            [self.xlsn0wDelegate timeChooser:self didSelectTimeString:dateTimeStr];
         } else {
             
         }

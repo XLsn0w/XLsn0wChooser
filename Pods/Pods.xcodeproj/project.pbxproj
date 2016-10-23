@@ -10,7 +10,7 @@
 	<string>46</string>
 	<key>objects</key>
 	<dict>
-		<key>00983354ADE00065358DF384DED3674E</key>
+		<key>0073570B575EF25C020848231D9B4D4B</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -19,26 +19,25 @@
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.h</string>
 			<key>name</key>
-			<string>LWApiMessage.h</string>
+			<string>SDWebImageCompat.h</string>
 			<key>path</key>
-			<string>Umeng_SDK_Social_iOS_ARM64_5.1/UMSocial_Sdk_Extra_Frameworks/LaiWang/LWApiMessage.h</string>
+			<string>SDWebImage/SDWebImageCompat.h</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>02BA7353E8F39B60BF8F44F3D842A9F8</key>
+		<key>00B784CB650915CE765BCA5F66D35713</key>
 		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
+			<key>fileRef</key>
+			<string>A1A260CC6B2071AB656636AF5AC75440</string>
 			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>ViewController+MASAdditions.h</string>
-			<key>path</key>
-			<string>Masonry/ViewController+MASAdditions.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>01E487CB9A478FFB222063606BF48B98</key>
+		<dict>
+			<key>fileRef</key>
+			<string>272643F56613CA0D336AE3DBF19DC404</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
 		</dict>
 		<key>037C0CA694176A3C0915F62C9D20B3E6</key>
 		<dict>
@@ -53,22 +52,22 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>049455C77D582EDB17BE520F3995EEC2</key>
+		<key>05083F0A969FDD8C37303CAB2E09A386</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
-			<string>wrapper.plug-in</string>
+			<string>sourcecode.c.objc</string>
 			<key>name</key>
-			<string>TencentOpenApi_IOS_Bundle.bundle</string>
+			<string>SDImageCache.m</string>
 			<key>path</key>
-			<string>Umeng_SDK_Social_iOS_ARM64_5.1/UMSocial_Sdk_Extra_Frameworks/TencentOpenAPI/TencentOpenApi_IOS_Bundle.bundle</string>
+			<string>SDWebImage/SDImageCache.m</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>0D539728051BCA8458ADB0D3F0AAE066</key>
+		<key>06087EC51B3D7421FB0ADC7DD4E230A7</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -77,13 +76,125 @@
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.h</string>
 			<key>name</key>
-			<string>WBSDKBasicButton.h</string>
+			<string>View+MASShorthandAdditions.h</string>
 			<key>path</key>
-			<string>Umeng_SDK_Social_iOS_ARM64_5.1/UMSocial_Sdk_Extra_Frameworks/SinaSSO/WBSDKBasicButton.h</string>
+			<string>Masonry/View+MASShorthandAdditions.h</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>0EE1BFD1F86921DDEABECF9722046726</key>
+		<key>06F89D16A128387D3EB634D78349CD98</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>BFADB35A46219E659EDECF10F487FBB5</string>
+				<string>989B24DDB162A33522378A7D3A5ED852</string>
+				<string>3384A0CABE44AAE1C916AA45F4052AAE</string>
+				<string>05083F0A969FDD8C37303CAB2E09A386</string>
+				<string>0073570B575EF25C020848231D9B4D4B</string>
+				<string>08F9544B728FACD4A85D0D0FEB6AFC03</string>
+				<string>745A6C0BCC0428306D8B82EA106516D2</string>
+				<string>36D117E975C10F0C28AF50833D695599</string>
+				<string>F44EB671CE4F4CF59C8ED562C8B7361B</string>
+				<string>9CD5C002F814A8EEEB9A26211E5039B7</string>
+				<string>6F3324727221A530A2046209734A0E3B</string>
+				<string>D42AA0650B59F29D1AFB8EBBD1ADA747</string>
+				<string>3453F1B524B4A6A7BA418F6F4C2F9F3F</string>
+				<string>D6F7469901786B91ED02AC224A5CFE2D</string>
+				<string>9E46E318432C54CF7596C01012BEB004</string>
+				<string>25332098FBD237AD84A89CAF115DA917</string>
+				<string>629E8D115DAD020C7BD654A7292B9F60</string>
+				<string>A25C81C0D413E7AFA5B6C466ED7822FC</string>
+				<string>364EF5549F77BF5B3971BF0D58AF2B06</string>
+				<string>8ACDEAD8C316A51DCD991E649364E641</string>
+				<string>F87B6E94F5109C6AA28AA7465311DFD9</string>
+				<string>687374ACD6E582442DFF0AC36A4E75C5</string>
+				<string>7BF199F9C79FFA551EF3D3E2264991FC</string>
+				<string>2B0B86BEFFF2CEC73AB71EAC45BAAA38</string>
+				<string>9B0A6D0CC076475DF8301122EFA70829</string>
+				<string>6ED25F0DF926272070C902DFCFA8F7B6</string>
+				<string>7B0E74287062847BE78E384DEB8CCB2E</string>
+				<string>C4E1EF1C3C2ACFC7C2B7AAC1785D5728</string>
+				<string>57002DB4D265696D4DBB75E0F40F1B04</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Core</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>08F9544B728FACD4A85D0D0FEB6AFC03</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>SDWebImageCompat.m</string>
+			<key>path</key>
+			<string>SDWebImage/SDWebImageCompat.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>0A40A7A31E062C8B962B560F550CD83C</key>
+		<dict>
+			<key>fileRef</key>
+			<string>BFADB35A46219E659EDECF10F487FBB5</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
+		</dict>
+		<key>0AB09A9A219F03DAD17C3FFF290D589D</key>
+		<dict>
+			<key>fileRef</key>
+			<string>BED94123217EE144E3E0D5E526435F22</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>0DE3A3106D05CCAD9126968C5BC64954</key>
+		<dict>
+			<key>fileRef</key>
+			<string>7B0E74287062847BE78E384DEB8CCB2E</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>0E46E765B2CCFFD152006B43E319A7EE</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>SDWebImage-prefix.pch</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>0EF4B0BFAC25743252110AE3D577CC42</key>
+		<dict>
+			<key>explicitFileType</key>
+			<string>archive.ar</string>
+			<key>includeInIndex</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>name</key>
+			<string>libPods.a</string>
+			<key>path</key>
+			<string>libPods.a</string>
+			<key>sourceTree</key>
+			<string>BUILT_PRODUCTS_DIR</string>
+		</dict>
+		<key>0F2D4DD79A5B791D00D641D3C3A81B86</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -92,13 +203,13 @@
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.h</string>
 			<key>name</key>
-			<string>UMSocialLineHandler.h</string>
+			<string>WBHttpRequest.h</string>
 			<key>path</key>
-			<string>Umeng_SDK_Social_iOS_ARM64_5.1/UMSocial_Sdk_Extra_Frameworks/Line/UMSocialLineHandler.h</string>
+			<string>Umeng_SDK_Social_iOS_ARM64_5.1/UMSocial_Sdk_Extra_Frameworks/SinaSSO/WBHttpRequest.h</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>107F8701AB618B8C5A15F4437DCFF31C</key>
+		<key>1049355F670FF349729A22657BA87D00</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -107,9 +218,9 @@
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.h</string>
 			<key>name</key>
-			<string>WeiboUser.h</string>
+			<string>WechatAuthSDK.h</string>
 			<key>path</key>
-			<string>Umeng_SDK_Social_iOS_ARM64_5.1/UMSocial_Sdk_Extra_Frameworks/SinaSSO/WeiboUser.h</string>
+			<string>Umeng_SDK_Social_iOS_ARM64_5.1/UMSocial_Sdk_Extra_Frameworks/Wechat/WechatAuthSDK.h</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
@@ -126,144 +237,7 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>10A01A0B37CF8A5ACA7B3D3E6A4F4196</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>MASUtilities.h</string>
-			<key>path</key>
-			<string>Masonry/MASUtilities.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>11DBCCF9065E7597767067AA776AAAF5</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>UMSocialAlipayShareHandler.h</string>
-			<key>path</key>
-			<string>Umeng_SDK_Social_iOS_ARM64_5.1/UMSocial_Sdk_Extra_Frameworks/AlipayShare/UMSocialAlipayShareHandler.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>12032501FD2AB6CF912687614AFEE9B0</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>UMSocialQQHandler.h</string>
-			<key>path</key>
-			<string>Umeng_SDK_Social_iOS_ARM64_5.1/UMSocial_Sdk_Extra_Frameworks/TencentOpenAPI/UMSocialQQHandler.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>1215CFDF6D1836DB28FBC1AC67F759B0</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>en.lproj</string>
-			<key>path</key>
-			<string>Umeng_SDK_Social_iOS_ARM64_5.1/UMSocial_Sdk_5.1/en.lproj</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>18340F12838DEE43507667CC74401EB1</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>6E7E5AF37923BFA48D6994B9BFC6535F</string>
-				<string>C3B7BDF5CE5CB8F095FE12DA55D9A9BB</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>iOS</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>19C141460F4C90E62050A57A8ED470D0</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>WechatAuthSDK.h</string>
-			<key>path</key>
-			<string>Umeng_SDK_Social_iOS_ARM64_5.1/UMSocial_Sdk_Extra_Frameworks/Wechat/WechatAuthSDK.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>1C5B56028AF06AE748B2F16D29CA23E2</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>zh-Hans.lproj</string>
-			<key>path</key>
-			<string>Umeng_SDK_Social_iOS_ARM64_5.1/UMSocial_Sdk_5.1/zh-Hans.lproj</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>1CC3D530839D2EECBAA9B891DDE892BB</key>
-		<dict>
-			<key>fileRef</key>
-			<string>6E7E5AF37923BFA48D6994B9BFC6535F</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>1CDDC6ACB1C6A279E7692133032060EF</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>file.xib</string>
-			<key>name</key>
-			<string>UMShareEditViewController.xib</string>
-			<key>path</key>
-			<string>Umeng_SDK_Social_iOS_ARM64_5.1/UMSocial_Sdk_5.1/SocialSDKXib/UMShareEditViewController.xib</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>1E92791394BAF12FD1AE1513E12AEB25</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>WXApi.h</string>
-			<key>path</key>
-			<string>Umeng_SDK_Social_iOS_ARM64_5.1/UMSocial_Sdk_Extra_Frameworks/Wechat/WXApi.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>1FAAB8CF880EB433BAF06BB0B5344B09</key>
+		<key>10F189AE63F2B59CCAC6423298F12E8B</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -278,7 +252,47 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>20E0A54CAC66A7F0665B001609BD1DA6</key>
+		<key>11AE64C00D0A72671D3A0BE6177AAEBC</key>
+		<dict>
+			<key>fileRef</key>
+			<string>36D117E975C10F0C28AF50833D695599</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>122DA2E5084A4393C29BE363C764795C</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>6AA54D89FE93FD8509EBBE8C1A6981F3</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Frameworks</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>12919B473CF2484A39FC59A0105DEA78</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>name</key>
+			<string>zh-Hans.lproj</string>
+			<key>path</key>
+			<string>Umeng_SDK_Social_iOS_ARM64_5.1/UMSocial_Sdk_5.1/zh-Hans.lproj</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>134A0DA63E7B456C09DD17D5EE8A64B3</key>
+		<dict>
+			<key>fileRef</key>
+			<string>364EF5549F77BF5B3971BF0D58AF2B06</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>156DA1F7E50E36A7E31F7FD85F74745A</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -287,11 +301,201 @@
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.h</string>
 			<key>name</key>
-			<string>LWApiConnection.h</string>
+			<string>UMSocialQQHandler.h</string>
 			<key>path</key>
-			<string>Umeng_SDK_Social_iOS_ARM64_5.1/UMSocial_Sdk_Extra_Frameworks/LaiWang/LWApiConnection.h</string>
+			<string>Umeng_SDK_Social_iOS_ARM64_5.1/UMSocial_Sdk_Extra_Frameworks/TencentOpenAPI/UMSocialQQHandler.h</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
+		</dict>
+		<key>178DDF68CAF7F5D16D4E8495A8FDDEDF</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>F0A87BE31EE189303F54553869B82979</string>
+				<string>80D1C378B3CC6ED72C3FC3479813C214</string>
+				<string>3FA72EF2D6E564DA786491D2305BBACF</string>
+				<string>1F8F20B1BD9D0A46246E090D8CC8C038</string>
+				<string>11AE64C00D0A72671D3A0BE6177AAEBC</string>
+				<string>2581A562EF2D093AD00FBD8E0D9098F9</string>
+				<string>68CF2EC639DC1D310953FA0A7ACC1EC3</string>
+				<string>654DACB48AF6684A742E2D5C2B66FAB7</string>
+				<string>C8DE37086379FF12FD0D17EE8D1DAF35</string>
+				<string>134A0DA63E7B456C09DD17D5EE8A64B3</string>
+				<string>19661874963553CF728235B1AB199995</string>
+				<string>9041B4A16F168C4C4F89CCC0B083F952</string>
+				<string>18F770DFF54F23AB1DA4E467F09FAB67</string>
+				<string>0DE3A3106D05CCAD9126968C5BC64954</string>
+				<string>17E7450B624975C40D9CF26880137980</string>
+			</array>
+			<key>isa</key>
+			<string>PBXSourcesBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>17E7450B624975C40D9CF26880137980</key>
+		<dict>
+			<key>fileRef</key>
+			<string>57002DB4D265696D4DBB75E0F40F1B04</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>18F770DFF54F23AB1DA4E467F09FAB67</key>
+		<dict>
+			<key>fileRef</key>
+			<string>9B0A6D0CC076475DF8301122EFA70829</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>19661874963553CF728235B1AB199995</key>
+		<dict>
+			<key>fileRef</key>
+			<string>F87B6E94F5109C6AA28AA7465311DFD9</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>1A5B4E3401423FBABC6AAF743D54BC95</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>MASViewConstraint.m</string>
+			<key>path</key>
+			<string>Masonry/MASViewConstraint.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>1A89E56238059E624FA346CCB28C184B</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>APOpenAPIObject.h</string>
+			<key>path</key>
+			<string>Umeng_SDK_Social_iOS_ARM64_5.1/UMSocial_Sdk_Extra_Frameworks/AlipayShare/APOpenAPIObject.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>1E82589BD66585205441AE164EFD58E7</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>name</key>
+			<string>en.lproj</string>
+			<key>path</key>
+			<string>Umeng_SDK_Social_iOS_ARM64_5.1/UMSocial_Sdk_5.1/en.lproj</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>1F8F20B1BD9D0A46246E090D8CC8C038</key>
+		<dict>
+			<key>fileRef</key>
+			<string>08F9544B728FACD4A85D0D0FEB6AFC03</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>20A70E38F929A6142BB472CEE1546877</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>wrapper.framework</string>
+			<key>name</key>
+			<string>UIKit.framework</string>
+			<key>path</key>
+			<string>Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/UIKit.framework</string>
+			<key>sourceTree</key>
+			<string>DEVELOPER_DIR</string>
+		</dict>
+		<key>21CC68158A442532078BAC4E2059FE60</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>UMSocialBar.h</string>
+			<key>path</key>
+			<string>Umeng_SDK_Social_iOS_ARM64_5.1/UMSocial_Sdk_5.1/Header/UMSocialBar.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>2215E90E613D681CE8A7AA707615FCBF</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>NSArray+MASAdditions.m</string>
+			<key>path</key>
+			<string>Masonry/NSArray+MASAdditions.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>2517190B6083042BD3B1BEBBEB12FB3E</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>01E487CB9A478FFB222063606BF48B98</string>
+			</array>
+			<key>isa</key>
+			<string>PBXSourcesBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>25332098FBD237AD84A89CAF115DA917</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>SDWebImagePrefetcher.h</string>
+			<key>path</key>
+			<string>SDWebImage/SDWebImagePrefetcher.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>2581A562EF2D093AD00FBD8E0D9098F9</key>
+		<dict>
+			<key>fileRef</key>
+			<string>9CD5C002F814A8EEEB9A26211E5039B7</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>26CACEE8EBAE33FFEC7E38224731E1DA</key>
+		<dict>
+			<key>buildConfigurations</key>
+			<array>
+				<string>5EEC434EEF41B01736E051D740417C61</string>
+				<string>877FE3F66A43B16EF7A28C70548E8509</string>
+			</array>
+			<key>defaultConfigurationIsVisible</key>
+			<string>0</string>
+			<key>defaultConfigurationName</key>
+			<string>Release</string>
+			<key>isa</key>
+			<string>XCConfigurationList</string>
 		</dict>
 		<key>272643F56613CA0D336AE3DBF19DC404</key>
 		<dict>
@@ -306,7 +510,86 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>27333318263E58558F7049760E4929A4</key>
+		<key>284C9A90ED19CE1B81AEF4E63458366B</key>
+		<dict>
+			<key>explicitFileType</key>
+			<string>archive.ar</string>
+			<key>includeInIndex</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>name</key>
+			<string>libMasonry.a</string>
+			<key>path</key>
+			<string>libMasonry.a</string>
+			<key>sourceTree</key>
+			<string>BUILT_PRODUCTS_DIR</string>
+		</dict>
+		<key>2905381350CEFFBFFA9BC8B5D027F190</key>
+		<dict>
+			<key>fileRef</key>
+			<string>49F9794049256093F27D9630B6E694A0</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
+		</dict>
+		<key>290A6A462FBBD01614954BC81CA730E8</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXTargetDependency</string>
+			<key>name</key>
+			<string>SDWebImage</string>
+			<key>target</key>
+			<string>ED327B853CF9B008129E6325D377A3EF</string>
+			<key>targetProxy</key>
+			<string>36E0C12AE35FFB2470C97DC3B2942462</string>
+		</dict>
+		<key>2979E54C4AFD27076576E82ADEED2F00</key>
+		<dict>
+			<key>fileRef</key>
+			<string>3648812B9EC9505B0CBF2B711B3A21ED</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
+		</dict>
+		<key>2AE69EA6AFB5A60433F80A72C6A33D28</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>1E82589BD66585205441AE164EFD58E7</string>
+				<string>F045BA78E1A21DFEE0A175C0DA529D84</string>
+				<string>FD1DE03827054A4454E53854B14A83E2</string>
+				<string>8BF46AE312406DDCCF0317045452DF84</string>
+				<string>81159A75379989562486C86D93DB4033</string>
+				<string>A08566F822CBCDC6CC93A558EA1EDC2F</string>
+				<string>FBC5AFB805C32397EDD3607AEBC110DC</string>
+				<string>2F19189E6A042CA4084032D06404883F</string>
+				<string>514C2F686EAF891CD1EB2883647BB6B9</string>
+				<string>F3C8323B173DDF58593DB44A0B2CBE56</string>
+				<string>DF97E13E6C803DFA4D01CCC8B828BBF8</string>
+				<string>BC1B9279852EDE58095D58620B83BFFE</string>
+				<string>12919B473CF2484A39FC59A0105DEA78</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Resources</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>2B0B86BEFFF2CEC73AB71EAC45BAAA38</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -315,39 +598,26 @@
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.h</string>
 			<key>name</key>
-			<string>UMSocialControllerService.h</string>
+			<string>UIImageView+HighlightedWebCache.h</string>
 			<key>path</key>
-			<string>Umeng_SDK_Social_iOS_ARM64_5.1/UMSocial_Sdk_5.1/Header/UMSocialControllerService.h</string>
+			<string>SDWebImage/UIImageView+HighlightedWebCache.h</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>2905381350CEFFBFFA9BC8B5D027F190</key>
+		<key>2C02B386548FF53B5C5C745E00D1D230</key>
 		<dict>
-			<key>fileRef</key>
-			<string>43B17C6C47D8C6DE9D98BC2915658757</string>
+			<key>includeInIndex</key>
+			<string>1</string>
 			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>2979E54C4AFD27076576E82ADEED2F00</key>
-		<dict>
-			<key>fileRef</key>
-			<string>F3BD01B8088EAA4D7AAE9E3C2C3AB8ED</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>LWApiMediaObject.h</string>
+			<key>path</key>
+			<string>Umeng_SDK_Social_iOS_ARM64_5.1/UMSocial_Sdk_Extra_Frameworks/LaiWang/LWApiMediaObject.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
 		</dict>
 		<key>2D8E8EC45A3A1A1D94AE762CB5028504</key>
 		<dict>
@@ -363,60 +633,68 @@
 			<key>isa</key>
 			<string>XCConfigurationList</string>
 		</dict>
-		<key>2DD60EF3D6BDEAB6E306F8FE0964767C</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>UMSocialSnsService.h</string>
-			<key>path</key>
-			<string>Umeng_SDK_Social_iOS_ARM64_5.1/UMSocial_Sdk_5.1/Header/UMSocialSnsService.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>2F85D170E76C661AB0D9E9A8B206C78D</key>
-		<dict>
-			<key>fileRef</key>
-			<string>6E7E5AF37923BFA48D6994B9BFC6535F</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>329B28EDC8E2FBB91F8F33FCB5B38026</key>
+		<key>2DACE1FE36669D6A2B995314D5F0BA3D</key>
 		<dict>
 			<key>children</key>
 			<array>
-				<string>C895EAFAB35F1EB978A921DE4F7EC602</string>
-				<string>34A6AFB4F30AB428E12368030A85FA43</string>
-				<string>F84916276C0CA899133E24B4BE28DD9A</string>
+				<string>B8658A3932569EC2E9BE03099E4B59A9</string>
+				<string>1A89E56238059E624FA346CCB28C184B</string>
+				<string>A85BDCC417D0D7F58A5610B3F4C74458</string>
+				<string>E47DDCD7BE92A4B9440ED1AC5F78C837</string>
+				<string>10F189AE63F2B59CCAC6423298F12E8B</string>
+				<string>2C02B386548FF53B5C5C745E00D1D230</string>
+				<string>C6B7CC7C546A706466224F1DFF4116AE</string>
+				<string>A9730BAE338ADFB7106ED887EB70A881</string>
+				<string>6D4D414B5A92ABB6508FA223DA4E5973</string>
+				<string>B1933C7A591BC8FAA36BCB68EE4DB7AE</string>
+				<string>CEEABEAF4FE61823F286FD35AAC862D8</string>
+				<string>3EFCF2FECAF8BF13800C0AA996B4DA9B</string>
+				<string>34E099750F16C32ED9A36AB85B9D1C79</string>
+				<string>ABD0BCEC7F4589FF936D224CABDC3F3E</string>
+				<string>21CC68158A442532078BAC4E2059FE60</string>
+				<string>DE6261101AE749EA760BCF3D81F95836</string>
+				<string>E19A28B62F571EC79E0842E3766A4E2C</string>
+				<string>3BA23965D5AE8C386E300BCE1245BC89</string>
+				<string>30E62A0562E0CB7E20D5C939CF6820A4</string>
+				<string>7736CA06A47DF308EED25C0EC69CD9B5</string>
+				<string>BE3A8571FCD3A77ABE936794A6DC46E2</string>
+				<string>B4DF16F27CB3F0B1476F4A334FCFFBE7</string>
+				<string>B87C3C22FF845E6811736E1272CDA78D</string>
+				<string>9DF4FFAAE7244205408FD051138043F7</string>
+				<string>156DA1F7E50E36A7E31F7FD85F74745A</string>
+				<string>9431FDF34FA8EC5E8E2D656FA9AE74A2</string>
+				<string>352C192368EAC670CA1282B972630ADD</string>
+				<string>D5EBE45FC27AF2E15207B2A8B864FD64</string>
+				<string>714BFE3D029C2FFD12209814D6FCD348</string>
+				<string>83438ADC94A2D9C1247820B9952114D0</string>
+				<string>83B044DC1E55668A1C39B006FA29CB0D</string>
+				<string>C52156C33CEDD93DC795891B5A1CCFB5</string>
+				<string>D49699A6E88CBC1D6A67F6EAC728A6E7</string>
+				<string>0F2D4DD79A5B791D00D641D3C3A81B86</string>
+				<string>EFE8F6A072DFC70BC866BD37D6749653</string>
+				<string>6E1B4FF6AC82755AF30795F739827F0C</string>
+				<string>DF9EFDCAD8C38E7C1E009520DEF1E61B</string>
+				<string>5292EA78C10957730D5020F2347A2AC0</string>
+				<string>B67DE7A42B0D03637A228D6EAFFD1A12</string>
+				<string>9E64833565E8B3F2820690320A68BCFE</string>
+				<string>5154C510B4443C547660C659934C6E74</string>
+				<string>1049355F670FF349729A22657BA87D00</string>
+				<string>EC8506E8ADFB8D4738BF5C4E22861A5A</string>
+				<string>9771D8B3210BF95727F5E38DA5EC613F</string>
+				<string>2E3BAA1ECFEE97A23E16D233A737FCBA</string>
+				<string>8B96D3A7D631B0356A921DE01FD613BF</string>
+				<string>2AE69EA6AFB5A60433F80A72C6A33D28</string>
 			</array>
 			<key>isa</key>
 			<string>PBXGroup</string>
 			<key>name</key>
-			<string>Support Files</string>
+			<string>UMengSocialCOM</string>
 			<key>path</key>
-			<string>../Target Support Files/Masonry</string>
+			<string>UMengSocialCOM</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>331718BFB4A91CFFE026492905231562</key>
-		<dict>
-			<key>fileRef</key>
-			<string>02BA7353E8F39B60BF8F44F3D842A9F8</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>33513E618F5650C66EBBC7E995910515</key>
+		<key>2E3BAA1ECFEE97A23E16D233A737FCBA</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -425,20 +703,28 @@
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.h</string>
 			<key>name</key>
-			<string>UMSocialSnsPlatformManager.h</string>
+			<string>WXApi.h</string>
 			<key>path</key>
-			<string>Umeng_SDK_Social_iOS_ARM64_5.1/UMSocial_Sdk_5.1/Header/UMSocialSnsPlatformManager.h</string>
+			<string>Umeng_SDK_Social_iOS_ARM64_5.1/UMSocial_Sdk_Extra_Frameworks/Wechat/WXApi.h</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>335DCBC17D2469F228020EF6C7B41F7C</key>
+		<key>2F19189E6A042CA4084032D06404883F</key>
 		<dict>
-			<key>fileRef</key>
-			<string>670971A5B6CC6A63CFF44E0A84F574D7</string>
+			<key>includeInIndex</key>
+			<string>1</string>
 			<key>isa</key>
-			<string>PBXBuildFile</string>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>file.xib</string>
+			<key>name</key>
+			<string>UMSLoginViewController.xib</string>
+			<key>path</key>
+			<string>Umeng_SDK_Social_iOS_ARM64_5.1/UMSocial_Sdk_5.1/SocialSDKXib/UMSLoginViewController.xib</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
 		</dict>
-		<key>34A6AFB4F30AB428E12368030A85FA43</key>
+		<key>2F7C65C29AFE6138F204A05A79DE5EFE</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -446,88 +732,39 @@
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>Masonry-dummy.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>37648B267519E0518CE2944ECCBE6F28</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
 			<key>name</key>
-			<string>MASCompositeConstraint.h</string>
+			<string>ViewController+MASAdditions.m</string>
 			<key>path</key>
-			<string>Masonry/MASCompositeConstraint.h</string>
+			<string>Masonry/ViewController+MASAdditions.m</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>37DB56D75062CC75FCB0966E1C6E8A8E</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text</string>
-			<key>path</key>
-			<string>Pods-acknowledgements.markdown</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>38B551A10CEF23638B3EAD7B09C6C174</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.plug-in</string>
-			<key>name</key>
-			<string>WeiboSDK.bundle</string>
-			<key>path</key>
-			<string>Umeng_SDK_Social_iOS_ARM64_5.1/UMSocial_Sdk_Extra_Frameworks/SinaSSO/WeiboSDK.bundle</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>3AD23D73B0136EEEC8F4897075A5B4C6</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>APOpenAPI.h</string>
-			<key>path</key>
-			<string>Umeng_SDK_Social_iOS_ARM64_5.1/UMSocial_Sdk_Extra_Frameworks/AlipayShare/APOpenAPI.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>3DF8819BE00FB521E1F6AF3B823C6D80</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>LWApiSDK.h</string>
-			<key>path</key>
-			<string>Umeng_SDK_Social_iOS_ARM64_5.1/UMSocial_Sdk_Extra_Frameworks/LaiWang/LWApiSDK.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>3F63C119F95A6735AE627BBB1BEBC4B1</key>
+		<key>2F85D170E76C661AB0D9E9A8B206C78D</key>
 		<dict>
 			<key>fileRef</key>
-			<string>FD39780B59445DE63D9164570B5ABABF</string>
+			<string>A1A260CC6B2071AB656636AF5AC75440</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>30E62A0562E0CB7E20D5C939CF6820A4</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>UMSocialData.h</string>
+			<key>path</key>
+			<string>Umeng_SDK_Social_iOS_ARM64_5.1/UMSocial_Sdk_5.1/Header/UMSocialData.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>331718BFB4A91CFFE026492905231562</key>
+		<dict>
+			<key>fileRef</key>
+			<string>66EA2946616FC1107E5EB555A68BE3C2</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
@@ -538,7 +775,14 @@
 				</array>
 			</dict>
 		</dict>
-		<key>41F534C60B90B1F7F338B3F68AB1E37E</key>
+		<key>335DCBC17D2469F228020EF6C7B41F7C</key>
+		<dict>
+			<key>fileRef</key>
+			<string>91B5FBDB0A3BE215144CBFBBB081A13E</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>3384A0CABE44AAE1C916AA45F4052AAE</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -547,85 +791,158 @@
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.h</string>
 			<key>name</key>
-			<string>UMSocialConfig.h</string>
+			<string>SDImageCache.h</string>
 			<key>path</key>
-			<string>Umeng_SDK_Social_iOS_ARM64_5.1/UMSocial_Sdk_5.1/Header/UMSocialConfig.h</string>
+			<string>SDWebImage/SDImageCache.h</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>432BD50F1E699EDF2EA007E850FFCEF7</key>
+		<key>3413C5607B59F859399E123854BD1EA1</key>
 		<dict>
-			<key>fileRef</key>
-			<string>5870E5EB2A15A749B280A028A7191DC8</string>
+			<key>includeInIndex</key>
+			<string>1</string>
 			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>MASViewAttribute.h</string>
+			<key>path</key>
+			<string>Masonry/MASViewAttribute.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
 		</dict>
-		<key>433CD3331B6C3787F473C941B61FC68F</key>
+		<key>3453F1B524B4A6A7BA418F6F4C2F9F3F</key>
 		<dict>
-			<key>children</key>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>SDWebImageManager.h</string>
+			<key>path</key>
+			<string>SDWebImage/SDWebImageManager.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>34E099750F16C32ED9A36AB85B9D1C79</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>UMSocialAccountManager.h</string>
+			<key>path</key>
+			<string>Umeng_SDK_Social_iOS_ARM64_5.1/UMSocial_Sdk_5.1/Header/UMSocialAccountManager.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>352C192368EAC670CA1282B972630ADD</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>UMSocialSnsData.h</string>
+			<key>path</key>
+			<string>Umeng_SDK_Social_iOS_ARM64_5.1/UMSocial_Sdk_5.1/Header/UMSocialSnsData.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>35C6385621040D4FE36D5D6C38F2A8F3</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
 			<array>
-				<string>18340F12838DEE43507667CC74401EB1</string>
+				<string>0A40A7A31E062C8B962B560F550CD83C</string>
+				<string>388535F8527A36BA61AC6E39E319D26A</string>
+				<string>FD42A20AEDA3E4AE9B97E8561318D813</string>
+				<string>FFD40979D1A8B6FC5734055F88177A78</string>
+				<string>3AA4A811B94251C739AEAF267B829D26</string>
+				<string>8B90E6A64C4B7A5BB8608B74FF338A3E</string>
+				<string>D19DFDE1427E3BC9789AF2E0B20AE039</string>
+				<string>3947DE6CC25E40F1913CB59F1E4C8296</string>
+				<string>618ABB7824FE1C3CF474F1BA3AB44919</string>
+				<string>74D9458F0BC99559C899A4460BF8E9A3</string>
+				<string>D4E8D7A8EE2A224C4F50E59FD05B5B55</string>
+				<string>95F4B2E4E74EF53D8E0755A3D8E76AB1</string>
+				<string>70F7E363F384D805A63CD5F682A7ABAF</string>
+				<string>CE09CD75D40A5DCA8D5FA70AD928894F</string>
+				<string>89DC4F56365109D3ACD7468656ACA924</string>
 			</array>
 			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Frameworks</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>43B17C6C47D8C6DE9D98BC2915658757</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>MASConstraint.h</string>
-			<key>path</key>
-			<string>Masonry/MASConstraint.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>478E7E52515F0F9989AFE1789EA43C20</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>LWApiMediaObject.h</string>
-			<key>path</key>
-			<string>Umeng_SDK_Social_iOS_ARM64_5.1/UMSocial_Sdk_Extra_Frameworks/LaiWang/LWApiMediaObject.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>47EB7BD6B10AC5169967CC9D690E0E3F</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>archive.ar</string>
-			<key>includeInIndex</key>
+			<string>PBXHeadersBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
 			<string>0</string>
+		</dict>
+		<key>3648812B9EC9505B0CBF2B711B3A21ED</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
 			<key>name</key>
-			<string>libPods.a</string>
+			<string>NSLayoutConstraint+MASDebugAdditions.h</string>
 			<key>path</key>
-			<string>libPods.a</string>
+			<string>Masonry/NSLayoutConstraint+MASDebugAdditions.h</string>
 			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
+			<string>&lt;group&gt;</string>
 		</dict>
-		<key>489266C9B11B191BEB1C5BBB6F4217DB</key>
+		<key>364EF5549F77BF5B3971BF0D58AF2B06</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>UIButton+WebCache.m</string>
+			<key>path</key>
+			<string>SDWebImage/UIButton+WebCache.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>36D117E975C10F0C28AF50833D695599</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>SDWebImageDecoder.m</string>
+			<key>path</key>
+			<string>SDWebImage/SDWebImageDecoder.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>36E0C12AE35FFB2470C97DC3B2942462</key>
+		<dict>
+			<key>containerPortal</key>
+			<string>D41D8CD98F00B204E9800998ECF8427E</string>
+			<key>isa</key>
+			<string>PBXContainerItemProxy</string>
+			<key>proxyType</key>
+			<string>1</string>
+			<key>remoteGlobalIDString</key>
+			<string>ED327B853CF9B008129E6325D377A3EF</string>
+			<key>remoteInfo</key>
+			<string>SDWebImage</string>
+		</dict>
+		<key>37740AFC83228D520B155808636288A2</key>
 		<dict>
 			<key>baseConfigurationReference</key>
 			<string>4E762F23EC34ED4A6FF3312D84E33A40</string>
@@ -657,7 +974,51 @@
 			<key>name</key>
 			<string>Debug</string>
 		</dict>
-		<key>4977ECF8EFCF356E9F0132236921250A</key>
+		<key>377523570B56969E26485D16633DF474</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>925D736030B194D2389AD2B77F7B31F0</string>
+				<string>B24A7D1C38908D361786DB124B9F657B</string>
+				<string>0E46E765B2CCFFD152006B43E319A7EE</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Support Files</string>
+			<key>path</key>
+			<string>../Target Support Files/SDWebImage</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>37DB56D75062CC75FCB0966E1C6E8A8E</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text</string>
+			<key>path</key>
+			<string>Pods-acknowledgements.markdown</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>388535F8527A36BA61AC6E39E319D26A</key>
+		<dict>
+			<key>fileRef</key>
+			<string>3384A0CABE44AAE1C916AA45F4052AAE</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
+		</dict>
+		<key>38941726C097AB9D1B6D8F4514B29CB6</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -666,13 +1027,27 @@
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.objc</string>
 			<key>name</key>
-			<string>ViewController+MASAdditions.m</string>
+			<string>MASLayoutConstraint.m</string>
 			<key>path</key>
-			<string>Masonry/ViewController+MASAdditions.m</string>
+			<string>Masonry/MASLayoutConstraint.m</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>4A7F0D376147F880CAC032D361DD5565</key>
+		<key>3947DE6CC25E40F1913CB59F1E4C8296</key>
+		<dict>
+			<key>fileRef</key>
+			<string>9E46E318432C54CF7596C01012BEB004</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
+		</dict>
+		<key>396F46D60118C8808A09254D42DFF75B</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -681,13 +1056,27 @@
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.h</string>
 			<key>name</key>
-			<string>NSArray+MASShorthandAdditions.h</string>
+			<string>MASConstraint+Private.h</string>
 			<key>path</key>
-			<string>Masonry/NSArray+MASShorthandAdditions.h</string>
+			<string>Masonry/MASConstraint+Private.h</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>4A8F03218EC5299A6549132AEE2CBA94</key>
+		<key>3AA4A811B94251C739AEAF267B829D26</key>
+		<dict>
+			<key>fileRef</key>
+			<string>F44EB671CE4F4CF59C8ED562C8B7361B</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
+		</dict>
+		<key>3BA23965D5AE8C386E300BCE1245BC89</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -696,13 +1085,13 @@
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.h</string>
 			<key>name</key>
-			<string>UMSocialData.h</string>
+			<string>UMSocialControllerServiceComment.h</string>
 			<key>path</key>
-			<string>Umeng_SDK_Social_iOS_ARM64_5.1/UMSocial_Sdk_5.1/Header/UMSocialData.h</string>
+			<string>Umeng_SDK_Social_iOS_ARM64_5.1/UMSocial_Sdk_5.1/Header/UMSocialControllerServiceComment.h</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>4D8055D292164C88468DB0051875ABD8</key>
+		<key>3EFCF2FECAF8BF13800C0AA996B4DA9B</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -711,11 +1100,166 @@
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.h</string>
 			<key>name</key>
-			<string>WBHttpRequest+WeiboToken.h</string>
+			<string>UMSocial.h</string>
 			<key>path</key>
-			<string>Umeng_SDK_Social_iOS_ARM64_5.1/UMSocial_Sdk_Extra_Frameworks/SinaSSO/WBHttpRequest+WeiboToken.h</string>
+			<string>Umeng_SDK_Social_iOS_ARM64_5.1/UMSocial_Sdk_5.1/Header/UMSocial.h</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
+		</dict>
+		<key>3F07A094BDFD2E3CAE3EB0E41289BED2</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>View+MASAdditions.m</string>
+			<key>path</key>
+			<string>Masonry/View+MASAdditions.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>3F63C119F95A6735AE627BBB1BEBC4B1</key>
+		<dict>
+			<key>fileRef</key>
+			<string>3413C5607B59F859399E123854BD1EA1</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
+		</dict>
+		<key>3FA72EF2D6E564DA786491D2305BBACF</key>
+		<dict>
+			<key>fileRef</key>
+			<string>B24A7D1C38908D361786DB124B9F657B</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>432BD50F1E699EDF2EA007E850FFCEF7</key>
+		<dict>
+			<key>fileRef</key>
+			<string>06087EC51B3D7421FB0ADC7DD4E230A7</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
+		</dict>
+		<key>46A3694EEFFDAFA867FDFFD4FCF8EA3C</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>MASViewAttribute.m</string>
+			<key>path</key>
+			<string>Masonry/MASViewAttribute.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>4701BA238DE0E2CA45B5B1708F5468EA</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>Masonry.h</string>
+			<key>path</key>
+			<string>Masonry/Masonry.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>495504BDA95264EF9DA1F1B02343C7A1</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>284C9A90ED19CE1B81AEF4E63458366B</string>
+				<string>0EF4B0BFAC25743252110AE3D577CC42</string>
+				<string>4DF02BC2302E9A92F6F6E914B9B22C6D</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Products</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>49F9794049256093F27D9630B6E694A0</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>MASConstraint.h</string>
+			<key>path</key>
+			<string>Masonry/MASConstraint.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>4BDDD097701AA3B68EA93D140F58E5B2</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>MASConstraintMaker.h</string>
+			<key>path</key>
+			<string>Masonry/MASConstraintMaker.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>4BEA3DCB3DC6F2855CB6CE56AB16A530</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>NSArray+MASAdditions.h</string>
+			<key>path</key>
+			<string>Masonry/NSArray+MASAdditions.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>4DF02BC2302E9A92F6F6E914B9B22C6D</key>
+		<dict>
+			<key>explicitFileType</key>
+			<string>archive.ar</string>
+			<key>includeInIndex</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>name</key>
+			<string>libSDWebImage.a</string>
+			<key>path</key>
+			<string>libSDWebImage.a</string>
+			<key>sourceTree</key>
+			<string>BUILT_PRODUCTS_DIR</string>
 		</dict>
 		<key>4E762F23EC34ED4A6FF3312D84E33A40</key>
 		<dict>
@@ -730,7 +1274,35 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>4F7ECB96BB523A00565128B717F3AEB8</key>
+		<key>4FFD045522B293E0B7E919D7E687DC45</key>
+		<dict>
+			<key>containerPortal</key>
+			<string>D41D8CD98F00B204E9800998ECF8427E</string>
+			<key>isa</key>
+			<string>PBXContainerItemProxy</string>
+			<key>proxyType</key>
+			<string>1</string>
+			<key>remoteGlobalIDString</key>
+			<string>53480ED0BE09FF49E34B1702D485CAAB</string>
+			<key>remoteInfo</key>
+			<string>Masonry</string>
+		</dict>
+		<key>514C2F686EAF891CD1EB2883647BB6B9</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>file.xib</string>
+			<key>name</key>
+			<string>UMSnsAccountViewController.xib</string>
+			<key>path</key>
+			<string>Umeng_SDK_Social_iOS_ARM64_5.1/UMSocial_Sdk_5.1/SocialSDKXib/UMSnsAccountViewController.xib</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>5154C510B4443C547660C659934C6E74</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -739,9 +1311,24 @@
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.h</string>
 			<key>name</key>
-			<string>UMSocial.h</string>
+			<string>WBSDKRelationshipButton.h</string>
 			<key>path</key>
-			<string>Umeng_SDK_Social_iOS_ARM64_5.1/UMSocial_Sdk_5.1/Header/UMSocial.h</string>
+			<string>Umeng_SDK_Social_iOS_ARM64_5.1/UMSocial_Sdk_Extra_Frameworks/SinaSSO/WBSDKRelationshipButton.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>5292EA78C10957730D5020F2347A2AC0</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>WBHttpRequest+WeiboUser.h</string>
+			<key>path</key>
+			<string>Umeng_SDK_Social_iOS_ARM64_5.1/UMSocial_Sdk_Extra_Frameworks/SinaSSO/WBHttpRequest+WeiboUser.h</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
@@ -766,61 +1353,31 @@
 			<key>productName</key>
 			<string>Masonry</string>
 			<key>productReference</key>
-			<string>600C398081D4671023871909772EE7DF</string>
+			<string>284C9A90ED19CE1B81AEF4E63458366B</string>
 			<key>productType</key>
 			<string>com.apple.product-type.library.static</string>
 		</dict>
 		<key>5457FCC2699281B5A4203BA1559F593F</key>
 		<dict>
 			<key>fileRef</key>
-			<string>BE4419AD5C4581F2971973093F92BF2D</string>
+			<string>2215E90E613D681CE8A7AA707615FCBF</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
-		<key>552807AB12306684446C51FC6C2D447B</key>
+		<key>56555C16B2B1C1A3BDF99D7491909135</key>
 		<dict>
 			<key>buildActionMask</key>
 			<string>2147483647</string>
 			<key>files</key>
 			<array>
-				<string>8A59F440960258F5C18118562D771BF0</string>
+				<string>00B784CB650915CE765BCA5F66D35713</string>
 			</array>
 			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
+			<string>PBXFrameworksBuildPhase</string>
 			<key>runOnlyForDeploymentPostprocessing</key>
 			<string>0</string>
 		</dict>
-		<key>586459875B2CC792D90C379952780A10</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>file.xib</string>
-			<key>name</key>
-			<string>UMSLoginViewController.xib</string>
-			<key>path</key>
-			<string>Umeng_SDK_Social_iOS_ARM64_5.1/UMSocial_Sdk_5.1/SocialSDKXib/UMSLoginViewController.xib</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>5870E5EB2A15A749B280A028A7191DC8</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>View+MASShorthandAdditions.h</string>
-			<key>path</key>
-			<string>Masonry/View+MASShorthandAdditions.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>5B3BE855889F3F50DB7AABD5F9557F79</key>
+		<key>57002DB4D265696D4DBB75E0F40F1B04</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -829,26 +1386,105 @@
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.objc</string>
 			<key>name</key>
-			<string>MASCompositeConstraint.m</string>
+			<string>UIView+WebCacheOperation.m</string>
 			<key>path</key>
-			<string>Masonry/MASCompositeConstraint.m</string>
+			<string>SDWebImage/UIView+WebCacheOperation.m</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>600C398081D4671023871909772EE7DF</key>
+		<key>5AD8DC43860823214F653C0F10B0E208</key>
 		<dict>
-			<key>explicitFileType</key>
-			<string>archive.ar</string>
 			<key>includeInIndex</key>
-			<string>0</string>
+			<string>1</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>libMasonry.a</string>
+			<key>lastKnownFileType</key>
+			<string>text.xcconfig</string>
 			<key>path</key>
-			<string>libMasonry.a</string>
+			<string>Masonry.xcconfig</string>
 			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>5EEC434EEF41B01736E051D740417C61</key>
+		<dict>
+			<key>baseConfigurationReference</key>
+			<string>925D736030B194D2389AD2B77F7B31F0</string>
+			<key>buildSettings</key>
+			<dict>
+				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
+				<string>YES</string>
+				<key>GCC_PREFIX_HEADER</key>
+				<string>Target Support Files/SDWebImage/SDWebImage-prefix.pch</string>
+				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
+				<string>8.0</string>
+				<key>MTL_ENABLE_DEBUG_INFO</key>
+				<string>YES</string>
+				<key>OTHER_LDFLAGS</key>
+				<string></string>
+				<key>OTHER_LIBTOOLFLAGS</key>
+				<string></string>
+				<key>PRIVATE_HEADERS_FOLDER_PATH</key>
+				<string></string>
+				<key>PRODUCT_NAME</key>
+				<string>$(TARGET_NAME)</string>
+				<key>PUBLIC_HEADERS_FOLDER_PATH</key>
+				<string></string>
+				<key>SDKROOT</key>
+				<string>iphoneos</string>
+				<key>SKIP_INSTALL</key>
+				<string>YES</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Debug</string>
+		</dict>
+		<key>618ABB7824FE1C3CF474F1BA3AB44919</key>
+		<dict>
+			<key>fileRef</key>
+			<string>25332098FBD237AD84A89CAF115DA917</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
+		</dict>
+		<key>629E8D115DAD020C7BD654A7292B9F60</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>SDWebImagePrefetcher.m</string>
+			<key>path</key>
+			<string>SDWebImage/SDWebImagePrefetcher.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>647E557EC1C8F9A672749F76F792E7D9</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXTargetDependency</string>
+			<key>name</key>
+			<string>Masonry</string>
+			<key>target</key>
+			<string>53480ED0BE09FF49E34B1702D485CAAB</string>
+			<key>targetProxy</key>
+			<string>4FFD045522B293E0B7E919D7E687DC45</string>
+		</dict>
+		<key>654DACB48AF6684A742E2D5C2B66FAB7</key>
+		<dict>
+			<key>fileRef</key>
+			<string>D6F7469901786B91ED02AC224A5CFE2D</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
 		</dict>
 		<key>657D857047A6A935B5A2E9BD049194F2</key>
 		<dict>
@@ -877,48 +1513,233 @@
 			<key>runOnlyForDeploymentPostprocessing</key>
 			<string>0</string>
 		</dict>
-		<key>660D7C18573951D8F09434C11E127EC4</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>F592CABF0C78F17121B7D02645697BC1</string>
-			<key>buildPhases</key>
-			<array>
-				<string>552807AB12306684446C51FC6C2D447B</string>
-				<string>D53EF014F088A1A0D8B2B3E445354866</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array>
-				<string>945CC92B4D467E95A30BED60CF8AD901</string>
-			</array>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>Pods</string>
-			<key>productName</key>
-			<string>Pods</string>
-			<key>productReference</key>
-			<string>47EB7BD6B10AC5169967CC9D690E0E3F</string>
-			<key>productType</key>
-			<string>com.apple.product-type.library.static</string>
-		</dict>
-		<key>670971A5B6CC6A63CFF44E0A84F574D7</key>
+		<key>66EA2946616FC1107E5EB555A68BE3C2</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
+			<string>sourcecode.c.h</string>
 			<key>name</key>
-			<string>MASConstraintMaker.m</string>
+			<string>ViewController+MASAdditions.h</string>
 			<key>path</key>
-			<string>Masonry/MASConstraintMaker.m</string>
+			<string>Masonry/ViewController+MASAdditions.h</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>67F300D9E19F3BAF736062496FC4A46B</key>
+		<key>687374ACD6E582442DFF0AC36A4E75C5</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>UIImage+MultiFormat.h</string>
+			<key>path</key>
+			<string>SDWebImage/UIImage+MultiFormat.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>68CF2EC639DC1D310953FA0A7ACC1EC3</key>
+		<dict>
+			<key>fileRef</key>
+			<string>D42AA0650B59F29D1AFB8EBBD1ADA747</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>6911BECA35E7518D864239B7E898EEF3</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.script.sh</string>
+			<key>path</key>
+			<string>Pods-frameworks.sh</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>6AA54D89FE93FD8509EBBE8C1A6981F3</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>A1A260CC6B2071AB656636AF5AC75440</string>
+				<string>BED94123217EE144E3E0D5E526435F22</string>
+				<string>20A70E38F929A6142BB472CEE1546877</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>iOS</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>6D4D414B5A92ABB6508FA223DA4E5973</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>LWApiResponse.h</string>
+			<key>path</key>
+			<string>Umeng_SDK_Social_iOS_ARM64_5.1/UMSocial_Sdk_Extra_Frameworks/LaiWang/LWApiResponse.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>6E1B4FF6AC82755AF30795F739827F0C</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>WBHttpRequest+WeiboShare.h</string>
+			<key>path</key>
+			<string>Umeng_SDK_Social_iOS_ARM64_5.1/UMSocial_Sdk_Extra_Frameworks/SinaSSO/WBHttpRequest+WeiboShare.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>6ED25F0DF926272070C902DFCFA8F7B6</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>UIImageView+WebCache.h</string>
+			<key>path</key>
+			<string>SDWebImage/UIImageView+WebCache.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>6F3324727221A530A2046209734A0E3B</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>SDWebImageDownloaderOperation.h</string>
+			<key>path</key>
+			<string>SDWebImage/SDWebImageDownloaderOperation.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>70F7E363F384D805A63CD5F682A7ABAF</key>
+		<dict>
+			<key>fileRef</key>
+			<string>2B0B86BEFFF2CEC73AB71EAC45BAAA38</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
+		</dict>
+		<key>714BFE3D029C2FFD12209814D6FCD348</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>UMSocialSnsService.h</string>
+			<key>path</key>
+			<string>Umeng_SDK_Social_iOS_ARM64_5.1/UMSocial_Sdk_5.1/Header/UMSocialSnsService.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>72E30ADE5424F3C1B055C056121E964D</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>Masonry-prefix.pch</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>7371A0872972845032122EC830035917</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>MASLayoutConstraint.h</string>
+			<key>path</key>
+			<string>Masonry/MASLayoutConstraint.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>745A6C0BCC0428306D8B82EA106516D2</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>SDWebImageDecoder.h</string>
+			<key>path</key>
+			<string>SDWebImage/SDWebImageDecoder.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>74D9458F0BC99559C899A4460BF8E9A3</key>
+		<dict>
+			<key>fileRef</key>
+			<string>A25C81C0D413E7AFA5B6C466ED7822FC</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
+		</dict>
+		<key>7736CA06A47DF308EED25C0EC69CD9B5</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>UMSocialDataService.h</string>
+			<key>path</key>
+			<string>Umeng_SDK_Social_iOS_ARM64_5.1/UMSocial_Sdk_5.1/Header/UMSocialDataService.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>78BED058CF95C1E5DE91389361480F74</key>
 		<dict>
 			<key>baseConfigurationReference</key>
 			<string>98C98CDFB3F20F2925F6CD1F141BB14F</string>
@@ -950,22 +1771,7 @@
 			<key>name</key>
 			<string>Release</string>
 		</dict>
-		<key>680825A267F4CADCA49F0F58B797BE75</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>file.xib</string>
-			<key>name</key>
-			<string>UMSnsAccountViewController.xib</string>
-			<key>path</key>
-			<string>Umeng_SDK_Social_iOS_ARM64_5.1/UMSocial_Sdk_5.1/SocialSDKXib/UMSnsAccountViewController.xib</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>688A265AFB0BE3FB1CB7AD0CD618289F</key>
+		<key>7B0E74287062847BE78E384DEB8CCB2E</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -974,26 +1780,200 @@
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.objc</string>
 			<key>name</key>
-			<string>MASViewConstraint.m</string>
+			<string>UIImageView+WebCache.m</string>
 			<key>path</key>
-			<string>Masonry/MASViewConstraint.m</string>
+			<string>SDWebImage/UIImageView+WebCache.m</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>6911BECA35E7518D864239B7E898EEF3</key>
+		<key>7BF199F9C79FFA551EF3D3E2264991FC</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
-			<string>text.script.sh</string>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>UIImage+MultiFormat.m</string>
 			<key>path</key>
-			<string>Pods-frameworks.sh</string>
+			<string>SDWebImage/UIImage+MultiFormat.m</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>6AE5A38E005E4410619E5A79F179ADDC</key>
+		<key>7DB346D0F39D3F0E887471402A8071AB</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>BA6428E9F66FD5A23C0A2E06ED26CD2F</string>
+				<string>122DA2E5084A4393C29BE363C764795C</string>
+				<string>AD3E1FC94F299F4C7BFC9E9176FA9876</string>
+				<string>495504BDA95264EF9DA1F1B02343C7A1</string>
+				<string>037C0CA694176A3C0915F62C9D20B3E6</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>80D1C378B3CC6ED72C3FC3479813C214</key>
+		<dict>
+			<key>fileRef</key>
+			<string>05083F0A969FDD8C37303CAB2E09A386</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>81159A75379989562486C86D93DB4033</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>file.xib</string>
+			<key>name</key>
+			<string>UMSCommentInputControlleriPad.xib</string>
+			<key>path</key>
+			<string>Umeng_SDK_Social_iOS_ARM64_5.1/UMSocial_Sdk_5.1/SocialSDKXib/UMSCommentInputControlleriPad.xib</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>81403CAF6C4C1D3DC8B199289C3A6F59</key>
+		<dict>
+			<key>fileRef</key>
+			<string>3F07A094BDFD2E3CAE3EB0E41289BED2</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>81599471BAB0420D54E1ADF8507A5113</key>
+		<dict>
+			<key>fileRef</key>
+			<string>F69DDA4315A0C6D5D499021C617CEBE6</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>83438ADC94A2D9C1247820B9952114D0</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>UMSocialTumblrHandler.h</string>
+			<key>path</key>
+			<string>Umeng_SDK_Social_iOS_ARM64_5.1/UMSocial_Sdk_Extra_Frameworks/Tumblr/UMSocialTumblrHandler.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>838CDAEE4445171351D29B1233DB2B54</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>D2140778F0DFA2675FAFECE204ECF1E1</string>
+				<string>0AB09A9A219F03DAD17C3FFF290D589D</string>
+			</array>
+			<key>isa</key>
+			<string>PBXFrameworksBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>83B044DC1E55668A1C39B006FA29CB0D</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>UMSocialTwitterHandler.h</string>
+			<key>path</key>
+			<string>Umeng_SDK_Social_iOS_ARM64_5.1/UMSocial_Sdk_Extra_Frameworks/Twitter/UMSocialTwitterHandler.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>877FE3F66A43B16EF7A28C70548E8509</key>
+		<dict>
+			<key>baseConfigurationReference</key>
+			<string>925D736030B194D2389AD2B77F7B31F0</string>
+			<key>buildSettings</key>
+			<dict>
+				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
+				<string>YES</string>
+				<key>GCC_PREFIX_HEADER</key>
+				<string>Target Support Files/SDWebImage/SDWebImage-prefix.pch</string>
+				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
+				<string>8.0</string>
+				<key>MTL_ENABLE_DEBUG_INFO</key>
+				<string>NO</string>
+				<key>OTHER_LDFLAGS</key>
+				<string></string>
+				<key>OTHER_LIBTOOLFLAGS</key>
+				<string></string>
+				<key>PRIVATE_HEADERS_FOLDER_PATH</key>
+				<string></string>
+				<key>PRODUCT_NAME</key>
+				<string>$(TARGET_NAME)</string>
+				<key>PUBLIC_HEADERS_FOLDER_PATH</key>
+				<string></string>
+				<key>SDKROOT</key>
+				<string>iphoneos</string>
+				<key>SKIP_INSTALL</key>
+				<string>YES</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Release</string>
+		</dict>
+		<key>89DC4F56365109D3ACD7468656ACA924</key>
+		<dict>
+			<key>fileRef</key>
+			<string>C4E1EF1C3C2ACFC7C2B7AAC1785D5728</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
+		</dict>
+		<key>8ACDEAD8C316A51DCD991E649364E641</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>UIImage+GIF.h</string>
+			<key>path</key>
+			<string>SDWebImage/UIImage+GIF.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>8B90E6A64C4B7A5BB8608B74FF338A3E</key>
+		<dict>
+			<key>fileRef</key>
+			<string>6F3324727221A530A2046209734A0E3B</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
+		</dict>
+		<key>8B96D3A7D631B0356A921DE01FD613BF</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -1008,80 +1988,7 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>6BA5C8376464F296C9A8B5CE6D3E4902</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>UMSocialWechatHandler.h</string>
-			<key>path</key>
-			<string>Umeng_SDK_Social_iOS_ARM64_5.1/UMSocial_Sdk_Extra_Frameworks/Wechat/UMSocialWechatHandler.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>6D2974013AC123F19C2A072A7861AD73</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>LWApiConfig.h</string>
-			<key>path</key>
-			<string>Umeng_SDK_Social_iOS_ARM64_5.1/UMSocial_Sdk_Extra_Frameworks/LaiWang/LWApiConfig.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>6E7E5AF37923BFA48D6994B9BFC6535F</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>name</key>
-			<string>Foundation.framework</string>
-			<key>path</key>
-			<string>Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework</string>
-			<key>sourceTree</key>
-			<string>DEVELOPER_DIR</string>
-		</dict>
-		<key>6EC5F355A54D00624182FA92DFE3710A</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>UMSocialLaiwangHandler.h</string>
-			<key>path</key>
-			<string>Umeng_SDK_Social_iOS_ARM64_5.1/UMSocial_Sdk_Extra_Frameworks/LaiWang/UMSocialLaiwangHandler.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>6F73DEF42683B312EB49F8F9740DA334</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>WBHttpRequest.h</string>
-			<key>path</key>
-			<string>Umeng_SDK_Social_iOS_ARM64_5.1/UMSocial_Sdk_Extra_Frameworks/SinaSSO/WBHttpRequest.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>767BA2E25E3335B0CCB4807519F14440</key>
+		<key>8BF46AE312406DDCCF0317045452DF84</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -1090,42 +1997,47 @@
 			<key>lastKnownFileType</key>
 			<string>file.xib</string>
 			<key>name</key>
-			<string>UMSShareListController.xib</string>
+			<string>UMSCommentInputController.xib</string>
 			<key>path</key>
-			<string>Umeng_SDK_Social_iOS_ARM64_5.1/UMSocial_Sdk_5.1/SocialSDKXib/UMSShareListController.xib</string>
+			<string>Umeng_SDK_Social_iOS_ARM64_5.1/UMSocial_Sdk_5.1/SocialSDKXib/UMSCommentInputController.xib</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>7C2AD1907338C585A35E8B99A5EE2751</key>
+		<key>8E2F695248ACC9CDAB40928984AC2E41</key>
 		<dict>
-			<key>children</key>
+			<key>buildConfigurationList</key>
+			<string>9438DD5F439252C6C95657C5FBBB141D</string>
+			<key>buildPhases</key>
 			<array>
-				<string>600C398081D4671023871909772EE7DF</string>
-				<string>47EB7BD6B10AC5169967CC9D690E0E3F</string>
+				<string>2517190B6083042BD3B1BEBBEB12FB3E</string>
+				<string>56555C16B2B1C1A3BDF99D7491909135</string>
+			</array>
+			<key>buildRules</key>
+			<array/>
+			<key>dependencies</key>
+			<array>
+				<string>647E557EC1C8F9A672749F76F792E7D9</string>
+				<string>290A6A462FBBD01614954BC81CA730E8</string>
 			</array>
 			<key>isa</key>
-			<string>PBXGroup</string>
+			<string>PBXNativeTarget</string>
 			<key>name</key>
-			<string>Products</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
+			<string>Pods</string>
+			<key>productName</key>
+			<string>Pods</string>
+			<key>productReference</key>
+			<string>0EF4B0BFAC25743252110AE3D577CC42</string>
+			<key>productType</key>
+			<string>com.apple.product-type.library.static</string>
 		</dict>
-		<key>7CEFE73EC2BE2A9ECA7B8F3D4CEE5E22</key>
+		<key>9041B4A16F168C4C4F89CCC0B083F952</key>
 		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
+			<key>fileRef</key>
+			<string>7BF199F9C79FFA551EF3D3E2264991FC</string>
 			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>UMSocialAccountManager.h</string>
-			<key>path</key>
-			<string>Umeng_SDK_Social_iOS_ARM64_5.1/UMSocial_Sdk_5.1/Header/UMSocialAccountManager.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
+			<string>PBXBuildFile</string>
 		</dict>
-		<key>7D6648C62B0C33ADDB0545B68CFFF13F</key>
+		<key>91B5FBDB0A3BE215144CBFBBB081A13E</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -1134,155 +2046,16 @@
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.objc</string>
 			<key>name</key>
-			<string>MASConstraint.m</string>
+			<string>MASConstraintMaker.m</string>
 			<key>path</key>
-			<string>Masonry/MASConstraint.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>7D9ABFE63B3E7499446F866D6E90D0D4</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>MASViewAttribute.m</string>
-			<key>path</key>
-			<string>Masonry/MASViewAttribute.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>7DB346D0F39D3F0E887471402A8071AB</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>BA6428E9F66FD5A23C0A2E06ED26CD2F</string>
-				<string>433CD3331B6C3787F473C941B61FC68F</string>
-				<string>C18649215F2D88A7EC1E79F4D404F3AB</string>
-				<string>7C2AD1907338C585A35E8B99A5EE2751</string>
-				<string>037C0CA694176A3C0915F62C9D20B3E6</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>7E564053F73A7D387A58E38CC3DAC2C9</key>
-		<dict>
-			<key>containerPortal</key>
-			<string>D41D8CD98F00B204E9800998ECF8427E</string>
-			<key>isa</key>
-			<string>PBXContainerItemProxy</string>
-			<key>proxyType</key>
-			<string>1</string>
-			<key>remoteGlobalIDString</key>
-			<string>53480ED0BE09FF49E34B1702D485CAAB</string>
-			<key>remoteInfo</key>
-			<string>Masonry</string>
-		</dict>
-		<key>81403CAF6C4C1D3DC8B199289C3A6F59</key>
-		<dict>
-			<key>fileRef</key>
-			<string>DFFD08CFD634DDD1A2C62E084E46ED2B</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>81599471BAB0420D54E1ADF8507A5113</key>
-		<dict>
-			<key>fileRef</key>
-			<string>34A6AFB4F30AB428E12368030A85FA43</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>84C9BFFD7AA00381FAE82B22F272F47F</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>MASConstraintMaker.h</string>
-			<key>path</key>
-			<string>Masonry/MASConstraintMaker.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>86C560C187E2FD0BC9841035E1E368E2</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>WBSDKRelationshipButton.h</string>
-			<key>path</key>
-			<string>Umeng_SDK_Social_iOS_ARM64_5.1/UMSocial_Sdk_Extra_Frameworks/SinaSSO/WBSDKRelationshipButton.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>8A57153E0C17EF4849703C7977F3F48D</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>NSLayoutConstraint+MASDebugAdditions.m</string>
-			<key>path</key>
-			<string>Masonry/NSLayoutConstraint+MASDebugAdditions.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>8A59F440960258F5C18118562D771BF0</key>
-		<dict>
-			<key>fileRef</key>
-			<string>272643F56613CA0D336AE3DBF19DC404</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>8A8C57A080F9CE4E5B7B411D8B7B03AF</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>UMSocialDataService.h</string>
-			<key>path</key>
-			<string>Umeng_SDK_Social_iOS_ARM64_5.1/UMSocial_Sdk_5.1/Header/UMSocialDataService.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>8CF484A5F4844F6CB5B31CFE1CCE9977</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>UMSocialBar.h</string>
-			<key>path</key>
-			<string>Umeng_SDK_Social_iOS_ARM64_5.1/UMSocial_Sdk_5.1/Header/UMSocialBar.h</string>
+			<string>Masonry/MASConstraintMaker.m</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
 		<key>9205037BA8C22574B33FC96C5EA829A3</key>
 		<dict>
 			<key>fileRef</key>
-			<string>97AEEBBCA9BC9E1DDDDA8D0ED6582282</string>
+			<string>4701BA238DE0E2CA45B5B1708F5468EA</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
@@ -1293,7 +2066,20 @@
 				</array>
 			</dict>
 		</dict>
-		<key>927EC381D925D65E580199A4AEEE7F3D</key>
+		<key>925D736030B194D2389AD2B77F7B31F0</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.xcconfig</string>
+			<key>path</key>
+			<string>SDWebImage.xcconfig</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>9431FDF34FA8EC5E8E2D656FA9AE74A2</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -1302,27 +2088,70 @@
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.h</string>
 			<key>name</key>
-			<string>APOpenAPIObject.h</string>
+			<string>UMSocialSinaSSOHandler.h</string>
 			<key>path</key>
-			<string>Umeng_SDK_Social_iOS_ARM64_5.1/UMSocial_Sdk_Extra_Frameworks/AlipayShare/APOpenAPIObject.h</string>
+			<string>Umeng_SDK_Social_iOS_ARM64_5.1/UMSocial_Sdk_Extra_Frameworks/SinaSSO/UMSocialSinaSSOHandler.h</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>945CC92B4D467E95A30BED60CF8AD901</key>
+		<key>9438DD5F439252C6C95657C5FBBB141D</key>
 		<dict>
+			<key>buildConfigurations</key>
+			<array>
+				<string>37740AFC83228D520B155808636288A2</string>
+				<string>78BED058CF95C1E5DE91389361480F74</string>
+			</array>
+			<key>defaultConfigurationIsVisible</key>
+			<string>0</string>
+			<key>defaultConfigurationName</key>
+			<string>Release</string>
 			<key>isa</key>
-			<string>PBXTargetDependency</string>
+			<string>XCConfigurationList</string>
+		</dict>
+		<key>94C4B59DB840F66543C53CDAAECE73A5</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>BCC20B549DADAF4A0E44E809D5C40659</string>
+				<string>B67B3E63DB00BFC93834B9F7999C332C</string>
+				<string>49F9794049256093F27D9630B6E694A0</string>
+				<string>C85150358CEB7AAA732C305F0882D4E1</string>
+				<string>396F46D60118C8808A09254D42DFF75B</string>
+				<string>4BDDD097701AA3B68EA93D140F58E5B2</string>
+				<string>91B5FBDB0A3BE215144CBFBBB081A13E</string>
+				<string>7371A0872972845032122EC830035917</string>
+				<string>38941726C097AB9D1B6D8F4514B29CB6</string>
+				<string>4701BA238DE0E2CA45B5B1708F5468EA</string>
+				<string>C9DE5E320CD356B24D3A13A82311F72B</string>
+				<string>3413C5607B59F859399E123854BD1EA1</string>
+				<string>46A3694EEFFDAFA867FDFFD4FCF8EA3C</string>
+				<string>AE76293E783A446121821E0D4D00641D</string>
+				<string>1A5B4E3401423FBABC6AAF743D54BC95</string>
+				<string>4BEA3DCB3DC6F2855CB6CE56AB16A530</string>
+				<string>2215E90E613D681CE8A7AA707615FCBF</string>
+				<string>B6EF99C12A03DA2B3714B67E4767FEBF</string>
+				<string>3648812B9EC9505B0CBF2B711B3A21ED</string>
+				<string>DDEF58E635420AF98BEA7B4CA3A7826C</string>
+				<string>A8750D3C979B2784D958DFC664F3BF8C</string>
+				<string>3F07A094BDFD2E3CAE3EB0E41289BED2</string>
+				<string>06087EC51B3D7421FB0ADC7DD4E230A7</string>
+				<string>66EA2946616FC1107E5EB555A68BE3C2</string>
+				<string>2F7C65C29AFE6138F204A05A79DE5EFE</string>
+				<string>B962F2CA1683645A8682609D0122E504</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
 			<key>name</key>
 			<string>Masonry</string>
-			<key>target</key>
-			<string>53480ED0BE09FF49E34B1702D485CAAB</string>
-			<key>targetProxy</key>
-			<string>7E564053F73A7D387A58E38CC3DAC2C9</string>
+			<key>path</key>
+			<string>Masonry</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
 		</dict>
 		<key>95AE3FB211FA06239C7330FF540873D7</key>
 		<dict>
 			<key>baseConfigurationReference</key>
-			<string>C895EAFAB35F1EB978A921DE4F7EC602</string>
+			<string>5AD8DC43860823214F653C0F10B0E208</string>
 			<key>buildSettings</key>
 			<dict>
 				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
@@ -1353,7 +2182,21 @@
 			<key>name</key>
 			<string>Debug</string>
 		</dict>
-		<key>97AEEBBCA9BC9E1DDDDA8D0ED6582282</key>
+		<key>95F4B2E4E74EF53D8E0755A3D8E76AB1</key>
+		<dict>
+			<key>fileRef</key>
+			<string>687374ACD6E582442DFF0AC36A4E75C5</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
+		</dict>
+		<key>9771D8B3210BF95727F5E38DA5EC613F</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -1362,9 +2205,24 @@
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.h</string>
 			<key>name</key>
-			<string>Masonry.h</string>
+			<string>WeiboUser.h</string>
 			<key>path</key>
-			<string>Masonry/Masonry.h</string>
+			<string>Umeng_SDK_Social_iOS_ARM64_5.1/UMSocial_Sdk_Extra_Frameworks/SinaSSO/WeiboUser.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>989B24DDB162A33522378A7D3A5ED852</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>NSData+ImageContentType.m</string>
+			<key>path</key>
+			<string>SDWebImage/NSData+ImageContentType.m</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
@@ -1384,7 +2242,7 @@
 		<key>99D8C610BC84BE231C5D3D280F3B12AF</key>
 		<dict>
 			<key>fileRef</key>
-			<string>37648B267519E0518CE2944ECCBE6F28</string>
+			<string>BCC20B549DADAF4A0E44E809D5C40659</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
@@ -1398,11 +2256,86 @@
 		<key>9A6AE1EF2E94AEB6912BE845583E7D57</key>
 		<dict>
 			<key>fileRef</key>
-			<string>C3B7BDF5CE5CB8F095FE12DA55D9A9BB</string>
+			<string>20A70E38F929A6142BB472CEE1546877</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
-		<key>9BC1674DC7BDE295BBBA670FE6C16F1C</key>
+		<key>9B0A6D0CC076475DF8301122EFA70829</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>UIImageView+HighlightedWebCache.m</string>
+			<key>path</key>
+			<string>SDWebImage/UIImageView+HighlightedWebCache.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>9CD5C002F814A8EEEB9A26211E5039B7</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>SDWebImageDownloader.m</string>
+			<key>path</key>
+			<string>SDWebImage/SDWebImageDownloader.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>9DF4FFAAE7244205408FD051138043F7</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>UMSocialLineHandler.h</string>
+			<key>path</key>
+			<string>Umeng_SDK_Social_iOS_ARM64_5.1/UMSocial_Sdk_Extra_Frameworks/Line/UMSocialLineHandler.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>9E46E318432C54CF7596C01012BEB004</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>SDWebImageOperation.h</string>
+			<key>path</key>
+			<string>SDWebImage/SDWebImageOperation.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>9E64833565E8B3F2820690320A68BCFE</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>WBSDKCommentButton.h</string>
+			<key>path</key>
+			<string>Umeng_SDK_Social_iOS_ARM64_5.1/UMSocial_Sdk_Extra_Frameworks/SinaSSO/WBSDKCommentButton.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>A08566F822CBCDC6CC93A558EA1EDC2F</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -1411,56 +2344,24 @@
 			<key>lastKnownFileType</key>
 			<string>file.xib</string>
 			<key>name</key>
-			<string>UMSCommentInputControlleriPad.xib</string>
+			<string>UMShareEditViewController.xib</string>
 			<key>path</key>
-			<string>Umeng_SDK_Social_iOS_ARM64_5.1/UMSocial_Sdk_5.1/SocialSDKXib/UMSCommentInputControlleriPad.xib</string>
+			<string>Umeng_SDK_Social_iOS_ARM64_5.1/UMSocial_Sdk_5.1/SocialSDKXib/UMShareEditViewController.xib</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>9DDA553C2C300FD40CE82E571E5B9D35</key>
+		<key>A1A260CC6B2071AB656636AF5AC75440</key>
 		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
+			<string>wrapper.framework</string>
 			<key>name</key>
-			<string>UMSocialWhatsappHandler.h</string>
+			<string>Foundation.framework</string>
 			<key>path</key>
-			<string>Umeng_SDK_Social_iOS_ARM64_5.1/UMSocial_Sdk_Extra_Frameworks/Whatsapp/UMSocialWhatsappHandler.h</string>
+			<string>Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework</string>
 			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>9E62E2431C43581FC41E998C12FF721E</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>MASViewConstraint.h</string>
-			<key>path</key>
-			<string>Masonry/MASViewConstraint.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>9F134B519A6051771B58015B695E0B58</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>UMSocialControllerServiceComment.h</string>
-			<key>path</key>
-			<string>Umeng_SDK_Social_iOS_ARM64_5.1/UMSocial_Sdk_5.1/Header/UMSocialControllerServiceComment.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
+			<string>DEVELOPER_DIR</string>
 		</dict>
 		<key>A1A36D34413696BE466E2CA0AFF194DA</key>
 		<dict>
@@ -1475,7 +2376,7 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>A1B6F62D5395AF5BC739C9ED104E35D9</key>
+		<key>A25C81C0D413E7AFA5B6C466ED7822FC</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -1484,16 +2385,16 @@
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.h</string>
 			<key>name</key>
-			<string>UMSocialInstagramHandler.h</string>
+			<string>UIButton+WebCache.h</string>
 			<key>path</key>
-			<string>Umeng_SDK_Social_iOS_ARM64_5.1/UMSocial_Sdk_Extra_Frameworks/Instagram/UMSocialInstagramHandler.h</string>
+			<string>SDWebImage/UIButton+WebCache.h</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
 		<key>A44AF130E4C5313CD193D9BF68853026</key>
 		<dict>
 			<key>fileRef</key>
-			<string>7D9ABFE63B3E7499446F866D6E90D0D4</string>
+			<string>46A3694EEFFDAFA867FDFFD4FCF8EA3C</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
@@ -1573,7 +2474,7 @@
 		<key>A7D31BD1F3AD4ED4612467FAD332F388</key>
 		<dict>
 			<key>fileRef</key>
-			<string>4A7F0D376147F880CAC032D361DD5565</string>
+			<string>B6EF99C12A03DA2B3714B67E4767FEBF</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
@@ -1584,22 +2485,7 @@
 				</array>
 			</dict>
 		</dict>
-		<key>A819F8B5968DE5F4E9EC46D1630250C9</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>file.xib</string>
-			<key>name</key>
-			<string>UMShareEditViewControlleriPad.xib</string>
-			<key>path</key>
-			<string>Umeng_SDK_Social_iOS_ARM64_5.1/UMSocial_Sdk_5.1/SocialSDKXib/UMShareEditViewControlleriPad.xib</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>A94590332C1E62E7D6A240D6F33EF7D4</key>
+		<key>A85BDCC417D0D7F58A5610B3F4C74458</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -1608,23 +2494,126 @@
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.h</string>
 			<key>name</key>
-			<string>WBHttpRequest+WeiboUser.h</string>
+			<string>LWApiConfig.h</string>
 			<key>path</key>
-			<string>Umeng_SDK_Social_iOS_ARM64_5.1/UMSocial_Sdk_Extra_Frameworks/SinaSSO/WBHttpRequest+WeiboUser.h</string>
+			<string>Umeng_SDK_Social_iOS_ARM64_5.1/UMSocial_Sdk_Extra_Frameworks/LaiWang/LWApiConfig.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>A8750D3C979B2784D958DFC664F3BF8C</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>View+MASAdditions.h</string>
+			<key>path</key>
+			<string>Masonry/View+MASAdditions.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>A9730BAE338ADFB7106ED887EB70A881</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>LWApiRequest.h</string>
+			<key>path</key>
+			<string>Umeng_SDK_Social_iOS_ARM64_5.1/UMSocial_Sdk_Extra_Frameworks/LaiWang/LWApiRequest.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>ABD0BCEC7F4589FF936D224CABDC3F3E</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>UMSocialAlipayShareHandler.h</string>
+			<key>path</key>
+			<string>Umeng_SDK_Social_iOS_ARM64_5.1/UMSocial_Sdk_Extra_Frameworks/AlipayShare/UMSocialAlipayShareHandler.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>AD3E1FC94F299F4C7BFC9E9176FA9876</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>94C4B59DB840F66543C53CDAAECE73A5</string>
+				<string>DF788B16300CEA1F93DBFA3B4EBAEDC5</string>
+				<string>2DACE1FE36669D6A2B995314D5F0BA3D</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Pods</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>AE76293E783A446121821E0D4D00641D</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>MASViewConstraint.h</string>
+			<key>path</key>
+			<string>Masonry/MASViewConstraint.h</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
 		<key>AF62B956405F7734F5A9B8F3FD4B1B96</key>
 		<dict>
 			<key>fileRef</key>
-			<string>4977ECF8EFCF356E9F0132236921250A</string>
+			<string>2F7C65C29AFE6138F204A05A79DE5EFE</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
+		</dict>
+		<key>B1933C7A591BC8FAA36BCB68EE4DB7AE</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>LWApiSDK.h</string>
+			<key>path</key>
+			<string>Umeng_SDK_Social_iOS_ARM64_5.1/UMSocial_Sdk_Extra_Frameworks/LaiWang/LWApiSDK.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>B24A7D1C38908D361786DB124B9F657B</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>SDWebImage-dummy.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
 		</dict>
 		<key>B2B7C90BA9C4DBD9851C75AC801B0E8E</key>
 		<dict>
 			<key>fileRef</key>
-			<string>E1CA9FC0ADEEE2EB17B51F82C075ACC4</string>
+			<string>396F46D60118C8808A09254D42DFF75B</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
@@ -1656,7 +2645,7 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>B54A11F00E01E5AAA22834A1D71D43A7</key>
+		<key>B4DF16F27CB3F0B1476F4A334FCFFBE7</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -1665,9 +2654,9 @@
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.h</string>
 			<key>name</key>
-			<string>WBSDKCommentButton.h</string>
+			<string>UMSocialInstagramHandler.h</string>
 			<key>path</key>
-			<string>Umeng_SDK_Social_iOS_ARM64_5.1/UMSocial_Sdk_Extra_Frameworks/SinaSSO/WBSDKCommentButton.h</string>
+			<string>Umeng_SDK_Social_iOS_ARM64_5.1/UMSocial_Sdk_Extra_Frameworks/Instagram/UMSocialInstagramHandler.h</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
@@ -1684,6 +2673,98 @@
 			<string>Release</string>
 			<key>isa</key>
 			<string>XCConfigurationList</string>
+		</dict>
+		<key>B67B3E63DB00BFC93834B9F7999C332C</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>MASCompositeConstraint.m</string>
+			<key>path</key>
+			<string>Masonry/MASCompositeConstraint.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>B67DE7A42B0D03637A228D6EAFFD1A12</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>WBSDKBasicButton.h</string>
+			<key>path</key>
+			<string>Umeng_SDK_Social_iOS_ARM64_5.1/UMSocial_Sdk_Extra_Frameworks/SinaSSO/WBSDKBasicButton.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>B6EF99C12A03DA2B3714B67E4767FEBF</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>NSArray+MASShorthandAdditions.h</string>
+			<key>path</key>
+			<string>Masonry/NSArray+MASShorthandAdditions.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>B8658A3932569EC2E9BE03099E4B59A9</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>APOpenAPI.h</string>
+			<key>path</key>
+			<string>Umeng_SDK_Social_iOS_ARM64_5.1/UMSocial_Sdk_Extra_Frameworks/AlipayShare/APOpenAPI.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>B87C3C22FF845E6811736E1272CDA78D</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>UMSocialLaiwangHandler.h</string>
+			<key>path</key>
+			<string>Umeng_SDK_Social_iOS_ARM64_5.1/UMSocial_Sdk_Extra_Frameworks/LaiWang/UMSocialLaiwangHandler.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>B962F2CA1683645A8682609D0122E504</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>5AD8DC43860823214F653C0F10B0E208</string>
+				<string>F69DDA4315A0C6D5D499021C617CEBE6</string>
+				<string>72E30ADE5424F3C1B055C056121E964D</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Support Files</string>
+			<key>path</key>
+			<string>../Target Support Files/Masonry</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
 		</dict>
 		<key>BA6428E9F66FD5A23C0A2E06ED26CD2F</key>
 		<dict>
@@ -1702,7 +2783,22 @@
 			<key>xcLanguageSpecificationIdentifier</key>
 			<string>xcode.lang.ruby</string>
 		</dict>
-		<key>BC51DF2777824C99670BF99DC9623E8E</key>
+		<key>BC1B9279852EDE58095D58620B83BFFE</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>wrapper.plug-in</string>
+			<key>name</key>
+			<string>WeiboSDK.bundle</string>
+			<key>path</key>
+			<string>Umeng_SDK_Social_iOS_ARM64_5.1/UMSocial_Sdk_Extra_Frameworks/SinaSSO/WeiboSDK.bundle</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>BCC20B549DADAF4A0E44E809D5C40659</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -1711,64 +2807,34 @@
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.h</string>
 			<key>name</key>
-			<string>LWApiRequest.h</string>
+			<string>MASCompositeConstraint.h</string>
 			<key>path</key>
-			<string>Umeng_SDK_Social_iOS_ARM64_5.1/UMSocial_Sdk_Extra_Frameworks/LaiWang/LWApiRequest.h</string>
+			<string>Masonry/MASCompositeConstraint.h</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
 		<key>BCD4B362C6194513150915437754E2D4</key>
 		<dict>
 			<key>fileRef</key>
-			<string>5B3BE855889F3F50DB7AABD5F9557F79</string>
+			<string>B67B3E63DB00BFC93834B9F7999C332C</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
-		</dict>
-		<key>BD8DC8CB8C738E8B1AE89624EDA3A27A</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>WeiboSDK.h</string>
-			<key>path</key>
-			<string>Umeng_SDK_Social_iOS_ARM64_5.1/UMSocial_Sdk_Extra_Frameworks/SinaSSO/WeiboSDK.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
 		</dict>
 		<key>BDD210D7537DD15CFE59AE126005E5F8</key>
 		<dict>
 			<key>fileRef</key>
-			<string>DDB339E9874849366A5248FE3455EF7D</string>
+			<string>38941726C097AB9D1B6D8F4514B29CB6</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
 		<key>BE024118D329F8F566BD1811A1DC16CB</key>
 		<dict>
 			<key>fileRef</key>
-			<string>7D6648C62B0C33ADDB0545B68CFFF13F</string>
+			<string>C85150358CEB7AAA732C305F0882D4E1</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
-		<key>BE4419AD5C4581F2971973093F92BF2D</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>NSArray+MASAdditions.m</string>
-			<key>path</key>
-			<string>Masonry/NSArray+MASAdditions.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>BEA5067D3FB4F9BED76096D05B17AF55</key>
+		<key>BE3A8571FCD3A77ABE936794A6DC46E2</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -1777,43 +2843,89 @@
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.h</string>
 			<key>name</key>
-			<string>UMSocialTumblrHandler.h</string>
+			<string>UMSocialFacebookHandler.h</string>
 			<key>path</key>
-			<string>Umeng_SDK_Social_iOS_ARM64_5.1/UMSocial_Sdk_Extra_Frameworks/Tumblr/UMSocialTumblrHandler.h</string>
+			<string>Umeng_SDK_Social_iOS_ARM64_5.1/UMSocial_Sdk_Extra_Frameworks/Facebook/UMSocialFacebookHandler.h</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>C18649215F2D88A7EC1E79F4D404F3AB</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>D2538F3CC75147165AD4404D9AAE612E</string>
-				<string>FD6BB0375AEA46D31E57D74C8C18A07D</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Pods</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>C3B7BDF5CE5CB8F095FE12DA55D9A9BB</key>
+		<key>BED94123217EE144E3E0D5E526435F22</key>
 		<dict>
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
 			<string>wrapper.framework</string>
 			<key>name</key>
-			<string>UIKit.framework</string>
+			<string>ImageIO.framework</string>
 			<key>path</key>
-			<string>Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/UIKit.framework</string>
+			<string>Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/ImageIO.framework</string>
 			<key>sourceTree</key>
 			<string>DEVELOPER_DIR</string>
+		</dict>
+		<key>BFADB35A46219E659EDECF10F487FBB5</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>NSData+ImageContentType.h</string>
+			<key>path</key>
+			<string>SDWebImage/NSData+ImageContentType.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>C4E1EF1C3C2ACFC7C2B7AAC1785D5728</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>UIView+WebCacheOperation.h</string>
+			<key>path</key>
+			<string>SDWebImage/UIView+WebCacheOperation.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>C52156C33CEDD93DC795891B5A1CCFB5</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>UMSocialWechatHandler.h</string>
+			<key>path</key>
+			<string>Umeng_SDK_Social_iOS_ARM64_5.1/UMSocial_Sdk_Extra_Frameworks/Wechat/UMSocialWechatHandler.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>C6B7CC7C546A706466224F1DFF4116AE</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>LWApiMessage.h</string>
+			<key>path</key>
+			<string>Umeng_SDK_Social_iOS_ARM64_5.1/UMSocial_Sdk_Extra_Frameworks/LaiWang/LWApiMessage.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
 		</dict>
 		<key>C6EE194D232E9FE87097C0F1DF91B9FA</key>
 		<dict>
 			<key>fileRef</key>
-			<string>FAD1D93780ED8FC5B03CA6B807B92E62</string>
+			<string>7371A0872972845032122EC830035917</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
@@ -1824,20 +2936,58 @@
 				</array>
 			</dict>
 		</dict>
-		<key>C895EAFAB35F1EB978A921DE4F7EC602</key>
+		<key>C85150358CEB7AAA732C305F0882D4E1</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>MASConstraint.m</string>
 			<key>path</key>
-			<string>Masonry.xcconfig</string>
+			<string>Masonry/MASConstraint.m</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>CAD054142D20F6F20DDB3E470B9F3226</key>
+		<key>C8DE37086379FF12FD0D17EE8D1DAF35</key>
+		<dict>
+			<key>fileRef</key>
+			<string>629E8D115DAD020C7BD654A7292B9F60</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>C9DE5E320CD356B24D3A13A82311F72B</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>MASUtilities.h</string>
+			<key>path</key>
+			<string>Masonry/MASUtilities.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>CE09CD75D40A5DCA8D5FA70AD928894F</key>
+		<dict>
+			<key>fileRef</key>
+			<string>6ED25F0DF926272070C902DFCFA8F7B6</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
+		</dict>
+		<key>CEEABEAF4FE61823F286FD35AAC862D8</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -1852,65 +3002,31 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>D183D2FD144AE9F3AA6D50256FA3CE51</key>
+		<key>D19DFDE1427E3BC9789AF2E0B20AE039</key>
 		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
+			<key>fileRef</key>
+			<string>3453F1B524B4A6A7BA418F6F4C2F9F3F</string>
 			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>file.xib</string>
-			<key>name</key>
-			<string>UMSCommentDetailController.xib</string>
-			<key>path</key>
-			<string>Umeng_SDK_Social_iOS_ARM64_5.1/UMSocial_Sdk_5.1/SocialSDKXib/UMSCommentDetailController.xib</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
 		</dict>
-		<key>D2538F3CC75147165AD4404D9AAE612E</key>
+		<key>D2140778F0DFA2675FAFECE204ECF1E1</key>
 		<dict>
-			<key>children</key>
-			<array>
-				<string>37648B267519E0518CE2944ECCBE6F28</string>
-				<string>5B3BE855889F3F50DB7AABD5F9557F79</string>
-				<string>43B17C6C47D8C6DE9D98BC2915658757</string>
-				<string>7D6648C62B0C33ADDB0545B68CFFF13F</string>
-				<string>E1CA9FC0ADEEE2EB17B51F82C075ACC4</string>
-				<string>84C9BFFD7AA00381FAE82B22F272F47F</string>
-				<string>670971A5B6CC6A63CFF44E0A84F574D7</string>
-				<string>FAD1D93780ED8FC5B03CA6B807B92E62</string>
-				<string>DDB339E9874849366A5248FE3455EF7D</string>
-				<string>97AEEBBCA9BC9E1DDDDA8D0ED6582282</string>
-				<string>10A01A0B37CF8A5ACA7B3D3E6A4F4196</string>
-				<string>FD39780B59445DE63D9164570B5ABABF</string>
-				<string>7D9ABFE63B3E7499446F866D6E90D0D4</string>
-				<string>9E62E2431C43581FC41E998C12FF721E</string>
-				<string>688A265AFB0BE3FB1CB7AD0CD618289F</string>
-				<string>DFD64BDAE7AD699EFB15763C8F853F5E</string>
-				<string>BE4419AD5C4581F2971973093F92BF2D</string>
-				<string>4A7F0D376147F880CAC032D361DD5565</string>
-				<string>F3BD01B8088EAA4D7AAE9E3C2C3AB8ED</string>
-				<string>8A57153E0C17EF4849703C7977F3F48D</string>
-				<string>DB71894EFC27CBECD1DB7C9EC29FC291</string>
-				<string>DFFD08CFD634DDD1A2C62E084E46ED2B</string>
-				<string>5870E5EB2A15A749B280A028A7191DC8</string>
-				<string>02BA7353E8F39B60BF8F44F3D842A9F8</string>
-				<string>4977ECF8EFCF356E9F0132236921250A</string>
-				<string>329B28EDC8E2FBB91F8F33FCB5B38026</string>
-			</array>
+			<key>fileRef</key>
+			<string>A1A260CC6B2071AB656636AF5AC75440</string>
 			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Masonry</string>
-			<key>path</key>
-			<string>Masonry</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
+			<string>PBXBuildFile</string>
 		</dict>
 		<key>D3D9F12613E23AD64C1FA5F7081A3668</key>
 		<dict>
 			<key>fileRef</key>
-			<string>8A57153E0C17EF4849703C7977F3F48D</string>
+			<string>DDEF58E635420AF98BEA7B4CA3A7826C</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
@@ -1940,7 +3056,7 @@
 			<key>mainGroup</key>
 			<string>7DB346D0F39D3F0E887471402A8071AB</string>
 			<key>productRefGroup</key>
-			<string>7C2AD1907338C585A35E8B99A5EE2751</string>
+			<string>495504BDA95264EF9DA1F1B02343C7A1</string>
 			<key>projectDirPath</key>
 			<string></string>
 			<key>projectReferences</key>
@@ -1950,38 +3066,26 @@
 			<key>targets</key>
 			<array>
 				<string>53480ED0BE09FF49E34B1702D485CAAB</string>
-				<string>660D7C18573951D8F09434C11E127EC4</string>
+				<string>8E2F695248ACC9CDAB40928984AC2E41</string>
+				<string>ED327B853CF9B008129E6325D377A3EF</string>
 			</array>
 		</dict>
-		<key>D53EF014F088A1A0D8B2B3E445354866</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>1CC3D530839D2EECBAA9B891DDE892BB</string>
-			</array>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>DA79B74BBEBA8B50F07837616893CBD3</key>
+		<key>D42AA0650B59F29D1AFB8EBBD1ADA747</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
+			<string>sourcecode.c.objc</string>
 			<key>name</key>
-			<string>LWApiResponse.h</string>
+			<string>SDWebImageDownloaderOperation.m</string>
 			<key>path</key>
-			<string>Umeng_SDK_Social_iOS_ARM64_5.1/UMSocial_Sdk_Extra_Frameworks/LaiWang/LWApiResponse.h</string>
+			<string>SDWebImage/SDWebImageDownloaderOperation.m</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>DB71894EFC27CBECD1DB7C9EC29FC291</key>
+		<key>D49699A6E88CBC1D6A67F6EAC728A6E7</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -1990,9 +3094,53 @@
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.h</string>
 			<key>name</key>
-			<string>View+MASAdditions.h</string>
+			<string>UMSocialWhatsappHandler.h</string>
 			<key>path</key>
-			<string>Masonry/View+MASAdditions.h</string>
+			<string>Umeng_SDK_Social_iOS_ARM64_5.1/UMSocial_Sdk_Extra_Frameworks/Whatsapp/UMSocialWhatsappHandler.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>D4E8D7A8EE2A224C4F50E59FD05B5B55</key>
+		<dict>
+			<key>fileRef</key>
+			<string>8ACDEAD8C316A51DCD991E649364E641</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
+		</dict>
+		<key>D5EBE45FC27AF2E15207B2A8B864FD64</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>UMSocialSnsPlatformManager.h</string>
+			<key>path</key>
+			<string>Umeng_SDK_Social_iOS_ARM64_5.1/UMSocial_Sdk_5.1/Header/UMSocialSnsPlatformManager.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>D6F7469901786B91ED02AC224A5CFE2D</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>SDWebImageManager.m</string>
+			<key>path</key>
+			<string>SDWebImage/SDWebImageManager.m</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
@@ -2022,7 +3170,7 @@
 		<key>DD1F717B0527C71229B3339324E35E55</key>
 		<dict>
 			<key>fileRef</key>
-			<string>DB71894EFC27CBECD1DB7C9EC29FC291</string>
+			<string>A8750D3C979B2784D958DFC664F3BF8C</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
@@ -2033,7 +3181,188 @@
 				</array>
 			</dict>
 		</dict>
-		<key>DDAC691B9F9DE54D194FF21543758D2C</key>
+		<key>DDEF58E635420AF98BEA7B4CA3A7826C</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>NSLayoutConstraint+MASDebugAdditions.m</string>
+			<key>path</key>
+			<string>Masonry/NSLayoutConstraint+MASDebugAdditions.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>DE6261101AE749EA760BCF3D81F95836</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>UMSocialConfig.h</string>
+			<key>path</key>
+			<string>Umeng_SDK_Social_iOS_ARM64_5.1/UMSocial_Sdk_5.1/Header/UMSocialConfig.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>DF788B16300CEA1F93DBFA3B4EBAEDC5</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>06F89D16A128387D3EB634D78349CD98</string>
+				<string>377523570B56969E26485D16633DF474</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>SDWebImage</string>
+			<key>path</key>
+			<string>SDWebImage</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>DF97E13E6C803DFA4D01CCC8B828BBF8</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>file.xib</string>
+			<key>name</key>
+			<string>UMSShareListController.xib</string>
+			<key>path</key>
+			<string>Umeng_SDK_Social_iOS_ARM64_5.1/UMSocial_Sdk_5.1/SocialSDKXib/UMSShareListController.xib</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>DF9EFDCAD8C38E7C1E009520DEF1E61B</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>WBHttpRequest+WeiboToken.h</string>
+			<key>path</key>
+			<string>Umeng_SDK_Social_iOS_ARM64_5.1/UMSocial_Sdk_Extra_Frameworks/SinaSSO/WBHttpRequest+WeiboToken.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>E19A28B62F571EC79E0842E3766A4E2C</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>UMSocialControllerService.h</string>
+			<key>path</key>
+			<string>Umeng_SDK_Social_iOS_ARM64_5.1/UMSocial_Sdk_5.1/Header/UMSocialControllerService.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>E47DDCD7BE92A4B9440ED1AC5F78C837</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>LWApiConnection.h</string>
+			<key>path</key>
+			<string>Umeng_SDK_Social_iOS_ARM64_5.1/UMSocial_Sdk_Extra_Frameworks/LaiWang/LWApiConnection.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>E6B49FBCE3957DB67F691ACCC4CAF4BE</key>
+		<dict>
+			<key>fileRef</key>
+			<string>1A5B4E3401423FBABC6AAF743D54BC95</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>EB02AEF303313F801392DE8D90AFF0F7</key>
+		<dict>
+			<key>fileRef</key>
+			<string>AE76293E783A446121821E0D4D00641D</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
+		</dict>
+		<key>EC6CCC98505D2067BC98B4E6223C9DF8</key>
+		<dict>
+			<key>fileRef</key>
+			<string>4BDDD097701AA3B68EA93D140F58E5B2</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
+		</dict>
+		<key>EC8506E8ADFB8D4738BF5C4E22861A5A</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>WeiboSDK.h</string>
+			<key>path</key>
+			<string>Umeng_SDK_Social_iOS_ARM64_5.1/UMSocial_Sdk_Extra_Frameworks/SinaSSO/WeiboSDK.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>ED327B853CF9B008129E6325D377A3EF</key>
+		<dict>
+			<key>buildConfigurationList</key>
+			<string>26CACEE8EBAE33FFEC7E38224731E1DA</string>
+			<key>buildPhases</key>
+			<array>
+				<string>178DDF68CAF7F5D16D4E8495A8FDDEDF</string>
+				<string>838CDAEE4445171351D29B1233DB2B54</string>
+				<string>35C6385621040D4FE36D5D6C38F2A8F3</string>
+			</array>
+			<key>buildRules</key>
+			<array/>
+			<key>dependencies</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXNativeTarget</string>
+			<key>name</key>
+			<string>SDWebImage</string>
+			<key>productName</key>
+			<string>SDWebImage</string>
+			<key>productReference</key>
+			<string>4DF02BC2302E9A92F6F6E914B9B22C6D</string>
+			<key>productType</key>
+			<string>com.apple.product-type.library.static</string>
+		</dict>
+		<key>EFE8F6A072DFC70BC866BD37D6749653</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -2048,133 +3377,29 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>DDB339E9874849366A5248FE3455EF7D</key>
+		<key>F045BA78E1A21DFEE0A175C0DA529D84</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
+			<string>wrapper.plug-in</string>
 			<key>name</key>
-			<string>MASLayoutConstraint.m</string>
+			<string>TencentOpenApi_IOS_Bundle.bundle</string>
 			<key>path</key>
-			<string>Masonry/MASLayoutConstraint.m</string>
+			<string>Umeng_SDK_Social_iOS_ARM64_5.1/UMSocial_Sdk_Extra_Frameworks/TencentOpenAPI/TencentOpenApi_IOS_Bundle.bundle</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>DDC7E5721CF355355F1AE9F8B46856D6</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>UMSocialTwitterHandler.h</string>
-			<key>path</key>
-			<string>Umeng_SDK_Social_iOS_ARM64_5.1/UMSocial_Sdk_Extra_Frameworks/Twitter/UMSocialTwitterHandler.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>DFD64BDAE7AD699EFB15763C8F853F5E</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>NSArray+MASAdditions.h</string>
-			<key>path</key>
-			<string>Masonry/NSArray+MASAdditions.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>DFFD08CFD634DDD1A2C62E084E46ED2B</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>View+MASAdditions.m</string>
-			<key>path</key>
-			<string>Masonry/View+MASAdditions.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>E0C5F8CB787626DDAE2D400E00B5A408</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>file.xib</string>
-			<key>name</key>
-			<string>UMSCommentInputController.xib</string>
-			<key>path</key>
-			<string>Umeng_SDK_Social_iOS_ARM64_5.1/UMSocial_Sdk_5.1/SocialSDKXib/UMSCommentInputController.xib</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>E1CA9FC0ADEEE2EB17B51F82C075ACC4</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>MASConstraint+Private.h</string>
-			<key>path</key>
-			<string>Masonry/MASConstraint+Private.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>E6B49FBCE3957DB67F691ACCC4CAF4BE</key>
+		<key>F0A87BE31EE189303F54553869B82979</key>
 		<dict>
 			<key>fileRef</key>
-			<string>688A265AFB0BE3FB1CB7AD0CD618289F</string>
+			<string>989B24DDB162A33522378A7D3A5ED852</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
-		<key>E703E8113AB1C1FA5F9608A58026B3F3</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>UMSocialSinaSSOHandler.h</string>
-			<key>path</key>
-			<string>Umeng_SDK_Social_iOS_ARM64_5.1/UMSocial_Sdk_Extra_Frameworks/SinaSSO/UMSocialSinaSSOHandler.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>EB02AEF303313F801392DE8D90AFF0F7</key>
-		<dict>
-			<key>fileRef</key>
-			<string>9E62E2431C43581FC41E998C12FF721E</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>EC55F42C1CA9E077DB5E7E932898AD0E</key>
+		<key>F3C8323B173DDF58593DB44A0B2CBE56</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -2189,21 +3414,7 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>EC6CCC98505D2067BC98B4E6223C9DF8</key>
-		<dict>
-			<key>fileRef</key>
-			<string>84C9BFFD7AA00381FAE82B22F272F47F</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>EFA124B5C54AA4B116D99707DB78D30D</key>
+		<key>F44EB671CE4F4CF59C8ED562C8B7361B</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -2212,91 +3423,37 @@
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.h</string>
 			<key>name</key>
-			<string>UMSocialFacebookHandler.h</string>
+			<string>SDWebImageDownloader.h</string>
 			<key>path</key>
-			<string>Umeng_SDK_Social_iOS_ARM64_5.1/UMSocial_Sdk_Extra_Frameworks/Facebook/UMSocialFacebookHandler.h</string>
+			<string>SDWebImage/SDWebImageDownloader.h</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>F3BD01B8088EAA4D7AAE9E3C2C3AB8ED</key>
+		<key>F69DDA4315A0C6D5D499021C617CEBE6</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>NSLayoutConstraint+MASDebugAdditions.h</string>
+			<string>sourcecode.c.objc</string>
 			<key>path</key>
-			<string>Masonry/NSLayoutConstraint+MASDebugAdditions.h</string>
+			<string>Masonry-dummy.m</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>F45AD0C5B658FF77B37B0DAA9D30F4E6</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>1215CFDF6D1836DB28FBC1AC67F759B0</string>
-				<string>049455C77D582EDB17BE520F3995EEC2</string>
-				<string>D183D2FD144AE9F3AA6D50256FA3CE51</string>
-				<string>E0C5F8CB787626DDAE2D400E00B5A408</string>
-				<string>9BC1674DC7BDE295BBBA670FE6C16F1C</string>
-				<string>1CDDC6ACB1C6A279E7692133032060EF</string>
-				<string>A819F8B5968DE5F4E9EC46D1630250C9</string>
-				<string>586459875B2CC792D90C379952780A10</string>
-				<string>680825A267F4CADCA49F0F58B797BE75</string>
-				<string>EC55F42C1CA9E077DB5E7E932898AD0E</string>
-				<string>767BA2E25E3335B0CCB4807519F14440</string>
-				<string>38B551A10CEF23638B3EAD7B09C6C174</string>
-				<string>1C5B56028AF06AE748B2F16D29CA23E2</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Resources</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>F592CABF0C78F17121B7D02645697BC1</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>489266C9B11B191BEB1C5BBB6F4217DB</string>
-				<string>67F300D9E19F3BAF736062496FC4A46B</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>F7C1EED5EBAC20E72661DCB451B33BD1</key>
+		<key>F87B6E94F5109C6AA28AA7465311DFD9</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
+			<string>sourcecode.c.objc</string>
 			<key>name</key>
-			<string>UMSocialSnsData.h</string>
+			<string>UIImage+GIF.m</string>
 			<key>path</key>
-			<string>Umeng_SDK_Social_iOS_ARM64_5.1/UMSocial_Sdk_5.1/Header/UMSocialSnsData.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>F84916276C0CA899133E24B4BE28DD9A</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>Masonry-prefix.pch</string>
+			<string>SDWebImage/UIImage+GIF.m</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
@@ -2313,21 +3470,6 @@
 			<string>PBXFrameworksBuildPhase</string>
 			<key>runOnlyForDeploymentPostprocessing</key>
 			<string>0</string>
-		</dict>
-		<key>FAD1D93780ED8FC5B03CA6B807B92E62</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>MASLayoutConstraint.h</string>
-			<key>path</key>
-			<string>Masonry/MASLayoutConstraint.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
 		</dict>
 		<key>FB45FFD90572718D82AB9092B750F0CA</key>
 		<dict>
@@ -2397,10 +3539,25 @@
 			<key>name</key>
 			<string>Release</string>
 		</dict>
+		<key>FBC5AFB805C32397EDD3607AEBC110DC</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>file.xib</string>
+			<key>name</key>
+			<string>UMShareEditViewControlleriPad.xib</string>
+			<key>path</key>
+			<string>Umeng_SDK_Social_iOS_ARM64_5.1/UMSocial_Sdk_5.1/SocialSDKXib/UMShareEditViewControlleriPad.xib</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
 		<key>FCB543E03B40FD44221FE9A409AE51EA</key>
 		<dict>
 			<key>baseConfigurationReference</key>
-			<string>C895EAFAB35F1EB978A921DE4F7EC602</string>
+			<string>5AD8DC43860823214F653C0F10B0E208</string>
 			<key>buildSettings</key>
 			<dict>
 				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
@@ -2431,25 +3588,25 @@
 			<key>name</key>
 			<string>Release</string>
 		</dict>
-		<key>FD39780B59445DE63D9164570B5ABABF</key>
+		<key>FD1DE03827054A4454E53854B14A83E2</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
+			<string>file.xib</string>
 			<key>name</key>
-			<string>MASViewAttribute.h</string>
+			<string>UMSCommentDetailController.xib</string>
 			<key>path</key>
-			<string>Masonry/MASViewAttribute.h</string>
+			<string>Umeng_SDK_Social_iOS_ARM64_5.1/UMSocial_Sdk_5.1/SocialSDKXib/UMSCommentDetailController.xib</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
 		<key>FD39EBE3398E1A99965AC003B273450D</key>
 		<dict>
 			<key>fileRef</key>
-			<string>DFD64BDAE7AD699EFB15763C8F853F5E</string>
+			<string>4BEA3DCB3DC6F2855CB6CE56AB16A530</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
@@ -2460,86 +3617,38 @@
 				</array>
 			</dict>
 		</dict>
-		<key>FD6BB0375AEA46D31E57D74C8C18A07D</key>
+		<key>FD42A20AEDA3E4AE9B97E8561318D813</key>
 		<dict>
-			<key>children</key>
-			<array>
-				<string>3AD23D73B0136EEEC8F4897075A5B4C6</string>
-				<string>927EC381D925D65E580199A4AEEE7F3D</string>
-				<string>6D2974013AC123F19C2A072A7861AD73</string>
-				<string>20E0A54CAC66A7F0665B001609BD1DA6</string>
-				<string>1FAAB8CF880EB433BAF06BB0B5344B09</string>
-				<string>478E7E52515F0F9989AFE1789EA43C20</string>
-				<string>00983354ADE00065358DF384DED3674E</string>
-				<string>BC51DF2777824C99670BF99DC9623E8E</string>
-				<string>DA79B74BBEBA8B50F07837616893CBD3</string>
-				<string>3DF8819BE00FB521E1F6AF3B823C6D80</string>
-				<string>CAD054142D20F6F20DDB3E470B9F3226</string>
-				<string>4F7ECB96BB523A00565128B717F3AEB8</string>
-				<string>7CEFE73EC2BE2A9ECA7B8F3D4CEE5E22</string>
-				<string>11DBCCF9065E7597767067AA776AAAF5</string>
-				<string>8CF484A5F4844F6CB5B31CFE1CCE9977</string>
-				<string>41F534C60B90B1F7F338B3F68AB1E37E</string>
-				<string>27333318263E58558F7049760E4929A4</string>
-				<string>9F134B519A6051771B58015B695E0B58</string>
-				<string>4A8F03218EC5299A6549132AEE2CBA94</string>
-				<string>8A8C57A080F9CE4E5B7B411D8B7B03AF</string>
-				<string>EFA124B5C54AA4B116D99707DB78D30D</string>
-				<string>A1B6F62D5395AF5BC739C9ED104E35D9</string>
-				<string>6EC5F355A54D00624182FA92DFE3710A</string>
-				<string>0EE1BFD1F86921DDEABECF9722046726</string>
-				<string>12032501FD2AB6CF912687614AFEE9B0</string>
-				<string>E703E8113AB1C1FA5F9608A58026B3F3</string>
-				<string>F7C1EED5EBAC20E72661DCB451B33BD1</string>
-				<string>33513E618F5650C66EBBC7E995910515</string>
-				<string>2DD60EF3D6BDEAB6E306F8FE0964767C</string>
-				<string>BEA5067D3FB4F9BED76096D05B17AF55</string>
-				<string>DDC7E5721CF355355F1AE9F8B46856D6</string>
-				<string>6BA5C8376464F296C9A8B5CE6D3E4902</string>
-				<string>9DDA553C2C300FD40CE82E571E5B9D35</string>
-				<string>6F73DEF42683B312EB49F8F9740DA334</string>
-				<string>DDAC691B9F9DE54D194FF21543758D2C</string>
-				<string>FE880DFD23AA32527DB5CFBB86DEF210</string>
-				<string>4D8055D292164C88468DB0051875ABD8</string>
-				<string>A94590332C1E62E7D6A240D6F33EF7D4</string>
-				<string>0D539728051BCA8458ADB0D3F0AAE066</string>
-				<string>B54A11F00E01E5AAA22834A1D71D43A7</string>
-				<string>86C560C187E2FD0BC9841035E1E368E2</string>
-				<string>19C141460F4C90E62050A57A8ED470D0</string>
-				<string>BD8DC8CB8C738E8B1AE89624EDA3A27A</string>
-				<string>107F8701AB618B8C5A15F4437DCFF31C</string>
-				<string>1E92791394BAF12FD1AE1513E12AEB25</string>
-				<string>6AE5A38E005E4410619E5A79F179ADDC</string>
-				<string>F45AD0C5B658FF77B37B0DAA9D30F4E6</string>
-			</array>
+			<key>fileRef</key>
+			<string>0073570B575EF25C020848231D9B4D4B</string>
 			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>UMengSocialCOM</string>
-			<key>path</key>
-			<string>UMengSocialCOM</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>FE880DFD23AA32527DB5CFBB86DEF210</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>WBHttpRequest+WeiboShare.h</string>
-			<key>path</key>
-			<string>Umeng_SDK_Social_iOS_ARM64_5.1/UMSocial_Sdk_Extra_Frameworks/SinaSSO/WBHttpRequest+WeiboShare.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
 		</dict>
 		<key>FF682E8B083BAEBBDF38C52D89D45E37</key>
 		<dict>
 			<key>fileRef</key>
-			<string>10A01A0B37CF8A5ACA7B3D3E6A4F4196</string>
+			<string>C9DE5E320CD356B24D3A13A82311F72B</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
+		</dict>
+		<key>FFD40979D1A8B6FC5734055F88177A78</key>
+		<dict>
+			<key>fileRef</key>
+			<string>745A6C0BCC0428306D8B82EA106516D2</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>

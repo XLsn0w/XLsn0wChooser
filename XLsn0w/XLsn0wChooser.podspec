@@ -18,6 +18,7 @@ Pod::Spec.new do |s|
   s.resources    = "XLsn0w/Resources/area.plist"
 
   s.dependency 'Masonry'
+  s.dependency 'SDWebImage'
   s.dependency 'UMengSocialCOM', '~> 5.1.0'
 
 end
