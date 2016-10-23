@@ -17,9 +17,13 @@
 #import "XLsn0wPickerSingler.h"
 #import "XLsn0wCenterDatePicker.h"
 #import "XLsn0wChooserTimer.h"
+#import "XLsn0wChooserMenu.h"
 #import "XLsn0wActionSheet.h"
+#import "XLsn0wAlertChooser.h"
 #import "XLsn0wCenterDater.h"
 #import "UMSocialShareView.h"
+
+#import "UIViewController+XLsn0wGuidePager.h"
 
 /*********************************************************************************************
  *   __      __   _         _________     _ _     _    _________   __         _         __   *

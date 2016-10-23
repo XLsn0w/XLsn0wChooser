@@ -79,6 +79,46 @@
                                     <action selector="actionsheet:" destination="BYZ-38-t0r" eventType="touchUpInside" id="LKo-Cd-Igb"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nOV-G0-99U">
+                                <frame key="frameInset" minX="136" minY="269" width="39" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Jump"/>
+                                <connections>
+                                    <action selector="Jump:" destination="BYZ-38-t0r" eventType="touchUpInside" id="kDs-hE-o6D"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nS5-58-5Jz">
+                                <frame key="frameInset" minX="8" minY="209" width="98" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="AlertChooser1"/>
+                                <connections>
+                                    <action selector="AlertChooser1:" destination="BYZ-38-t0r" eventType="touchUpInside" id="n1s-RQ-Hgv"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dIA-bN-hfe">
+                                <frame key="frameInset" minX="7" minY="247" width="100" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="AlertChooser2"/>
+                                <connections>
+                                    <action selector="AlertChooser2:" destination="BYZ-38-t0r" eventType="touchUpInside" id="CAs-5a-ODM"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RBV-x9-FFj">
+                                <frame key="frameInset" minX="6" minY="285" width="100" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="AlertChooser3"/>
+                                <connections>
+                                    <action selector="AlertChooser3:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ANL-xh-d3i"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tJY-f5-v8i">
+                                <frame key="frameInset" minX="7" minY="323" width="100" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="AlertChooser4"/>
+                                <connections>
+                                    <action selector="AlertChooser4:" destination="BYZ-38-t0r" eventType="touchUpInside" id="X04-zQ-L8d"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>

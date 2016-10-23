@@ -74,6 +74,20 @@ static const float RealSrceenWidth =  375.0;
     men.dataArray = [NSArray arrayWithObjects:dic1,dic2,dic3,dic4,dic5,dic6,dic7, nil];
     [men show];
 }
+- (IBAction)Jump:(id)sender {
+    
+
+}
+
+- (NSArray<NSString *> *)imageArray {
+    return  @[@"guid01", @"guid02"];
+}
+
+
+- (BOOL)isShowXLsn0wGuidePager {
+    return YES;
+}
+
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
@@ -159,5 +173,28 @@ static const float RealSrceenWidth =  375.0;
             break;
     }
 }
+
+- (IBAction)AlertChooser1:(id)sender {
+      [XLsn0wAlertChooser showWithTitle:@"我是标题,我可以为空" message1:@"我是消息,我也可以为空" druation:1.];
+}
+
+- (IBAction)AlertChooser2:(id)sender {
+    [XLsn0wAlertChooser showWithTitle:@"我是标题,我可以为空" message1:@"我是消息,我也可以为空" cancelButton:@"取消"];
+    
+}
+
+- (IBAction)AlertChooser3:(id)sender {
+    [XLsn0wAlertChooser showWithTitle:@"我是标题,我可以为空" message1:@"我是消息,我也可以为空" cancelButton:@"取消" commitType:KSAlertViewButtonDelete commitAction:^(UIButton *button) {
+        NSLog(@"关闭");
+    }];
+    
+}
+
+- (IBAction)AlertChooser4:(id)sender {
+    [XLsn0wAlertChooser showWithTitle:@"我是标题,我可以为空" message1:@"我是消息,我也可以为空" cancelButton:@"取消" customButton:@"自定义按钮" commitAction:^(UIButton *button) {
+        NSLog(@"关闭");
+    }];
+}
+
 
 @end
