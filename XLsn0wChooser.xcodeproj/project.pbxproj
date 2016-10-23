@@ -8,8 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		1C4D8C062E82C9525D09E533 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4661867F18E551152C79CE55 /* libPods.a */; };
-		3540921E1DB4F18C0066519E /* MXSCycleScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 354092191DB4F18C0066519E /* MXSCycleScrollView.m */; };
-		3540921F1DB4F18C0066519E /* UIColor+HcdCustom.m in Sources */ = {isa = PBXBuildFile; fileRef = 3540921B1DB4F18C0066519E /* UIColor+HcdCustom.m */; };
 		354092201DB4F18C0066519E /* XLsn0wChooserTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = 3540921D1DB4F18C0066519E /* XLsn0wChooserTimer.m */; };
 		357AE2B81DAC7F4D006BEB7A /* XLsn0wPopMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 357AE2B71DAC7F4D006BEB7A /* XLsn0wPopMenu.m */; };
 		3584E59E1DAB3BE300504539 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3584E59D1DAB3BE300504539 /* main.m */; };
@@ -36,10 +34,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		354092181DB4F18C0066519E /* MXSCycleScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MXSCycleScrollView.h; sourceTree = "<group>"; };
-		354092191DB4F18C0066519E /* MXSCycleScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MXSCycleScrollView.m; sourceTree = "<group>"; };
-		3540921A1DB4F18C0066519E /* UIColor+HcdCustom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+HcdCustom.h"; sourceTree = "<group>"; };
-		3540921B1DB4F18C0066519E /* UIColor+HcdCustom.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+HcdCustom.m"; sourceTree = "<group>"; };
 		3540921C1DB4F18C0066519E /* XLsn0wChooserTimer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLsn0wChooserTimer.h; sourceTree = "<group>"; };
 		3540921D1DB4F18C0066519E /* XLsn0wChooserTimer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLsn0wChooserTimer.m; sourceTree = "<group>"; };
 		357AE2B61DAC7F4D006BEB7A /* XLsn0wPopMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLsn0wPopMenu.h; sourceTree = "<group>"; };
@@ -105,10 +99,6 @@
 			children = (
 				3540921C1DB4F18C0066519E /* XLsn0wChooserTimer.h */,
 				3540921D1DB4F18C0066519E /* XLsn0wChooserTimer.m */,
-				354092181DB4F18C0066519E /* MXSCycleScrollView.h */,
-				354092191DB4F18C0066519E /* MXSCycleScrollView.m */,
-				3540921A1DB4F18C0066519E /* UIColor+HcdCustom.h */,
-				3540921B1DB4F18C0066519E /* UIColor+HcdCustom.m */,
 			);
 			path = XLsn0wChooserTimer;
 			sourceTree = "<group>";
@@ -463,7 +453,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3540921F1DB4F18C0066519E /* UIColor+HcdCustom.m in Sources */,
 				3597ED1F1DB24F34000770C2 /* XLsn0wCenterDatePicker.m in Sources */,
 				35A78C011DAB7A8100D9D180 /* XLsn0wDropMenu.m in Sources */,
 				3584E5A41DAB3BE300504539 /* ViewController.m in Sources */,
@@ -473,7 +462,6 @@
 				3595990A1DB5AB680077667B /* XLsn0wActionSheet.m in Sources */,
 				3597ED131DB248B5000770C2 /* XLsn0wPickerDater.m in Sources */,
 				357AE2B81DAC7F4D006BEB7A /* XLsn0wPopMenu.m in Sources */,
-				3540921E1DB4F18C0066519E /* MXSCycleScrollView.m in Sources */,
 				3584E59E1DAB3BE300504539 /* main.m in Sources */,
 				354092201DB4F18C0066519E /* XLsn0wChooserTimer.m in Sources */,
 				3597ED121DB248B5000770C2 /* XLsn0wToolbar.m in Sources */,

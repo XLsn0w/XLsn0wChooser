@@ -17,8 +17,6 @@
 
 #import "XLsn0wChooserTimer.h"
 
-#import "UIColor+HcdCustom.h"
-
 @interface XLsn0wChooserTimer () <UIGestureRecognizerDelegate> {
     UIView                      *timeBroadcastView;//定时播放显示视图
     UIView                      *topView;
@@ -90,15 +88,6 @@
     [self setAfterScrollShowView:yearScrollView andCurrentPage:1];
 }
 
-/*
-// Only override drawRect: if you perform custom drawing.
-// An empty implementation adversely affects performance during animation.
-- (void)drawRect:(CGRect)rect
-{
-    // Drawing code
-}
-*/
-
 #pragma mark -custompicker
 //设置自定义datepicker界面
 - (void)setTimeBroadcastView
@@ -115,7 +104,7 @@
     topView.backgroundColor = [UIColor colorWithHexString:@"0x6271f3"];
     
     okBtn = [[UIButton alloc]initWithFrame:CGRectMake(kScreen_Width-60, 0, 60, kTopViewHeight)];
-    okBtn.titleLabel.font = [UIFont systemFontOfSize:14];
+    okBtn.titleLabel.font = [UIFont boldSystemFontOfSize:16];
     [okBtn setBackgroundColor:[UIColor clearColor]];
     [okBtn setTitleColor:[UIColor colorWithHexString:@"0xffffff"] forState:UIControlStateNormal];
     [okBtn setTitle:@"确定" forState:UIControlStateNormal];
@@ -124,7 +113,7 @@
     [self addSubview:okBtn];
     
     cancleBtn = [[UIButton alloc]initWithFrame:CGRectMake(0, 0, 60, kTopViewHeight)];
-    cancleBtn.titleLabel.font = [UIFont systemFontOfSize:14];
+    cancleBtn.titleLabel.font = [UIFont boldSystemFontOfSize:16];
     [cancleBtn setBackgroundColor:[UIColor clearColor]];
     [cancleBtn setTitleColor:[UIColor colorWithHexString:@"0xffffff"] forState:UIControlStateNormal];
     [cancleBtn setTitle:@"取消" forState:UIControlStateNormal];
@@ -585,8 +574,9 @@
     return weekDay;
 }
 
-- (void)showHcdDateTimePicker
-{
+- (void)showInSuperview:(UIView *)superview {
+    [superview addSubview:self];
+    
     typeof(self) __weak weak = self;
     [UIView animateWithDuration:0.3f delay:0 usingSpringWithDamping:0.8f initialSpringVelocity:0 options:UIViewAnimationOptionLayoutSubviews animations:^{
         
@@ -694,3 +684,328 @@
 }
 
 @end
+
+@implementation UIColor (XLsn0wChooserTimer)
+
+- (CGColorSpaceModel)colorSpaceModel {
+    return CGColorSpaceGetModel(CGColorGetColorSpace(self.CGColor));
+}
+
+- (BOOL)canProvideRGBComponents {
+    switch (self.colorSpaceModel) {
+        case kCGColorSpaceModelRGB:
+        case kCGColorSpaceModelMonochrome:
+            return YES;
+        default:
+            return NO;
+    }
+}
+
+- (CGFloat)red {
+    NSAssert(self.canProvideRGBComponents, @"Must be an RGB color to use -red");
+    const CGFloat *c = CGColorGetComponents(self.CGColor);
+    return c[0];
+}
+
+- (CGFloat)green {
+    NSAssert(self.canProvideRGBComponents, @"Must be an RGB color to use -green");
+    const CGFloat *c = CGColorGetComponents(self.CGColor);
+    if (self.colorSpaceModel == kCGColorSpaceModelMonochrome) return c[0];
+    return c[1];
+}
+
+- (CGFloat)blue {
+    NSAssert(self.canProvideRGBComponents, @"Must be an RGB color to use -blue");
+    const CGFloat *c = CGColorGetComponents(self.CGColor);
+    if (self.colorSpaceModel == kCGColorSpaceModelMonochrome) return c[0];
+    return c[2];
+}
+
+- (CGFloat)white {
+    NSAssert(self.colorSpaceModel == kCGColorSpaceModelMonochrome, @"Must be a Monochrome color to use -white");
+    const CGFloat *c = CGColorGetComponents(self.CGColor);
+    return c[0];
+}
+
+- (CGFloat)alpha {
+    return CGColorGetAlpha(self.CGColor);
+}
+
+- (UInt32)rgbHex {
+    NSAssert(self.canProvideRGBComponents, @"Must be a RGB color to use rgbHex");
+    
+    CGFloat r,g,b,a;
+    if (![self red:&r green:&g blue:&b alpha:&a]) return 0;
+    
+    r = MIN(MAX(self.red, 0.0f), 1.0f);
+    g = MIN(MAX(self.green, 0.0f), 1.0f);
+    b = MIN(MAX(self.blue, 0.0f), 1.0f);
+    
+    return (((int)roundf(r * 255)) << 16)
+    | (((int)roundf(g * 255)) << 8)
+    | (((int)roundf(b * 255)));
+}
+
+- (BOOL)red:(CGFloat *)red green:(CGFloat *)green blue:(CGFloat *)blue alpha:(CGFloat *)alpha {
+    const CGFloat *components = CGColorGetComponents(self.CGColor);
+    
+    CGFloat r,g,b,a;
+    
+    switch (self.colorSpaceModel) {
+        case kCGColorSpaceModelMonochrome:
+            r = g = b = components[0];
+            a = components[1];
+            break;
+        case kCGColorSpaceModelRGB:
+            r = components[0];
+            g = components[1];
+            b = components[2];
+            a = components[3];
+            break;
+        default:	// We don't know how to handle this model
+            return NO;
+    }
+    
+    if (red) *red = r;
+    if (green) *green = g;
+    if (blue) *blue = b;
+    if (alpha) *alpha = a;
+    
+    return YES;
+}
+
+
++ (UIColor *)colorWithRGBHex:(UInt32)hex {
+    int r = (hex >> 16) & 0xFF;
+    int g = (hex >> 8) & 0xFF;
+    int b = (hex) & 0xFF;
+    
+    return [UIColor colorWithRed:r / 255.0f
+                           green:g / 255.0f
+                            blue:b / 255.0f
+                           alpha:1.0f];
+}
+
++ (UIColor *)colorWithHexString:(NSString *)stringToConvert {
+    NSScanner *scanner = [NSScanner scannerWithString:stringToConvert];
+    unsigned hexNum;
+    if (![scanner scanHexInt:&hexNum]) return nil;
+    return [UIColor colorWithRGBHex:hexNum];
+}
++ (UIColor *)colorWithHexString:(NSString *)stringToConvert andAlpha:(CGFloat)alpha{
+    UIColor *color = [UIColor colorWithHexString:stringToConvert];
+    return [UIColor colorWithRed:color.red green:color.green blue:color.blue alpha:alpha];
+}
+@end
+
+
+
+@implementation MXSCycleScrollView
+
+@synthesize scrollView = _scrollView;
+@synthesize currentPage = _curPage;
+@synthesize datasource = _datasource;
+@synthesize delegate = _delegate;
+
+- (id)initWithFrame:(CGRect)frame
+{
+    self = [super initWithFrame:frame];
+    if (self) {
+        // Initialization code
+        _scrollView = [[UIScrollView alloc] initWithFrame:self.bounds];
+        _scrollView.delegate = self;
+        _scrollView.contentSize = CGSizeMake(self.bounds.size.width, (self.bounds.size.height/5)*7);
+        _scrollView.showsHorizontalScrollIndicator = NO;
+        _scrollView.showsVerticalScrollIndicator = NO;
+        _scrollView.contentOffset = CGPointMake(0, (self.bounds.size.height/5));
+        
+        [self addSubview:_scrollView];
+    }
+    return self;
+}
+//设置初始化页数
+- (void)setCurrentSelectPage:(NSInteger)selectPage
+{
+    _curPage = selectPage;
+}
+
+- (void)setDataource:(id<MXSCycleScrollViewDatasource>)datasource
+{
+    _datasource = datasource;
+    [self reloadData];
+}
+
+- (void)reloadData
+{
+    _totalPages = [_datasource numberOfPages:self];
+    if (_totalPages == 0) {
+        return;
+    }
+    [self loadData];
+}
+
+- (void)loadData
+{
+    //从scrollView上移除所有的subview
+    NSArray *subViews = [_scrollView subviews];
+    if([subViews count] != 0) {
+        [subViews makeObjectsPerformSelector:@selector(removeFromSuperview)];
+    }
+    
+    [self getDisplayImagesWithCurpage:_curPage];
+    
+    for (int i = 0; i < 7; i++) {
+        UIView *v = [_curViews objectAtIndex:i];
+        //        v.userInteractionEnabled = YES;
+        //        UITapGestureRecognizer *singleTap = [[UITapGestureRecognizer alloc] initWithTarget:self
+        //                                                                                    action:@selector(handleTap:)];
+        //        [v addGestureRecognizer:singleTap];
+        v.frame = CGRectOffset(v.frame, 0, v.frame.size.height * i );
+        [_scrollView addSubview:v];
+    }
+    
+    [_scrollView setContentOffset:CGPointMake( 0, (self.bounds.size.height/5) )];
+}
+
+- (void)getDisplayImagesWithCurpage:(NSInteger)page {
+    NSInteger pre1 = [self validPageValue:_curPage-1];
+    NSInteger pre2 = [self validPageValue:_curPage];
+    NSInteger pre3 = [self validPageValue:_curPage+1];
+    NSInteger pre4 = [self validPageValue:_curPage+2];
+    NSInteger pre5 = [self validPageValue:_curPage+3];
+    NSInteger pre = [self validPageValue:_curPage+4];
+    NSInteger last = [self validPageValue:_curPage+5];
+    
+    if (!_curViews) {
+        _curViews = [[NSMutableArray alloc] init];
+    }
+    
+    [_curViews removeAllObjects];
+    
+    [_curViews addObject:[_datasource pageAtIndex:pre1 andScrollView:self]];
+    [_curViews addObject:[_datasource pageAtIndex:pre2 andScrollView:self]];
+    [_curViews addObject:[_datasource pageAtIndex:pre3 andScrollView:self]];
+    [_curViews addObject:[_datasource pageAtIndex:pre4 andScrollView:self]];
+    [_curViews addObject:[_datasource pageAtIndex:pre5 andScrollView:self]];
+    [_curViews addObject:[_datasource pageAtIndex:pre andScrollView:self]];
+    [_curViews addObject:[_datasource pageAtIndex:last andScrollView:self]];
+}
+
+- (NSInteger)validPageValue:(NSInteger)value {
+    
+    if(value < 0 ) value = _totalPages + value;
+    if(value == _totalPages+1) value = 1;
+    if (value == _totalPages+2) value = 2;
+    if(value == _totalPages+3) value = 3;
+    if (value == _totalPages+4) value = 4;
+    if(value == _totalPages) value = 0;
+    
+    
+    return value;
+    
+}
+
+- (void)handleTap:(UITapGestureRecognizer *)tap {
+    
+    if ([_delegate respondsToSelector:@selector(didClickPage:atIndex:)]) {
+        [_delegate didClickPage:self atIndex:_curPage];
+    }
+    
+}
+
+- (void)setViewContent:(UIView *)view atIndex:(NSInteger)index
+{
+    if (index == _curPage) {
+        [_curViews replaceObjectAtIndex:1 withObject:view];
+        for (int i = 0; i < 7; i++) {
+            UIView *v = [_curViews objectAtIndex:i];
+            v.userInteractionEnabled = YES;
+            //            UITapGestureRecognizer *singleTap = [[UITapGestureRecognizer alloc] initWithTarget:self
+            //                                                                                        action:@selector(handleTap:)];
+            //            [v addGestureRecognizer:singleTap];
+            v.frame = CGRectOffset(v.frame, 0, v.frame.size.height * i);
+            [_scrollView addSubview:v];
+        }
+    }
+}
+
+- (void)setAfterScrollShowView:(UIScrollView*)scrollview  andCurrentPage:(NSInteger)pageNumber
+{
+    UILabel *oneLabel = (UILabel*)[[scrollview subviews] objectAtIndex:pageNumber];
+    [oneLabel setFont:[UIFont systemFontOfSize:14]];
+    [oneLabel setTextColor:[UIColor colorWithHexString:@"0xBABABA"]];
+    UILabel *twoLabel = (UILabel*)[[scrollview subviews] objectAtIndex:pageNumber+1];
+    [twoLabel setFont:[UIFont systemFontOfSize:16]];
+    [twoLabel setTextColor:[UIColor colorWithHexString:@"0x717171"]];
+    
+    UILabel *currentLabel = (UILabel*)[[scrollview subviews] objectAtIndex:pageNumber+2];
+    [currentLabel setFont:[UIFont systemFontOfSize:18]];
+    [currentLabel setTextColor:[UIColor blackColor]];
+    
+    UILabel *threeLabel = (UILabel*)[[scrollview subviews] objectAtIndex:pageNumber+3];
+    [threeLabel setFont:[UIFont systemFontOfSize:16]];
+    [threeLabel setTextColor:[UIColor colorWithHexString:@"0x717171"]];
+    UILabel *fourLabel = (UILabel*)[[scrollview subviews] objectAtIndex:pageNumber+4];
+    [fourLabel setFont:[UIFont systemFontOfSize:14]];
+    [fourLabel setTextColor:[UIColor colorWithHexString:@"0xBABABA"]];
+}
+
+#pragma mark - UIScrollViewDelegate
+- (void)scrollViewDidScroll:(UIScrollView *)aScrollView {
+    int y = aScrollView.contentOffset.y;
+    NSInteger page = aScrollView.contentOffset.y/((self.bounds.size.height/5));
+    
+    if (y>2*(self.bounds.size.height/5)) {
+        _curPage = [self validPageValue:_curPage+1];
+        [self loadData];
+    }
+    if (y<=0) {
+        _curPage = [self validPageValue:_curPage-1];
+        [self loadData];
+    }
+    //    //往下翻一张
+    //    if(x >= (4*self.frame.size.width)) {
+    //        _curPage = [self validPageValue:_curPage+1];
+    //        [self loadData];
+    //    }
+    //
+    //    //往上翻
+    //    if(x <= 0) {
+    //
+    //    }
+    if (page>1 || page <=0) {
+        [self setAfterScrollShowView:aScrollView andCurrentPage:1];
+    }
+    if ([_delegate respondsToSelector:@selector(scrollviewDidChangeNumber)]) {
+        [_delegate scrollviewDidChangeNumber];
+    }
+}
+- (void)scrollViewWillBeginDragging:(UIScrollView *)scrollView
+{
+    [self setAfterScrollShowView:scrollView andCurrentPage:1];
+}
+
+- (void)scrollViewDidEndDragging:(UIScrollView *)scrollView willDecelerate:(BOOL)decelerate
+{
+    [_scrollView setContentOffset:CGPointMake(0, (self.bounds.size.height/5)) animated:YES];
+    [self setAfterScrollShowView:scrollView andCurrentPage:1];
+    if ([_delegate respondsToSelector:@selector(scrollviewDidChangeNumber)]) {
+        [_delegate scrollviewDidChangeNumber];
+    }
+}
+
+- (void)scrollViewWillBeginDecelerating:(UIScrollView *)scrollView
+{
+    [self setAfterScrollShowView:scrollView andCurrentPage:1];
+}
+
+- (void)scrollViewDidEndDecelerating:(UIScrollView *)scrollView {
+    [_scrollView setContentOffset:CGPointMake(0, (self.bounds.size.height/5)) animated:YES];
+    [self setAfterScrollShowView:scrollView andCurrentPage:1];
+    if ([_delegate respondsToSelector:@selector(scrollviewDidChangeNumber)]) {
+        [_delegate scrollviewDidChangeNumber];
+    }
+}
+
+@end
+

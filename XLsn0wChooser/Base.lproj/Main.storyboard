@@ -119,6 +119,14 @@
                                     <action selector="AlertChooser4:" destination="BYZ-38-t0r" eventType="touchUpInside" id="X04-zQ-L8d"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gFy-vf-5Ee">
+                                <frame key="frameInset" minX="232" minY="527" width="97" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="ChooserTimer"/>
+                                <connections>
+                                    <action selector="XLsn0wChooserTimer:" destination="BYZ-38-t0r" eventType="touchUpInside" id="UNC-tW-9z8"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>

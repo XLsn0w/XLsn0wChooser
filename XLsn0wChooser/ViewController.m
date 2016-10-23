@@ -196,5 +196,9 @@ static const float RealSrceenWidth =  375.0;
     }];
 }
 
+- (IBAction)XLsn0wChooserTimer:(id)sender {
+    XLsn0wChooserTimer *timer = [[XLsn0wChooserTimer alloc] initWithDatePickerMode:(DatePickerDateMode) defaultDateTime:[NSDate date]];
+    [timer showInSuperview:self.view];
+}
 
 @end

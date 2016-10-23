@@ -9,13 +9,53 @@
  *                                                                                           *
  *********************************************************************************************/
 
+#import <UIKit/UIKit.h>
+
 #define kScreen_Height [UIScreen mainScreen].bounds.size.height
 #define kScreen_Width [UIScreen mainScreen].bounds.size.width
-
 #define kScaleFrom_iPhone5_Desgin(_X_) (_X_ * (kScreen_Width/320))
 
-#import <UIKit/UIKit.h>
-#import "MXSCycleScrollView.h"
+@class MXSCycleScrollView;
+
+@protocol MXSCycleScrollViewDelegate <NSObject>
+
+@optional
+- (void)didClickPage:(MXSCycleScrollView *)csView atIndex:(NSInteger)index;
+- (void)scrollviewDidChangeNumber;
+
+@end
+
+@protocol MXSCycleScrollViewDatasource <NSObject>
+
+@required
+- (NSInteger)numberOfPages:(MXSCycleScrollView*)scrollView;
+- (UIView *)pageAtIndex:(NSInteger)index andScrollView:(MXSCycleScrollView*)scrollView;
+
+@end
+
+@interface MXSCycleScrollView : UIView <UIScrollViewDelegate>
+{
+    UIScrollView *_scrollView;
+    
+    NSInteger _totalPages;
+    NSInteger _curPage;
+    
+    NSMutableArray *_curViews;
+}
+
+@property (nonatomic,readonly) UIScrollView *scrollView;
+@property (nonatomic,assign) NSInteger currentPage;
+
+@property (nonatomic, weak, setter = setDataource:) id<MXSCycleScrollViewDatasource> datasource;
+@property (nonatomic, weak, setter = setDelegate:)  id<MXSCycleScrollViewDelegate> delegate;
+
+- (void)setCurrentSelectPage:(NSInteger)selectPage; //设置初始化页数
+- (void)reloadData;
+- (void)setViewContent:(UIView *)view atIndex:(NSInteger)index;
+
+@end
+
+/**************************************************************************************************/
 
 typedef enum {
     DatePickerDateMode,
@@ -30,7 +70,7 @@ typedef enum {
 typedef void(^DatePickerCompleteAnimationBlock)(BOOL Complete);
 typedef void(^ClickedOkBtn)(NSString *dateTimeStr);
 
-@interface XLsn0wChooserTimer : UIView <MXSCycleScrollViewDatasource,MXSCycleScrollViewDelegate>
+@interface XLsn0wChooserTimer : UIView <MXSCycleScrollViewDatasource, MXSCycleScrollViewDelegate>
 @property (nonatomic,strong) ClickedOkBtn clickedOkBtn;
 
 @property (nonatomic,assign) DatePickerMode datePickerMode;
@@ -40,9 +80,28 @@ typedef void(^ClickedOkBtn)(NSString *dateTimeStr);
 
 -(instancetype)initWithDefaultDatetime:(NSDate*)dateTime;
 -(instancetype)initWithDatePickerMode:(DatePickerMode)datePickerMode defaultDateTime:(NSDate*)dateTime;
--(void) showHcdDateTimePicker;
+
+- (void)showInSuperview:(UIView *)superview;
 
 @end
+
+@interface UIColor (XLsn0wChooserTimer)
+
+@property (nonatomic, readonly) CGColorSpaceModel colorSpaceModel;
+@property (nonatomic, readonly) BOOL canProvideRGBComponents;
+@property (nonatomic, readonly) CGFloat red; // Only valid if canProvideRGBComponents is YES
+@property (nonatomic, readonly) CGFloat green; // Only valid if canProvideRGBComponents is YES
+@property (nonatomic, readonly) CGFloat blue; // Only valid if canProvideRGBComponents is YES
+@property (nonatomic, readonly) CGFloat white; // Only valid if colorSpaceModel == kCGColorSpaceModelMonochrome
+@property (nonatomic, readonly) CGFloat alpha;
+@property (nonatomic, readonly) UInt32 rgbHex;
+
++ (UIColor *)colorWithRGBHex:(UInt32)hex;
++ (UIColor *)colorWithHexString:(NSString *)stringToConvert;
++ (UIColor *)colorWithHexString:(NSString *)stringToConvert andAlpha:(CGFloat)alpha;
+@end
+
+
 
 /*
  
