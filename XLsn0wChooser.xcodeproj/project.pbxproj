@@ -10,6 +10,7 @@
 		1C4D8C062E82C9525D09E533 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4661867F18E551152C79CE55 /* libPods.a */; };
 		353B53F31DBCC92200627DC1 /* XLsn0wTimeChooser.m in Sources */ = {isa = PBXBuildFile; fileRef = 353B53F21DBCC92200627DC1 /* XLsn0wTimeChooser.m */; };
 		353B53F51DBCD13200627DC1 /* XLsn0wChooser.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 353B53F41DBCD13200627DC1 /* XLsn0wChooser.bundle */; };
+		353B53F91DBCD40300627DC1 /* XLsn0wAlertChooser.m in Sources */ = {isa = PBXBuildFile; fileRef = 353B53F81DBCD40300627DC1 /* XLsn0wAlertChooser.m */; };
 		357AE2B81DAC7F4D006BEB7A /* XLsn0wPopMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 357AE2B71DAC7F4D006BEB7A /* XLsn0wPopMenu.m */; };
 		3584E59E1DAB3BE300504539 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3584E59D1DAB3BE300504539 /* main.m */; };
 		3584E5A11DAB3BE300504539 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3584E5A01DAB3BE300504539 /* AppDelegate.m */; };
@@ -22,7 +23,6 @@
 		3593AD191DBC92940047B3FA /* XLsn0wChooser.m in Sources */ = {isa = PBXBuildFile; fileRef = 3593AD181DBC92940047B3FA /* XLsn0wChooser.m */; };
 		3593AD221DBC97EF0047B3FA /* XLsn0wChooserMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 3593AD211DBC97EF0047B3FA /* XLsn0wChooserMenu.m */; };
 		3593AD4C1DBC9C900047B3FA /* UIViewController+XLsn0wGuidePager.m in Sources */ = {isa = PBXBuildFile; fileRef = 3593AD4B1DBC9C900047B3FA /* UIViewController+XLsn0wGuidePager.m */; };
-		3593AD531DBCA4C00047B3FA /* XLsn0wAlertChooser.m in Sources */ = {isa = PBXBuildFile; fileRef = 3593AD511DBCA4C00047B3FA /* XLsn0wAlertChooser.m */; };
 		3593AD5A1DBCBB630047B3FA /* XLsn0wImageSelector.m in Sources */ = {isa = PBXBuildFile; fileRef = 3593AD561DBCBB630047B3FA /* XLsn0wImageSelector.m */; };
 		3593AD5B1DBCBB630047B3FA /* XLsn0wImageSelectorTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3593AD591DBCBB630047B3FA /* XLsn0wImageSelectorTableViewCell.m */; };
 		3595990A1DB5AB680077667B /* XLsn0wActionSheet.m in Sources */ = {isa = PBXBuildFile; fileRef = 359599071DB5AB680077667B /* XLsn0wActionSheet.m */; };
@@ -40,6 +40,8 @@
 		353B53F11DBCC92200627DC1 /* XLsn0wTimeChooser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLsn0wTimeChooser.h; sourceTree = "<group>"; };
 		353B53F21DBCC92200627DC1 /* XLsn0wTimeChooser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLsn0wTimeChooser.m; sourceTree = "<group>"; };
 		353B53F41DBCD13200627DC1 /* XLsn0wChooser.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = XLsn0wChooser.bundle; sourceTree = "<group>"; };
+		353B53F71DBCD40300627DC1 /* XLsn0wAlertChooser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLsn0wAlertChooser.h; sourceTree = "<group>"; };
+		353B53F81DBCD40300627DC1 /* XLsn0wAlertChooser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLsn0wAlertChooser.m; sourceTree = "<group>"; };
 		357AE2B61DAC7F4D006BEB7A /* XLsn0wPopMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLsn0wPopMenu.h; sourceTree = "<group>"; };
 		357AE2B71DAC7F4D006BEB7A /* XLsn0wPopMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLsn0wPopMenu.m; sourceTree = "<group>"; };
 		3584E5991DAB3BE300504539 /* XLsn0wChooser.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XLsn0wChooser.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -61,8 +63,6 @@
 		3593AD211DBC97EF0047B3FA /* XLsn0wChooserMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLsn0wChooserMenu.m; sourceTree = "<group>"; };
 		3593AD4A1DBC9C900047B3FA /* UIViewController+XLsn0wGuidePager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+XLsn0wGuidePager.h"; sourceTree = "<group>"; };
 		3593AD4B1DBC9C900047B3FA /* UIViewController+XLsn0wGuidePager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+XLsn0wGuidePager.m"; sourceTree = "<group>"; };
-		3593AD501DBCA4C00047B3FA /* XLsn0wAlertChooser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLsn0wAlertChooser.h; sourceTree = "<group>"; };
-		3593AD511DBCA4C00047B3FA /* XLsn0wAlertChooser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLsn0wAlertChooser.m; sourceTree = "<group>"; };
 		3593AD551DBCBB630047B3FA /* XLsn0wImageSelector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLsn0wImageSelector.h; sourceTree = "<group>"; };
 		3593AD561DBCBB630047B3FA /* XLsn0wImageSelector.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLsn0wImageSelector.m; sourceTree = "<group>"; };
 		3593AD581DBCBB630047B3FA /* XLsn0wImageSelectorTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLsn0wImageSelectorTableViewCell.h; sourceTree = "<group>"; };
@@ -109,6 +109,15 @@
 				353B53F21DBCC92200627DC1 /* XLsn0wTimeChooser.m */,
 			);
 			path = XLsn0wTimeChooser;
+			sourceTree = "<group>";
+		};
+		353B53F61DBCD40300627DC1 /* XLsn0wAlertChooser */ = {
+			isa = PBXGroup;
+			children = (
+				353B53F71DBCD40300627DC1 /* XLsn0wAlertChooser.h */,
+				353B53F81DBCD40300627DC1 /* XLsn0wAlertChooser.m */,
+			);
+			path = XLsn0wAlertChooser;
 			sourceTree = "<group>";
 		};
 		3584E5901DAB3BE300504539 = {
@@ -161,14 +170,11 @@
 				35A78C031DAB7AA600D9D180 /* XLsn0wChooserKit.h */,
 				3593AD161DBC92940047B3FA /* XLsn0wChooser */,
 				353B53F01DBCC92200627DC1 /* XLsn0wTimeChooser */,
-				3593AD541DBCBB630047B3FA /* XLsn0wImageSelector */,
-				3593AD4D1DBCA4C00047B3FA /* XLsn0wChooserAlerter */,
-				3593AD491DBC9C900047B3FA /* XLsn0wGuidePager */,
+				353B53F61DBCD40300627DC1 /* XLsn0wAlertChooser */,
 				3593AD1F1DBC97EF0047B3FA /* XLsn0wChooserMenu */,
-				3593AD0F1DBC8DEB0047B3FA /* XLsn0wCenterDater */,
-				3593AD1A1DBC945E0047B3FA /* XLsn0wBottomDater */,
-				3595990B1DB5B7510077667B /* UMSocialShareView */,
 				359599011DB5AB680077667B /* XLsn0wActionSheet */,
+				3593AD1A1DBC945E0047B3FA /* XLsn0wBottomDater */,
+				3593AD0F1DBC8DEB0047B3FA /* XLsn0wCenterDater */,
 				3597ED1B1DB24F34000770C2 /* XLsn0wCenterDatePicker */,
 				3597ED081DB248B5000770C2 /* XLsn0wPickerSingler */,
 				3597ED141DB24A18000770C2 /* XLsn0wPickerAreaer */,
@@ -176,6 +182,9 @@
 				35A78BFE1DAB7A8100D9D180 /* XLsn0wPopMenu */,
 				35A78BFB1DAB7A8100D9D180 /* XLsn0wDropMenu */,
 				3597ED0B1DB248B5000770C2 /* XLsn0wToolbar */,
+				3595990B1DB5B7510077667B /* UMSocialShareView */,
+				3593AD541DBCBB630047B3FA /* XLsn0wImageSelector */,
+				3593AD491DBC9C900047B3FA /* XLsn0wGuidePager */,
 				3597ED181DB24A3B000770C2 /* Resources */,
 			);
 			path = XLsn0w;
@@ -222,15 +231,6 @@
 				3593AD4B1DBC9C900047B3FA /* UIViewController+XLsn0wGuidePager.m */,
 			);
 			path = XLsn0wGuidePager;
-			sourceTree = "<group>";
-		};
-		3593AD4D1DBCA4C00047B3FA /* XLsn0wChooserAlerter */ = {
-			isa = PBXGroup;
-			children = (
-				3593AD501DBCA4C00047B3FA /* XLsn0wAlertChooser.h */,
-				3593AD511DBCA4C00047B3FA /* XLsn0wAlertChooser.m */,
-			);
-			path = XLsn0wChooserAlerter;
 			sourceTree = "<group>";
 		};
 		3593AD541DBCBB630047B3FA /* XLsn0wImageSelector */ = {
@@ -485,6 +485,7 @@
 			files = (
 				353B53F31DBCC92200627DC1 /* XLsn0wTimeChooser.m in Sources */,
 				3597ED1F1DB24F34000770C2 /* XLsn0wCenterDatePicker.m in Sources */,
+				353B53F91DBCD40300627DC1 /* XLsn0wAlertChooser.m in Sources */,
 				3593AD5A1DBCBB630047B3FA /* XLsn0wImageSelector.m in Sources */,
 				35A78C011DAB7A8100D9D180 /* XLsn0wDropMenu.m in Sources */,
 				3584E5A41DAB3BE300504539 /* ViewController.m in Sources */,
@@ -498,7 +499,6 @@
 				3597ED121DB248B5000770C2 /* XLsn0wToolbar.m in Sources */,
 				3597ED111DB248B5000770C2 /* XLsn0wPickerSingler.m in Sources */,
 				3593AD4C1DBC9C900047B3FA /* UIViewController+XLsn0wGuidePager.m in Sources */,
-				3593AD531DBCA4C00047B3FA /* XLsn0wAlertChooser.m in Sources */,
 				3593AD5B1DBCBB630047B3FA /* XLsn0wImageSelectorTableViewCell.m in Sources */,
 				3595990E1DB5B7510077667B /* UMSocialShareView.m in Sources */,
 				3593AD221DBC97EF0047B3FA /* XLsn0wChooserMenu.m in Sources */,
