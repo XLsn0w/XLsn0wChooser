@@ -10,14 +10,14 @@
  *********************************************************************************************/
 
 #import "XLsn0wChooser.h"
+#import "XLsn0wTimeChooser.h"
+#import "XLsn0wChooserMenu.h"
 #import "XLsn0wPopMenu.h"
 #import "XLsn0wToolbar.h"
 #import "XLsn0wPickerDater.h"
 #import "XLsn0wPickerAreaer.h"
 #import "XLsn0wPickerSingler.h"
 #import "XLsn0wCenterDatePicker.h"
-#import "XLsn0wChooserTimer.h"
-#import "XLsn0wChooserMenu.h"
 #import "XLsn0wActionSheet.h"
 #import "XLsn0wAlertChooser.h"
 #import "XLsn0wCenterDater.h"

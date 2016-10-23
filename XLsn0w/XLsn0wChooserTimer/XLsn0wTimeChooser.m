@@ -15,9 +15,9 @@
 #define kOKBtnTag 101
 #define kCancleBtnTag 100
 
-#import "XLsn0wChooserTimer.h"
+#import "XLsn0wTimeChooser.h"
 
-@interface XLsn0wChooserTimer () <UIGestureRecognizerDelegate> {
+@interface XLsn0wTimeChooser () <UIGestureRecognizerDelegate> {
     UIView                      *timeBroadcastView;//定时播放显示视图
     UIView                      *topView;
     MXSCycleScrollView          *yearScrollView;//年份滚动视图
@@ -42,10 +42,9 @@
 
 @end
 
-@implementation XLsn0wChooserTimer
+@implementation XLsn0wTimeChooser
 
-- (instancetype)initWithDefaultDatetime:(NSDate *)dateTime
-{
+- (instancetype)initWithDefaultDatetime:(NSDate *)dateTime {
     self = [super init];
     if (self) {
         self.defaultDate = dateTime;
@@ -108,7 +107,7 @@
     [okBtn setBackgroundColor:[UIColor clearColor]];
     [okBtn setTitleColor:[UIColor colorWithHexString:@"0xffffff"] forState:UIControlStateNormal];
     [okBtn setTitle:@"确定" forState:UIControlStateNormal];
-    [okBtn addTarget:self action:@selector(selectedButtons:) forControlEvents:UIControlEventTouchUpInside];
+    [okBtn addTarget:self action:@selector(removeXLsn0wChooserTimerEvent:) forControlEvents:UIControlEventTouchUpInside];
     okBtn.tag = kOKBtnTag;
     [self addSubview:okBtn];
     
@@ -117,7 +116,7 @@
     [cancleBtn setBackgroundColor:[UIColor clearColor]];
     [cancleBtn setTitleColor:[UIColor colorWithHexString:@"0xffffff"] forState:UIControlStateNormal];
     [cancleBtn setTitle:@"取消" forState:UIControlStateNormal];
-    [cancleBtn addTarget:self action:@selector(selectedButtons:) forControlEvents:UIControlEventTouchUpInside];
+    [cancleBtn addTarget:self action:@selector(removeXLsn0wChooserTimerEvent:) forControlEvents:UIControlEventTouchUpInside];
     cancleBtn.tag = kCancleBtnTag;
     [self addSubview:cancleBtn];
     
@@ -592,24 +591,22 @@
     }];
 }
 
--(void)dismissBlock:(DatePickerCompleteAnimationBlock)block{
+- (void)dismissBlock:(DatePickerCompleteAnimationBlock)block {
+    typeof(self) __weak weakSelf = self;
+
     
-    
-    typeof(self) __weak weak = self;
-    CGFloat height = kDatePickerHeight;
-    
-    [UIView animateWithDuration:0.4f delay:0 usingSpringWithDamping:0.8f initialSpringVelocity:0 options:UIViewAnimationOptionLayoutSubviews animations:^{
-        
-        [weak setBackgroundColor:[UIColor colorWithRed:0 green:0 blue:0 alpha:0.0f]];
-        [timeBroadcastView setFrame:CGRectMake(0, kScreen_Height, kScreen_Width, height)];
-        
-    } completion:^(BOOL finished) {
-        
-        block(finished);
-        [self removeFromSuperview];
-        
-    }];
-    
+    [UIView animateWithDuration:0.4f
+                          delay:0
+         usingSpringWithDamping:0.8f
+          initialSpringVelocity:0
+                        options:UIViewAnimationOptionLayoutSubviews
+                     animations:^{
+                         [timeBroadcastView removeFromSuperview];
+                     }
+                     completion:^(BOOL finished) {
+                         block(finished);
+                         [weakSelf removeFromSuperview];
+                     }];
 }
 
 -(void)dismiss:(UITapGestureRecognizer *)tap{
@@ -632,11 +629,11 @@
     return YES;
 }
 
--(void)selectedButtons:(UIButton *)btns{
+-(void)removeXLsn0wChooserTimerEvent:(UIButton *)selectedButton{
     
     typeof(self) __weak weak = self;
     [self dismissBlock:^(BOOL Complete) {
-        if (btns.tag == kOKBtnTag) {
+        if (selectedButton.tag == kOKBtnTag) {
             
             switch (self.datePickerMode) {
                 case DatePickerDateMode:
@@ -685,7 +682,7 @@
 
 @end
 
-@implementation UIColor (XLsn0wChooserTimer)
+@implementation UIColor (XLsn0wTimeChooser)
 
 - (CGColorSpaceModel)colorSpaceModel {
     return CGColorSpaceGetModel(CGColorGetColorSpace(self.CGColor));
