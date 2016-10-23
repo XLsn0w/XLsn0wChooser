@@ -83,7 +83,7 @@
     XLsn0wImageSelectorCollectionViewCell *cell = [collectionView dequeueReusableCellWithReuseIdentifier:@"XLsn0wImageSelectorCollectionViewCell" forIndexPath:indexPath];
     cell.xlsn0wDelegate = self;
     if ((!_editing) && _showNone && _images.count == 0) {
-        cell.imageObject = [UIImage imageNamed:@"KSImageCollection.bundle/KSImageCollectNone"];
+        cell.imageObject = [UIImage imageNamed:@"XLsn0wChooser.bundle/KSImageCollectNone"];
     }else{
         cell.imageObject = _images[indexPath.row];
     }
@@ -220,7 +220,7 @@
         UIButton* btn = [UIButton buttonWithType:UIButtonTypeCustom];
         btn.tag = 100;
         btn.frame = CGRectMake(self.bounds.size.width - 15, 0, 15, 15);
-        [btn setBackgroundImage:[UIImage imageNamed:@"KSImageCollection.bundle/KSImageCollectRemove"] forState:UIControlStateNormal];
+        [btn setBackgroundImage:[UIImage imageNamed:@"XLsn0wChooser.bundle/KSImageCollectRemove"] forState:UIControlStateNormal];
         [btn addTarget:self action:@selector(removeImage:) forControlEvents:UIControlEventTouchUpInside];
         [self.contentView addSubview:btn];
     }
@@ -277,7 +277,7 @@
     if (self) {
         UIButton* btn = [UIButton buttonWithType:UIButtonTypeCustom];
         btn.frame = CGRectInset(self.bounds, 5, 5);
-        [btn setBackgroundImage:[UIImage imageNamed:@"KSImageCollection.bundle/KSImageCollectAdd"] forState:UIControlStateNormal];
+        [btn setBackgroundImage:[UIImage imageNamed:@"XLsn0wChooser.bundle/KSImageCollectAdd"] forState:UIControlStateNormal];
         [btn addTarget:self action:@selector(selectImage:) forControlEvents:UIControlEventTouchUpInside];
         [self addSubview:btn];
     }

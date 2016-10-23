@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		1C4D8C062E82C9525D09E533 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4661867F18E551152C79CE55 /* libPods.a */; };
 		353B53F31DBCC92200627DC1 /* XLsn0wTimeChooser.m in Sources */ = {isa = PBXBuildFile; fileRef = 353B53F21DBCC92200627DC1 /* XLsn0wTimeChooser.m */; };
+		353B53F51DBCD13200627DC1 /* XLsn0wChooser.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 353B53F41DBCD13200627DC1 /* XLsn0wChooser.bundle */; };
 		357AE2B81DAC7F4D006BEB7A /* XLsn0wPopMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 357AE2B71DAC7F4D006BEB7A /* XLsn0wPopMenu.m */; };
 		3584E59E1DAB3BE300504539 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3584E59D1DAB3BE300504539 /* main.m */; };
 		3584E5A11DAB3BE300504539 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3584E5A01DAB3BE300504539 /* AppDelegate.m */; };
@@ -38,6 +39,7 @@
 /* Begin PBXFileReference section */
 		353B53F11DBCC92200627DC1 /* XLsn0wTimeChooser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLsn0wTimeChooser.h; sourceTree = "<group>"; };
 		353B53F21DBCC92200627DC1 /* XLsn0wTimeChooser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLsn0wTimeChooser.m; sourceTree = "<group>"; };
+		353B53F41DBCD13200627DC1 /* XLsn0wChooser.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = XLsn0wChooser.bundle; sourceTree = "<group>"; };
 		357AE2B61DAC7F4D006BEB7A /* XLsn0wPopMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLsn0wPopMenu.h; sourceTree = "<group>"; };
 		357AE2B71DAC7F4D006BEB7A /* XLsn0wPopMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLsn0wPopMenu.m; sourceTree = "<group>"; };
 		3584E5991DAB3BE300504539 /* XLsn0wChooser.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XLsn0wChooser.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -307,6 +309,7 @@
 		3597ED181DB24A3B000770C2 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				353B53F41DBCD13200627DC1 /* XLsn0wChooser.bundle */,
 				3597ED191DB24A3B000770C2 /* area.plist */,
 			);
 			path = Resources;
@@ -417,6 +420,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3584E5CF1DAB3BFD00504539 /* XLsn0wChooser.podspec in Resources */,
+				353B53F51DBCD13200627DC1 /* XLsn0wChooser.bundle in Resources */,
 				3584E5AC1DAB3BE300504539 /* LaunchScreen.storyboard in Resources */,
 				3584E5A91DAB3BE300504539 /* Assets.xcassets in Resources */,
 				3584E5A71DAB3BE300504539 /* Main.storyboard in Resources */,

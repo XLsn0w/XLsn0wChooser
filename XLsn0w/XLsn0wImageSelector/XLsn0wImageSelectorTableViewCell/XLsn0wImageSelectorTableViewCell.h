@@ -29,3 +29,29 @@
 @property (nonatomic,weak) id<XLsn0wImageSelectorTableViewCellDelegate> xlsn0wDelegate;
 
 @end
+
+/***********************************************
+ 
+ XLsn0wImageSelectorTableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"XLsn0wImageSelectorTableViewCell"];
+ cell.imageArray = self.dataSource[indexPath.row];
+ cell.xlsn0wDelegate = self;
+ return cell;
+ 
+ 
+ #pragma mark - <XLsn0wImageSelectorTableViewCellDelegate>
+ 
+ 
+ - (void)xlsn0wImageSelectorTableViewCell:(XLsn0wImageSelectorTableViewCell *)cell shouldAddImageAtIndexPath:(NSIndexPath *)indexPath{
+ NSLog(@"删除图片:%@",indexPath);
+ [self.dataSource[indexPath.section] removeObjectAtIndex:indexPath.row];
+ }
+ 
+ - (void)xlsn0wImageSelectorTableViewCell:(XLsn0wImageSelectorTableViewCell *)cell didSelectAtIndexPath:(NSIndexPath *)indexPath{
+ NSLog(@"点击图片:%@",indexPath);
+ }
+ 
+ - (void)xlsn0wImageSelectorTableViewCell:(XLsn0wImageSelectorTableViewCell *)cell willDeleteAtIndexPath:(NSIndexPath *)indexPath{
+ NSLog(@"添加图片:%@",indexPath);
+ }
+
+ ***************************************************/
