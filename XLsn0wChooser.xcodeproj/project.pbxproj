@@ -11,7 +11,7 @@
 		3540921E1DB4F18C0066519E /* MXSCycleScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 354092191DB4F18C0066519E /* MXSCycleScrollView.m */; };
 		3540921F1DB4F18C0066519E /* UIColor+HcdCustom.m in Sources */ = {isa = PBXBuildFile; fileRef = 3540921B1DB4F18C0066519E /* UIColor+HcdCustom.m */; };
 		354092201DB4F18C0066519E /* XLsn0wChooserTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = 3540921D1DB4F18C0066519E /* XLsn0wChooserTimer.m */; };
-		357AE2B81DAC7F4D006BEB7A /* PopMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 357AE2B71DAC7F4D006BEB7A /* PopMenu.m */; };
+		357AE2B81DAC7F4D006BEB7A /* XLsn0wPopMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 357AE2B71DAC7F4D006BEB7A /* XLsn0wPopMenu.m */; };
 		3584E59E1DAB3BE300504539 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3584E59D1DAB3BE300504539 /* main.m */; };
 		3584E5A11DAB3BE300504539 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3584E5A01DAB3BE300504539 /* AppDelegate.m */; };
 		3584E5A41DAB3BE300504539 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3584E5A31DAB3BE300504539 /* ViewController.m */; };
@@ -19,6 +19,8 @@
 		3584E5A91DAB3BE300504539 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3584E5A81DAB3BE300504539 /* Assets.xcassets */; };
 		3584E5AC1DAB3BE300504539 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3584E5AA1DAB3BE300504539 /* LaunchScreen.storyboard */; };
 		3584E5CF1DAB3BFD00504539 /* XLsn0wChooser.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 3584E5C41DAB3BFD00504539 /* XLsn0wChooser.podspec */; };
+		3593AD121DBC8DEB0047B3FA /* XLsn0wCenterDater.m in Sources */ = {isa = PBXBuildFile; fileRef = 3593AD111DBC8DEB0047B3FA /* XLsn0wCenterDater.m */; };
+		3593AD191DBC92940047B3FA /* XLsn0wChooser.m in Sources */ = {isa = PBXBuildFile; fileRef = 3593AD181DBC92940047B3FA /* XLsn0wChooser.m */; };
 		3595990A1DB5AB680077667B /* XLsn0wActionSheet.m in Sources */ = {isa = PBXBuildFile; fileRef = 359599071DB5AB680077667B /* XLsn0wActionSheet.m */; };
 		3595990E1DB5B7510077667B /* UMSocialShareView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3595990D1DB5B7510077667B /* UMSocialShareView.m */; };
 		3597ED111DB248B5000770C2 /* XLsn0wPickerSingler.m in Sources */ = {isa = PBXBuildFile; fileRef = 3597ED0A1DB248B5000770C2 /* XLsn0wPickerSingler.m */; };
@@ -28,10 +30,6 @@
 		3597ED1A1DB24A3B000770C2 /* area.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3597ED191DB24A3B000770C2 /* area.plist */; };
 		3597ED1F1DB24F34000770C2 /* XLsn0wCenterDatePicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 3597ED1D1DB24F34000770C2 /* XLsn0wCenterDatePicker.m */; };
 		35A78C011DAB7A8100D9D180 /* XLsn0wDropMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 35A78BFD1DAB7A8100D9D180 /* XLsn0wDropMenu.m */; };
-		35A78CA91DAB827000D9D180 /* DPPopUpMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 35A78CA21DAB827000D9D180 /* DPPopUpMenu.m */; };
-		35A78CAA1DAB827000D9D180 /* KSDatePicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 35A78CA41DAB827000D9D180 /* KSDatePicker.m */; };
-		35A78CAB1DAB827000D9D180 /* KSDatePickerAppearance.m in Sources */ = {isa = PBXBuildFile; fileRef = 35A78CA61DAB827000D9D180 /* KSDatePickerAppearance.m */; };
-		35A78CAC1DAB827000D9D180 /* UIColor+DPUIColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 35A78CA81DAB827000D9D180 /* UIColor+DPUIColor.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -41,8 +39,8 @@
 		3540921B1DB4F18C0066519E /* UIColor+HcdCustom.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+HcdCustom.m"; sourceTree = "<group>"; };
 		3540921C1DB4F18C0066519E /* XLsn0wChooserTimer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLsn0wChooserTimer.h; sourceTree = "<group>"; };
 		3540921D1DB4F18C0066519E /* XLsn0wChooserTimer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLsn0wChooserTimer.m; sourceTree = "<group>"; };
-		357AE2B61DAC7F4D006BEB7A /* PopMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PopMenu.h; sourceTree = "<group>"; };
-		357AE2B71DAC7F4D006BEB7A /* PopMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PopMenu.m; sourceTree = "<group>"; };
+		357AE2B61DAC7F4D006BEB7A /* XLsn0wPopMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLsn0wPopMenu.h; sourceTree = "<group>"; };
+		357AE2B71DAC7F4D006BEB7A /* XLsn0wPopMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLsn0wPopMenu.m; sourceTree = "<group>"; };
 		3584E5991DAB3BE300504539 /* XLsn0wChooser.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XLsn0wChooser.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3584E59D1DAB3BE300504539 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		3584E59F1DAB3BE300504539 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -54,6 +52,10 @@
 		3584E5AB1DAB3BE300504539 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3584E5AD1DAB3BE300504539 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3584E5C41DAB3BFD00504539 /* XLsn0wChooser.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = XLsn0wChooser.podspec; sourceTree = "<group>"; };
+		3593AD101DBC8DEB0047B3FA /* XLsn0wCenterDater.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLsn0wCenterDater.h; sourceTree = "<group>"; };
+		3593AD111DBC8DEB0047B3FA /* XLsn0wCenterDater.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLsn0wCenterDater.m; sourceTree = "<group>"; };
+		3593AD171DBC92940047B3FA /* XLsn0wChooser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLsn0wChooser.h; sourceTree = "<group>"; };
+		3593AD181DBC92940047B3FA /* XLsn0wChooser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLsn0wChooser.m; sourceTree = "<group>"; };
 		359599061DB5AB680077667B /* XLsn0wActionSheet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLsn0wActionSheet.h; sourceTree = "<group>"; };
 		359599071DB5AB680077667B /* XLsn0wActionSheet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLsn0wActionSheet.m; sourceTree = "<group>"; };
 		3595990C1DB5B7510077667B /* UMSocialShareView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UMSocialShareView.h; sourceTree = "<group>"; };
@@ -72,14 +74,6 @@
 		35A78BFC1DAB7A8100D9D180 /* XLsn0wDropMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLsn0wDropMenu.h; sourceTree = "<group>"; };
 		35A78BFD1DAB7A8100D9D180 /* XLsn0wDropMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLsn0wDropMenu.m; sourceTree = "<group>"; };
 		35A78C031DAB7AA600D9D180 /* XLsn0wChooserKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLsn0wChooserKit.h; sourceTree = "<group>"; };
-		35A78CA11DAB827000D9D180 /* DPPopUpMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DPPopUpMenu.h; sourceTree = "<group>"; };
-		35A78CA21DAB827000D9D180 /* DPPopUpMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DPPopUpMenu.m; sourceTree = "<group>"; };
-		35A78CA31DAB827000D9D180 /* KSDatePicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KSDatePicker.h; sourceTree = "<group>"; };
-		35A78CA41DAB827000D9D180 /* KSDatePicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KSDatePicker.m; sourceTree = "<group>"; };
-		35A78CA51DAB827000D9D180 /* KSDatePickerAppearance.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KSDatePickerAppearance.h; sourceTree = "<group>"; };
-		35A78CA61DAB827000D9D180 /* KSDatePickerAppearance.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KSDatePickerAppearance.m; sourceTree = "<group>"; };
-		35A78CA71DAB827000D9D180 /* UIColor+DPUIColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+DPUIColor.h"; sourceTree = "<group>"; };
-		35A78CA81DAB827000D9D180 /* UIColor+DPUIColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+DPUIColor.m"; sourceTree = "<group>"; };
 		385E2A34D343E2ABF2B79496 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		4661867F18E551152C79CE55 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		94C8E45D473FF92F97BDAD1A /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
@@ -158,6 +152,9 @@
 			children = (
 				3584E5C41DAB3BFD00504539 /* XLsn0wChooser.podspec */,
 				35A78C031DAB7AA600D9D180 /* XLsn0wChooserKit.h */,
+				3593AD161DBC92940047B3FA /* XLsn0wChooser */,
+				3593AD0F1DBC8DEB0047B3FA /* XLsn0wCenterDater */,
+				3593AD1A1DBC945E0047B3FA /* XLsn0wBottomDater */,
 				3595990B1DB5B7510077667B /* UMSocialShareView */,
 				359599011DB5AB680077667B /* XLsn0wActionSheet */,
 				354092171DB4F18C0066519E /* XLsn0wChooserTimer */,
@@ -165,14 +162,37 @@
 				3597ED081DB248B5000770C2 /* XLsn0wPickerSingler */,
 				3597ED141DB24A18000770C2 /* XLsn0wPickerAreaer */,
 				3597ED0E1DB248B5000770C2 /* XLsn0wPickerDater */,
-				35A78CAD1DAB82A200D9D180 /* XLsn0wChooser */,
 				35A78BFE1DAB7A8100D9D180 /* XLsn0wPopMenu */,
 				35A78BFB1DAB7A8100D9D180 /* XLsn0wDropMenu */,
-				35A78CA01DAB827000D9D180 /* XLsn0wDatePicker */,
 				3597ED0B1DB248B5000770C2 /* XLsn0wToolbar */,
 				3597ED181DB24A3B000770C2 /* Resources */,
 			);
 			path = XLsn0w;
+			sourceTree = "<group>";
+		};
+		3593AD0F1DBC8DEB0047B3FA /* XLsn0wCenterDater */ = {
+			isa = PBXGroup;
+			children = (
+				3593AD101DBC8DEB0047B3FA /* XLsn0wCenterDater.h */,
+				3593AD111DBC8DEB0047B3FA /* XLsn0wCenterDater.m */,
+			);
+			path = XLsn0wCenterDater;
+			sourceTree = "<group>";
+		};
+		3593AD161DBC92940047B3FA /* XLsn0wChooser */ = {
+			isa = PBXGroup;
+			children = (
+				3593AD171DBC92940047B3FA /* XLsn0wChooser.h */,
+				3593AD181DBC92940047B3FA /* XLsn0wChooser.m */,
+			);
+			path = XLsn0wChooser;
+			sourceTree = "<group>";
+		};
+		3593AD1A1DBC945E0047B3FA /* XLsn0wBottomDater */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = XLsn0wBottomDater;
 			sourceTree = "<group>";
 		};
 		359599011DB5AB680077667B /* XLsn0wActionSheet */ = {
@@ -258,32 +278,10 @@
 		35A78BFE1DAB7A8100D9D180 /* XLsn0wPopMenu */ = {
 			isa = PBXGroup;
 			children = (
-				357AE2B61DAC7F4D006BEB7A /* PopMenu.h */,
-				357AE2B71DAC7F4D006BEB7A /* PopMenu.m */,
+				357AE2B61DAC7F4D006BEB7A /* XLsn0wPopMenu.h */,
+				357AE2B71DAC7F4D006BEB7A /* XLsn0wPopMenu.m */,
 			);
 			path = XLsn0wPopMenu;
-			sourceTree = "<group>";
-		};
-		35A78CA01DAB827000D9D180 /* XLsn0wDatePicker */ = {
-			isa = PBXGroup;
-			children = (
-				35A78CA11DAB827000D9D180 /* DPPopUpMenu.h */,
-				35A78CA21DAB827000D9D180 /* DPPopUpMenu.m */,
-				35A78CA31DAB827000D9D180 /* KSDatePicker.h */,
-				35A78CA41DAB827000D9D180 /* KSDatePicker.m */,
-				35A78CA51DAB827000D9D180 /* KSDatePickerAppearance.h */,
-				35A78CA61DAB827000D9D180 /* KSDatePickerAppearance.m */,
-				35A78CA71DAB827000D9D180 /* UIColor+DPUIColor.h */,
-				35A78CA81DAB827000D9D180 /* UIColor+DPUIColor.m */,
-			);
-			path = XLsn0wDatePicker;
-			sourceTree = "<group>";
-		};
-		35A78CAD1DAB82A200D9D180 /* XLsn0wChooser */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = XLsn0wChooser;
 			sourceTree = "<group>";
 		};
 		7E59BF7B6A95F561D62EED31 /* Frameworks */ = {
@@ -432,19 +430,17 @@
 				3584E5A41DAB3BE300504539 /* ViewController.m in Sources */,
 				3584E5A11DAB3BE300504539 /* AppDelegate.m in Sources */,
 				3597ED171DB24A18000770C2 /* XLsn0wPickerAreaer.m in Sources */,
-				35A78CA91DAB827000D9D180 /* DPPopUpMenu.m in Sources */,
+				3593AD121DBC8DEB0047B3FA /* XLsn0wCenterDater.m in Sources */,
 				3595990A1DB5AB680077667B /* XLsn0wActionSheet.m in Sources */,
-				35A78CAC1DAB827000D9D180 /* UIColor+DPUIColor.m in Sources */,
 				3597ED131DB248B5000770C2 /* XLsn0wPickerDater.m in Sources */,
-				357AE2B81DAC7F4D006BEB7A /* PopMenu.m in Sources */,
+				357AE2B81DAC7F4D006BEB7A /* XLsn0wPopMenu.m in Sources */,
 				3540921E1DB4F18C0066519E /* MXSCycleScrollView.m in Sources */,
 				3584E59E1DAB3BE300504539 /* main.m in Sources */,
 				354092201DB4F18C0066519E /* XLsn0wChooserTimer.m in Sources */,
 				3597ED121DB248B5000770C2 /* XLsn0wToolbar.m in Sources */,
-				35A78CAA1DAB827000D9D180 /* KSDatePicker.m in Sources */,
 				3597ED111DB248B5000770C2 /* XLsn0wPickerSingler.m in Sources */,
 				3595990E1DB5B7510077667B /* UMSocialShareView.m in Sources */,
-				35A78CAB1DAB827000D9D180 /* KSDatePickerAppearance.m in Sources */,
+				3593AD191DBC92940047B3FA /* XLsn0wChooser.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

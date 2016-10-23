@@ -9,7 +9,7 @@
  *                                                                                           *
  *********************************************************************************************/
 
-#import "PopMenu.h"
+#import "XLsn0wPopMenu.h"
 
 #import "Masonry.h"
 
@@ -40,7 +40,7 @@
     
     for (UIView *view in kWindow.subviews) {
         
-        if ([view isKindOfClass:[PopMenu class]] || [view isKindOfClass:[self class]]) {
+        if ([view isKindOfClass:[XLsn0wPopMenu class]] || [view isKindOfClass:[self class]]) {
             [view removeFromSuperview];
         }
     }
@@ -49,7 +49,7 @@
 @end
 
 /***********************   我是分割线   *************************/
-@interface PopMenu ()<UITableViewDelegate,UITableViewDataSource>
+@interface XLsn0wPopMenu ()<UITableViewDelegate, UITableViewDataSource>
 
 /***  蒙版  ***/
 @property (nonatomic, strong) MaskView *maskView;
@@ -60,7 +60,7 @@
 
 @end
 
-@implementation PopMenu
+@implementation XLsn0wPopMenu
 
 - (instancetype)initWithFrame:(CGRect)frame{
     if ([super initWithFrame:frame]) {
@@ -79,7 +79,7 @@
 
 + (instancetype)popMenuShowWithArray:(NSArray *)showArray{
     
-    PopMenu *menu = [[self alloc]initWithFrame:CGRectZero];
+    XLsn0wPopMenu *menu = [[self alloc]initWithFrame:CGRectZero];
     menu.center = kWindow.center;
 
     menu.maskView = [[MaskView alloc]initWithFrame:kWindow.frame];
@@ -102,7 +102,7 @@
 + (void)popMenuDismiss {
     for (UIView *view in kWindow.subviews) {
         if ([view isKindOfClass:[self class]]) {
-            PopMenu *menu = (PopMenu *)view;
+            XLsn0wPopMenu *menu = (XLsn0wPopMenu *)view;
             [menu.menuTableView removeFromSuperview];
             [UIView animateWithDuration:0.3 animations:^{
                 menu.frame = CGRectZero;
@@ -146,7 +146,7 @@
 }
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
-    [PopMenu popMenuDismiss];
+    [XLsn0wPopMenu popMenuDismiss];
     dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(0.01 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
         id item = [self.dataArray objectAtIndex:indexPath.row];
         if (self.xlsn0wDelegate || [self.xlsn0wDelegate respondsToSelector:@selector(popMenu:didSelectItem:selectedIndex:)]) {

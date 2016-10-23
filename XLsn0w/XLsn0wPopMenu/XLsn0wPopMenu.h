@@ -11,21 +11,21 @@
 
 #import <UIKit/UIKit.h>
 
-@protocol PopMenuDelegate;
+@protocol XLsn0wPopMenuDelegate;
 
-@interface PopMenu : UIView
+@interface XLsn0wPopMenu : UIView
 
-@property (nonatomic, assign) id<PopMenuDelegate> xlsn0wDelegate;
+@property (nonatomic, assign) id<XLsn0wPopMenuDelegate> xlsn0wDelegate;
 
 + (instancetype)popMenuShowWithArray:(NSArray *)showArray; //显示弹出菜单
 + (void)popMenuDismiss;//隐藏弹出菜单
 
 @end
 
-@protocol PopMenuDelegate <NSObject>
+@protocol XLsn0wPopMenuDelegate <NSObject>
 
 @required
-- (void)popMenu:(PopMenu *)menu didSelectItem:(id)item selectedIndex:(NSInteger)selectedIndex;
+- (void)popMenu:(XLsn0wPopMenu *)menu didSelectItem:(id)item selectedIndex:(NSInteger)selectedIndex;
 
 @end
 
