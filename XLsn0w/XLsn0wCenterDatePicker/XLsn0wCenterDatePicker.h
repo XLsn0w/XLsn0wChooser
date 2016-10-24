@@ -10,15 +10,11 @@
  *********************************************************************************************/
 
 #import <UIKit/UIKit.h>
+
 typedef enum{
-    
-    // 开始日期
-    DateTypeOfStart = 0,
-    
-    // 结束日期
-    DateTypeOfEnd,
-    
-}DateType;
+    DateTypeOfStart = 0,// 开始日期
+    DateTypeOfEnd,// 结束日期
+} DateType;
 
 @protocol XLsn0wCenterDatePickerDelegate <NSObject>
 

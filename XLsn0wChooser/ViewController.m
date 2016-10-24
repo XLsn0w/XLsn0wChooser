@@ -138,19 +138,14 @@ static const float RealSrceenWidth =  375.0;
 }
 
 - (IBAction)centerDater:(id)sender {
-    [self setupDateView:DateTypeOfStart];
-}
-
-- (void)setupDateView:(DateType)type {
     
     _pikerView = [XLsn0wCenterDatePicker instanceDatePickerView];
     _pikerView.frame = CGRectMake(0, 0, [UIScreen mainScreen].applicationFrame.size.width, [UIScreen mainScreen].applicationFrame.size.height + 20);
     [_pikerView setBackgroundColor:[UIColor clearColor]];
     _pikerView.delegate = self;
-    _pikerView.type = type;
+    _pikerView.type = DateTypeOfStart;
     [_pikerView.datePickerView setMinimumDate:[NSDate date]];
     [self.view addSubview:_pikerView];
-    
 }
 
 - (void)getSelectDate:(NSString *)date type:(DateType)type {
