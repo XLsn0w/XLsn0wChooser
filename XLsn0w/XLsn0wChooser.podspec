@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |s|
 
-  s.version      = "1.2.0"
+  s.version      = "1.2.1"
   s.summary      = "XLsn0w Custom A Good Chooser"
 
   s.license      = "MIT"
@@ -19,6 +19,5 @@ Pod::Spec.new do |s|
 
   s.dependency 'Masonry'
   s.dependency 'SDWebImage'
-  s.dependency 'UMengSocialCOM', '~> 5.1.0'
 
 end
