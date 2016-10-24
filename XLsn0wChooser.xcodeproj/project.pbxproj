@@ -17,7 +17,6 @@
 		3527DECF1DBDA1570097A085 /* XLsn0wPopMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 3527DECE1DBDA1570097A085 /* XLsn0wPopMenu.m */; };
 		3527DED21DBDA15F0097A085 /* XLsn0wDropMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 3527DED11DBDA15F0097A085 /* XLsn0wDropMenu.m */; };
 		3527DEE21DBDA1D80097A085 /* UIViewController+XLsn0wGuidePager.m in Sources */ = {isa = PBXBuildFile; fileRef = 3527DED51DBDA1D80097A085 /* UIViewController+XLsn0wGuidePager.m */; };
-		3527DEE31DBDA1D80097A085 /* UMSocialShareView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3527DED71DBDA1D80097A085 /* UMSocialShareView.m */; };
 		3527DEE41DBDA1D80097A085 /* XLsn0wActionSheet.m in Sources */ = {isa = PBXBuildFile; fileRef = 3527DED91DBDA1D80097A085 /* XLsn0wActionSheet.m */; };
 		3527DEE51DBDA1D80097A085 /* XLsn0wAlertChooser.m in Sources */ = {isa = PBXBuildFile; fileRef = 3527DEDB1DBDA1D80097A085 /* XLsn0wAlertChooser.m */; };
 		3527DEE61DBDA1D80097A085 /* XLsn0wChooser.m in Sources */ = {isa = PBXBuildFile; fileRef = 3527DEDD1DBDA1D80097A085 /* XLsn0wChooser.m */; };
@@ -55,8 +54,6 @@
 		3527DED11DBDA15F0097A085 /* XLsn0wDropMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLsn0wDropMenu.m; sourceTree = "<group>"; };
 		3527DED41DBDA1D80097A085 /* UIViewController+XLsn0wGuidePager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+XLsn0wGuidePager.h"; sourceTree = "<group>"; };
 		3527DED51DBDA1D80097A085 /* UIViewController+XLsn0wGuidePager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+XLsn0wGuidePager.m"; sourceTree = "<group>"; };
-		3527DED61DBDA1D80097A085 /* UMSocialShareView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UMSocialShareView.h; sourceTree = "<group>"; };
-		3527DED71DBDA1D80097A085 /* UMSocialShareView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UMSocialShareView.m; sourceTree = "<group>"; };
 		3527DED81DBDA1D80097A085 /* XLsn0wActionSheet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLsn0wActionSheet.h; sourceTree = "<group>"; };
 		3527DED91DBDA1D80097A085 /* XLsn0wActionSheet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLsn0wActionSheet.m; sourceTree = "<group>"; };
 		3527DEDA1DBDA1D80097A085 /* XLsn0wAlertChooser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLsn0wAlertChooser.h; sourceTree = "<group>"; };
@@ -128,8 +125,6 @@
 			children = (
 				3527DEDC1DBDA1D80097A085 /* XLsn0wChooser.h */,
 				3527DEDD1DBDA1D80097A085 /* XLsn0wChooser.m */,
-				3527DED61DBDA1D80097A085 /* UMSocialShareView.h */,
-				3527DED71DBDA1D80097A085 /* UMSocialShareView.m */,
 				3527DED81DBDA1D80097A085 /* XLsn0wActionSheet.h */,
 				3527DED91DBDA1D80097A085 /* XLsn0wActionSheet.m */,
 				3527DEDA1DBDA1D80097A085 /* XLsn0wAlertChooser.h */,
@@ -375,7 +370,6 @@
 				3527DECA1DBDA11C0097A085 /* XLsn0wPickerDater.m in Sources */,
 				3527DECC1DBDA11C0097A085 /* XLsn0wToolbar.m in Sources */,
 				3584E59E1DAB3BE300504539 /* main.m in Sources */,
-				3527DEE31DBDA1D80097A085 /* UMSocialShareView.m in Sources */,
 				3527DEC71DBDA11C0097A085 /* XLsn0wCenterDatePicker.m in Sources */,
 				3527DEC91DBDA11C0097A085 /* XLsn0wPickerAreaer.m in Sources */,
 				3527DEC81DBDA11C0097A085 /* XLsn0wCenterDater.m in Sources */,

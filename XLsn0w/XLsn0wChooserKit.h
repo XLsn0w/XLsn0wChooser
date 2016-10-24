@@ -21,7 +21,7 @@
 #import "XLsn0wPickerAreaer.h"
 #import "XLsn0wPickerSingler.h"
 #import "XLsn0wToolbar.h"
-#import "UMSocialShareView.h"
+//#import "UMSocialShareView.h"
 #import "XLsn0wImageSelectorTableViewCell.h"
 #import "UIViewController+XLsn0wGuidePager.h"
 
