@@ -25,7 +25,6 @@
 #import "UMSocialShareView.h"
 
 #import "XLsn0wImageSelectorTableViewCell.h"
-
 #import "UIViewController+XLsn0wGuidePager.h"
 
 /*********************************************************************************************

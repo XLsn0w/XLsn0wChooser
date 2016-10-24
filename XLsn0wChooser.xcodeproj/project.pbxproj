@@ -173,7 +173,6 @@
 				353B53F61DBCD40300627DC1 /* XLsn0wAlertChooser */,
 				3593AD1F1DBC97EF0047B3FA /* XLsn0wChooserMenu */,
 				359599011DB5AB680077667B /* XLsn0wActionSheet */,
-				3593AD1A1DBC945E0047B3FA /* XLsn0wBottomDater */,
 				3593AD0F1DBC8DEB0047B3FA /* XLsn0wCenterDater */,
 				3597ED1B1DB24F34000770C2 /* XLsn0wCenterDatePicker */,
 				3597ED081DB248B5000770C2 /* XLsn0wPickerSingler */,
@@ -206,13 +205,6 @@
 				3593AD181DBC92940047B3FA /* XLsn0wChooser.m */,
 			);
 			path = XLsn0wChooser;
-			sourceTree = "<group>";
-		};
-		3593AD1A1DBC945E0047B3FA /* XLsn0wBottomDater */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = XLsn0wBottomDater;
 			sourceTree = "<group>";
 		};
 		3593AD1F1DBC97EF0047B3FA /* XLsn0wChooserMenu */ = {
