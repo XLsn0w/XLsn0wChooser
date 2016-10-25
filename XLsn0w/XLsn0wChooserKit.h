@@ -22,7 +22,6 @@
 #import "XLsn0wPickerSingler.h"
 #import "XLsn0wToolbar.h"
 #import "XLsn0wImageSelectorTableViewCell.h"
-#import "UIViewController+XLsn0wGuidePager.h"
 
 /*********************************************************************************************
  *   __      __   _         _________     _ _     _    _________   __         _         __   *

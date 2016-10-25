@@ -13,7 +13,6 @@
 		3527DF081DBDE2DC0097A085 /* XLsn0wImageSelector.m in Sources */ = {isa = PBXBuildFile; fileRef = 3527DEFD1DBDE2DC0097A085 /* XLsn0wImageSelector.m */; };
 		3527DF091DBDE2DC0097A085 /* XLsn0wAlertChooser.m in Sources */ = {isa = PBXBuildFile; fileRef = 3527DF001DBDE2DC0097A085 /* XLsn0wAlertChooser.m */; };
 		3527DF0A1DBDE2DC0097A085 /* XLsn0wActionSheet.m in Sources */ = {isa = PBXBuildFile; fileRef = 3527DF031DBDE2DC0097A085 /* XLsn0wActionSheet.m */; };
-		3527DF0B1DBDE2DC0097A085 /* UIViewController+XLsn0wGuidePager.m in Sources */ = {isa = PBXBuildFile; fileRef = 3527DF061DBDE2DC0097A085 /* UIViewController+XLsn0wGuidePager.m */; };
 		3527DF151DBDE3560097A085 /* XLsn0wPopMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 3527DF0E1DBDE3560097A085 /* XLsn0wPopMenu.m */; };
 		3527DF161DBDE3560097A085 /* XLsn0wDropMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 3527DF111DBDE3560097A085 /* XLsn0wDropMenu.m */; };
 		3527DF171DBDE3560097A085 /* XLsn0wMenuChooser.m in Sources */ = {isa = PBXBuildFile; fileRef = 3527DF141DBDE3560097A085 /* XLsn0wMenuChooser.m */; };
@@ -46,8 +45,6 @@
 		3527DF001DBDE2DC0097A085 /* XLsn0wAlertChooser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLsn0wAlertChooser.m; sourceTree = "<group>"; };
 		3527DF021DBDE2DC0097A085 /* XLsn0wActionSheet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLsn0wActionSheet.h; sourceTree = "<group>"; };
 		3527DF031DBDE2DC0097A085 /* XLsn0wActionSheet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLsn0wActionSheet.m; sourceTree = "<group>"; };
-		3527DF051DBDE2DC0097A085 /* UIViewController+XLsn0wGuidePager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+XLsn0wGuidePager.h"; sourceTree = "<group>"; };
-		3527DF061DBDE2DC0097A085 /* UIViewController+XLsn0wGuidePager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+XLsn0wGuidePager.m"; sourceTree = "<group>"; };
 		3527DF0D1DBDE3560097A085 /* XLsn0wPopMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLsn0wPopMenu.h; sourceTree = "<group>"; };
 		3527DF0E1DBDE3560097A085 /* XLsn0wPopMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLsn0wPopMenu.m; sourceTree = "<group>"; };
 		3527DF101DBDE3560097A085 /* XLsn0wDropMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLsn0wDropMenu.h; sourceTree = "<group>"; };
@@ -142,15 +139,6 @@
 				3527DF031DBDE2DC0097A085 /* XLsn0wActionSheet.m */,
 			);
 			path = XLsn0wActionSheet;
-			sourceTree = "<group>";
-		};
-		3527DF041DBDE2DC0097A085 /* UIViewController+XLsn0wGuidePager */ = {
-			isa = PBXGroup;
-			children = (
-				3527DF051DBDE2DC0097A085 /* UIViewController+XLsn0wGuidePager.h */,
-				3527DF061DBDE2DC0097A085 /* UIViewController+XLsn0wGuidePager.m */,
-			);
-			path = "UIViewController+XLsn0wGuidePager";
 			sourceTree = "<group>";
 		};
 		3527DF0C1DBDE3560097A085 /* XLsn0wPopMenu */ = {
@@ -306,7 +294,6 @@
 				3527DF181DBDE48F0097A085 /* XLsn0wToolbar */,
 				3527DEFB1DBDE2DC0097A085 /* XLsn0wImageSelector */,
 				3527DEF81DBDE2DC0097A085 /* XLsn0wImageSelectorTableViewCell */,
-				3527DF041DBDE2DC0097A085 /* UIViewController+XLsn0wGuidePager */,
 				3597ED181DB24A3B000770C2 /* Resources */,
 			);
 			path = XLsn0w;
@@ -477,7 +464,6 @@
 				3527DF161DBDE3560097A085 /* XLsn0wDropMenu.m in Sources */,
 				3527DF151DBDE3560097A085 /* XLsn0wPopMenu.m in Sources */,
 				3527DEE61DBDA1D80097A085 /* XLsn0wChooser.m in Sources */,
-				3527DF0B1DBDE2DC0097A085 /* UIViewController+XLsn0wGuidePager.m in Sources */,
 				3527DF0A1DBDE2DC0097A085 /* XLsn0wActionSheet.m in Sources */,
 				3527DF171DBDE3560097A085 /* XLsn0wMenuChooser.m in Sources */,
 				3527DF331DBDE48F0097A085 /* XLsn0wPickerDater.m in Sources */,
