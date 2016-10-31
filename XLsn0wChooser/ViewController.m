@@ -16,7 +16,7 @@ static const float RealSrceenWidth =  375.0;
 #define AdaptationW(x) x/RealSrceenWidth*[[UIScreen mainScreen]bounds].size.width
 #define AdapationLabelFont(n) n*([[UIScreen mainScreen]bounds].size.width/375.0f)
 
-@interface ViewController () <XLsn0wChooserDelegate, XLsn0wPickerSinglerDelegate, XLsn0wPickerDaterDelegate, XLsn0wCenterDatePickerDelegate>
+@interface ViewController () <XLsn0wChooserDelegate, XLsn0wPickerSinglerDelegate, XLsn0wPickerDaterDelegate, XLsn0wCenterDatePickerDelegate, XLsn0wPickerTimerDelegate>
 
 @property (weak, nonatomic) XLsn0wCenterDatePicker *pikerView;
 
@@ -199,8 +199,24 @@ static const float RealSrceenWidth =  375.0;
         NSLog(@"%@", datetimeStr);
     };
 }
+
 - (IBAction)XLsn0wImageSelector:(id)sender {
    
+}
+
+- (IBAction)pickerTimer:(id)sender {
+    XLsn0wPickerTimer *pickerDate = [[XLsn0wPickerTimer alloc] init];
+    pickerDate.xlsn0wDelegate = self;
+    
+    [pickerDate show];
+}
+
+
+- (void)pickerTimer:(XLsn0wPickerTimer *)pickerTimer year:(NSInteger)year month:(NSInteger)month day:(NSInteger)day {
+    NSString *text = [NSString stringWithFormat:@"%ld-%ld-%ld", year, month, day];
+    
+    NSLog(@"%@", text);
+    
 }
 
 @end

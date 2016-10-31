@@ -135,6 +135,14 @@
                                     <action selector="XLsn0wImageSelector:" destination="BYZ-38-t0r" eventType="touchUpInside" id="WGr-C5-Ni2"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="R3T-Iu-dbC">
+                                <frame key="frameInset" minX="234" minY="263" width="81" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="PickerTimer"/>
+                                <connections>
+                                    <action selector="pickerTimer:" destination="BYZ-38-t0r" eventType="touchUpInside" id="qaE-Oy-Vd3"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>

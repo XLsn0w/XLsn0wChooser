@@ -18,6 +18,7 @@
 #import "XLsn0wCenterDatePicker.h"
 #import "XLsn0wPopMenu.h"
 #import "XLsn0wPickerDater.h"
+#import "XLsn0wPickerTimer.h"
 #import "XLsn0wPickerAreaer.h"
 #import "XLsn0wPickerSingler.h"
 #import "XLsn0wToolbar.h"
