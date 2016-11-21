@@ -54,9 +54,9 @@ UIKIT_EXTERN CGFloat const STControlNormalHeight;
 
 NS_ASSUME_NONNULL_BEGIN
 
-typedef NS_ENUM (NSInteger, XLsn0wPickerButtonContentMode) {
-    Bottom, // 1.选择器在视图的下方
-    Center  // 2.选择器在视图的中间
+typedef NS_ENUM (NSInteger, XLsn0wPickerButtonLocation) {
+    XLsn0wPickerButtonLocationBottom, // 1.选择器在视图的下方
+    XLsn0wPickerButtonLocationCenter  // 2.选择器在视图的中间
 };
 
 @interface XLsn0wPickerButton : UIButton
@@ -87,7 +87,7 @@ typedef NS_ENUM (NSInteger, XLsn0wPickerButtonContentMode) {
 /** 5.选择器的高度，default is 240 */
 @property (nonatomic, assign)CGFloat heightPicker;
 /** 6.视图的显示模式 */
-@property (nonatomic, assign) XLsn0wPickerButtonContentMode contentMode;
+@property (nonatomic, assign) XLsn0wPickerButtonLocation xlsn0wPickerButtonLocation;
 
 
 /**
