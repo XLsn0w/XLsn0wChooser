@@ -7,7 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1C4D8C062E82C9525D09E533 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4661867F18E551152C79CE55 /* libPods.a */; };
 		3527DEE61DBDA1D80097A085 /* XLsn0wChooser.m in Sources */ = {isa = PBXBuildFile; fileRef = 3527DEDD1DBDA1D80097A085 /* XLsn0wChooser.m */; };
+		3527DF071DBDE2DC0097A085 /* XLsn0wImageSelectorTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3527DEFA1DBDE2DC0097A085 /* XLsn0wImageSelectorTableViewCell.m */; };
 		3527DF081DBDE2DC0097A085 /* XLsn0wImageSelector.m in Sources */ = {isa = PBXBuildFile; fileRef = 3527DEFD1DBDE2DC0097A085 /* XLsn0wImageSelector.m */; };
 		3527DF091DBDE2DC0097A085 /* XLsn0wAlertChooser.m in Sources */ = {isa = PBXBuildFile; fileRef = 3527DF001DBDE2DC0097A085 /* XLsn0wAlertChooser.m */; };
 		3527DF0A1DBDE2DC0097A085 /* XLsn0wActionSheet.m in Sources */ = {isa = PBXBuildFile; fileRef = 3527DF031DBDE2DC0097A085 /* XLsn0wActionSheet.m */; };
@@ -20,6 +22,7 @@
 		3527DF301DBDE48F0097A085 /* XLsn0wPickerAreaer.m in Sources */ = {isa = PBXBuildFile; fileRef = 3527DF231DBDE48F0097A085 /* XLsn0wPickerAreaer.m */; };
 		3527DF311DBDE48F0097A085 /* XLsn0wCenterDatePicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 3527DF261DBDE48F0097A085 /* XLsn0wCenterDatePicker.m */; };
 		3527DF321DBDE48F0097A085 /* XLsn0wCenterDater.m in Sources */ = {isa = PBXBuildFile; fileRef = 3527DF291DBDE48F0097A085 /* XLsn0wCenterDater.m */; };
+		3527DF331DBDE48F0097A085 /* XLsn0wPickerDater.m in Sources */ = {isa = PBXBuildFile; fileRef = 3527DF2C1DBDE48F0097A085 /* XLsn0wPickerDater.m */; };
 		353B53F51DBCD13200627DC1 /* XLsn0wChooser.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 353B53F41DBCD13200627DC1 /* XLsn0wChooser.bundle */; };
 		3584E59E1DAB3BE300504539 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3584E59D1DAB3BE300504539 /* main.m */; };
 		3584E5A11DAB3BE300504539 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3584E5A01DAB3BE300504539 /* AppDelegate.m */; };
@@ -29,17 +32,14 @@
 		3584E5AC1DAB3BE300504539 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3584E5AA1DAB3BE300504539 /* LaunchScreen.storyboard */; };
 		3584E5CF1DAB3BFD00504539 /* XLsn0wChooser.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 3584E5C41DAB3BFD00504539 /* XLsn0wChooser.podspec */; };
 		3597ED1A1DB24A3B000770C2 /* area.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3597ED191DB24A3B000770C2 /* area.plist */; };
-		35D2C0D01DE3DFA50050107C /* XLsn0wTwoRowDater.m in Sources */ = {isa = PBXBuildFile; fileRef = 35D2C0CF1DE3DFA50050107C /* XLsn0wTwoRowDater.m */; };
-		35D2C0D31DE3E08F0050107C /* XLsn0wImageSelectorTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 35D2C0D21DE3E08F0050107C /* XLsn0wImageSelectorTableViewCell.m */; };
 		35D922161DC72CAF005B5D7F /* XLsn0wPickerTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = 35D922151DC72CAF005B5D7F /* XLsn0wPickerTimer.m */; };
-		5C9C4D5868BA119C5D69DFD3 /* libPods-XLsn0wChooser.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B5769C41293996A37AFCB90F /* libPods-XLsn0wChooser.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		00C5F40F66AF9F543B5C1B8C /* Pods-XLsn0wChooser.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XLsn0wChooser.release.xcconfig"; path = "Pods/Target Support Files/Pods-XLsn0wChooser/Pods-XLsn0wChooser.release.xcconfig"; sourceTree = "<group>"; };
-		2FFE409C8837963A8187DC9B /* Pods-XLsn0wChooser.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XLsn0wChooser.debug.xcconfig"; path = "Pods/Target Support Files/Pods-XLsn0wChooser/Pods-XLsn0wChooser.debug.xcconfig"; sourceTree = "<group>"; };
 		3527DEDC1DBDA1D80097A085 /* XLsn0wChooser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLsn0wChooser.h; sourceTree = "<group>"; };
 		3527DEDD1DBDA1D80097A085 /* XLsn0wChooser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLsn0wChooser.m; sourceTree = "<group>"; };
+		3527DEF91DBDE2DC0097A085 /* XLsn0wImageSelectorTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLsn0wImageSelectorTableViewCell.h; sourceTree = "<group>"; };
+		3527DEFA1DBDE2DC0097A085 /* XLsn0wImageSelectorTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLsn0wImageSelectorTableViewCell.m; sourceTree = "<group>"; };
 		3527DEFC1DBDE2DC0097A085 /* XLsn0wImageSelector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLsn0wImageSelector.h; sourceTree = "<group>"; };
 		3527DEFD1DBDE2DC0097A085 /* XLsn0wImageSelector.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLsn0wImageSelector.m; sourceTree = "<group>"; };
 		3527DEFF1DBDE2DC0097A085 /* XLsn0wAlertChooser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLsn0wAlertChooser.h; sourceTree = "<group>"; };
@@ -64,6 +64,8 @@
 		3527DF261DBDE48F0097A085 /* XLsn0wCenterDatePicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLsn0wCenterDatePicker.m; sourceTree = "<group>"; };
 		3527DF281DBDE48F0097A085 /* XLsn0wCenterDater.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLsn0wCenterDater.h; sourceTree = "<group>"; };
 		3527DF291DBDE48F0097A085 /* XLsn0wCenterDater.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLsn0wCenterDater.m; sourceTree = "<group>"; };
+		3527DF2B1DBDE48F0097A085 /* XLsn0wPickerDater.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLsn0wPickerDater.h; sourceTree = "<group>"; };
+		3527DF2C1DBDE48F0097A085 /* XLsn0wPickerDater.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLsn0wPickerDater.m; sourceTree = "<group>"; };
 		353B53F41DBCD13200627DC1 /* XLsn0wChooser.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = XLsn0wChooser.bundle; sourceTree = "<group>"; };
 		3584E5991DAB3BE300504539 /* XLsn0wChooser.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XLsn0wChooser.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3584E59D1DAB3BE300504539 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -77,14 +79,12 @@
 		3584E5AD1DAB3BE300504539 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3584E5C41DAB3BFD00504539 /* XLsn0wChooser.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = XLsn0wChooser.podspec; sourceTree = "<group>"; };
 		3597ED191DB24A3B000770C2 /* area.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = area.plist; sourceTree = "<group>"; };
-		35A78C031DAB7AA600D9D180 /* XLsn0wChooserHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLsn0wChooserHeader.h; sourceTree = "<group>"; };
-		35D2C0CE1DE3DFA50050107C /* XLsn0wTwoRowDater.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLsn0wTwoRowDater.h; sourceTree = "<group>"; };
-		35D2C0CF1DE3DFA50050107C /* XLsn0wTwoRowDater.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLsn0wTwoRowDater.m; sourceTree = "<group>"; };
-		35D2C0D11DE3E08F0050107C /* XLsn0wImageSelectorTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLsn0wImageSelectorTableViewCell.h; sourceTree = "<group>"; };
-		35D2C0D21DE3E08F0050107C /* XLsn0wImageSelectorTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLsn0wImageSelectorTableViewCell.m; sourceTree = "<group>"; };
+		35A78C031DAB7AA600D9D180 /* XLsn0wChooserKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLsn0wChooserKit.h; sourceTree = "<group>"; };
 		35D922141DC72CAF005B5D7F /* XLsn0wPickerTimer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLsn0wPickerTimer.h; sourceTree = "<group>"; };
 		35D922151DC72CAF005B5D7F /* XLsn0wPickerTimer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLsn0wPickerTimer.m; sourceTree = "<group>"; };
-		B5769C41293996A37AFCB90F /* libPods-XLsn0wChooser.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-XLsn0wChooser.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		385E2A34D343E2ABF2B79496 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		4661867F18E551152C79CE55 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		94C8E45D473FF92F97BDAD1A /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,7 +92,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5C9C4D5868BA119C5D69DFD3 /* libPods-XLsn0wChooser.a in Frameworks */,
+				1C4D8C062E82C9525D09E533 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -108,13 +108,20 @@
 			path = XLsn0wChooser;
 			sourceTree = "<group>";
 		};
+		3527DEF81DBDE2DC0097A085 /* XLsn0wImageSelectorTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				3527DEF91DBDE2DC0097A085 /* XLsn0wImageSelectorTableViewCell.h */,
+				3527DEFA1DBDE2DC0097A085 /* XLsn0wImageSelectorTableViewCell.m */,
+			);
+			path = XLsn0wImageSelectorTableViewCell;
+			sourceTree = "<group>";
+		};
 		3527DEFB1DBDE2DC0097A085 /* XLsn0wImageSelector */ = {
 			isa = PBXGroup;
 			children = (
 				3527DEFC1DBDE2DC0097A085 /* XLsn0wImageSelector.h */,
 				3527DEFD1DBDE2DC0097A085 /* XLsn0wImageSelector.m */,
-				35D2C0D11DE3E08F0050107C /* XLsn0wImageSelectorTableViewCell.h */,
-				35D2C0D21DE3E08F0050107C /* XLsn0wImageSelectorTableViewCell.m */,
 			);
 			path = XLsn0wImageSelector;
 			sourceTree = "<group>";
@@ -218,14 +225,23 @@
 			path = XLsn0wCenterDater;
 			sourceTree = "<group>";
 		};
+		3527DF2A1DBDE48F0097A085 /* XLsn0wPickerDater */ = {
+			isa = PBXGroup;
+			children = (
+				3527DF2B1DBDE48F0097A085 /* XLsn0wPickerDater.h */,
+				3527DF2C1DBDE48F0097A085 /* XLsn0wPickerDater.m */,
+			);
+			path = XLsn0wPickerDater;
+			sourceTree = "<group>";
+		};
 		3584E5901DAB3BE300504539 = {
 			isa = PBXGroup;
 			children = (
 				3584E5B31DAB3BFD00504539 /* XLsn0w */,
 				3584E59B1DAB3BE300504539 /* XLsn0wChooser */,
 				3584E59A1DAB3BE300504539 /* Products */,
-				579CFC615B116F6D21177013 /* Pods */,
-				63E4F3F8CE37A226CF08FADB /* Frameworks */,
+				BA53688AA84515725EFB4999 /* Pods */,
+				7E59BF7B6A95F561D62EED31 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -265,14 +281,14 @@
 			isa = PBXGroup;
 			children = (
 				3584E5C41DAB3BFD00504539 /* XLsn0wChooser.podspec */,
-				35A78C031DAB7AA600D9D180 /* XLsn0wChooserHeader.h */,
+				35A78C031DAB7AA600D9D180 /* XLsn0wChooserKit.h */,
 				3527DED31DBDA1D80097A085 /* XLsn0wChooser */,
-				35D2C0CD1DE3DFA50050107C /* XLsn0wPickerDater */,
 				3527DF1B1DBDE48F0097A085 /* XLsn0wTimeChooser */,
 				3527DF121DBDE3560097A085 /* XLsn0wMenuChooser */,
 				3527DEFE1DBDE2DC0097A085 /* XLsn0wAlertChooser */,
 				3527DF011DBDE2DC0097A085 /* XLsn0wActionSheet */,
 				35D922131DC72CAF005B5D7F /* XLsn0wPickerTimer */,
+				3527DF2A1DBDE48F0097A085 /* XLsn0wPickerDater */,
 				3527DF1E1DBDE48F0097A085 /* XLsn0wPickerSingler */,
 				3527DF211DBDE48F0097A085 /* XLsn0wPickerAreaer */,
 				3527DF241DBDE48F0097A085 /* XLsn0wCenterDatePicker */,
@@ -281,6 +297,7 @@
 				3527DF0F1DBDE3560097A085 /* XLsn0wDropMenu */,
 				3527DF181DBDE48F0097A085 /* XLsn0wToolbar */,
 				3527DEFB1DBDE2DC0097A085 /* XLsn0wImageSelector */,
+				3527DEF81DBDE2DC0097A085 /* XLsn0wImageSelectorTableViewCell */,
 				3597ED181DB24A3B000770C2 /* Resources */,
 			);
 			path = XLsn0w;
@@ -295,15 +312,6 @@
 			path = Resources;
 			sourceTree = "<group>";
 		};
-		35D2C0CD1DE3DFA50050107C /* XLsn0wPickerDater */ = {
-			isa = PBXGroup;
-			children = (
-				35D2C0CE1DE3DFA50050107C /* XLsn0wTwoRowDater.h */,
-				35D2C0CF1DE3DFA50050107C /* XLsn0wTwoRowDater.m */,
-			);
-			path = XLsn0wPickerDater;
-			sourceTree = "<group>";
-		};
 		35D922131DC72CAF005B5D7F /* XLsn0wPickerTimer */ = {
 			isa = PBXGroup;
 			children = (
@@ -313,21 +321,21 @@
 			path = XLsn0wPickerTimer;
 			sourceTree = "<group>";
 		};
-		579CFC615B116F6D21177013 /* Pods */ = {
+		7E59BF7B6A95F561D62EED31 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				2FFE409C8837963A8187DC9B /* Pods-XLsn0wChooser.debug.xcconfig */,
-				00C5F40F66AF9F543B5C1B8C /* Pods-XLsn0wChooser.release.xcconfig */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
-		63E4F3F8CE37A226CF08FADB /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				B5769C41293996A37AFCB90F /* libPods-XLsn0wChooser.a */,
+				4661867F18E551152C79CE55 /* libPods.a */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BA53688AA84515725EFB4999 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				94C8E45D473FF92F97BDAD1A /* Pods.debug.xcconfig */,
+				385E2A34D343E2ABF2B79496 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -337,12 +345,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3584E5B01DAB3BE300504539 /* Build configuration list for PBXNativeTarget "XLsn0wChooser" */;
 			buildPhases = (
-				F90EE57D110AF4FEBC3BF676 /* [CP] Check Pods Manifest.lock */,
+				0991B65FBED1138CAE6EA730 /* Check Pods Manifest.lock */,
 				3584E5951DAB3BE300504539 /* Sources */,
 				3584E5961DAB3BE300504539 /* Frameworks */,
 				3584E5971DAB3BE300504539 /* Resources */,
-				3DD06A20121CA0ADB14473D8 /* [CP] Embed Pods Frameworks */,
-				0D0402414F3C6CFDB94C74EC /* [CP] Copy Pods Resources */,
+				15EA5158E588F96F3EC6DA52 /* Embed Pods Frameworks */,
+				804EDDD69E5F87C65F5C03EA /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -402,49 +410,49 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		0D0402414F3C6CFDB94C74EC /* [CP] Copy Pods Resources */ = {
+		0991B65FBED1138CAE6EA730 /* Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "[CP] Copy Pods Resources";
+			name = "Check Pods Manifest.lock";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-XLsn0wChooser/Pods-XLsn0wChooser-resources.sh\"\n";
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
-		3DD06A20121CA0ADB14473D8 /* [CP] Embed Pods Frameworks */ = {
+		15EA5158E588F96F3EC6DA52 /* Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "[CP] Embed Pods Frameworks";
+			name = "Embed Pods Frameworks";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-XLsn0wChooser/Pods-XLsn0wChooser-frameworks.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		F90EE57D110AF4FEBC3BF676 /* [CP] Check Pods Manifest.lock */ = {
+		804EDDD69E5F87C65F5C03EA /* Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "[CP] Check Pods Manifest.lock";
+			name = "Copy Pods Resources";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -455,6 +463,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3527DF081DBDE2DC0097A085 /* XLsn0wImageSelector.m in Sources */,
+				3527DF071DBDE2DC0097A085 /* XLsn0wImageSelectorTableViewCell.m in Sources */,
 				3584E5A41DAB3BE300504539 /* ViewController.m in Sources */,
 				3527DF091DBDE2DC0097A085 /* XLsn0wAlertChooser.m in Sources */,
 				3527DF311DBDE48F0097A085 /* XLsn0wCenterDatePicker.m in Sources */,
@@ -464,7 +473,6 @@
 				3527DF2D1DBDE48F0097A085 /* XLsn0wToolbar.m in Sources */,
 				3527DF2E1DBDE48F0097A085 /* XLsn0wTimeChooser.m in Sources */,
 				3584E59E1DAB3BE300504539 /* main.m in Sources */,
-				35D2C0D31DE3E08F0050107C /* XLsn0wImageSelectorTableViewCell.m in Sources */,
 				3527DF301DBDE48F0097A085 /* XLsn0wPickerAreaer.m in Sources */,
 				3527DF161DBDE3560097A085 /* XLsn0wDropMenu.m in Sources */,
 				35D922161DC72CAF005B5D7F /* XLsn0wPickerTimer.m in Sources */,
@@ -472,7 +480,7 @@
 				3527DEE61DBDA1D80097A085 /* XLsn0wChooser.m in Sources */,
 				3527DF0A1DBDE2DC0097A085 /* XLsn0wActionSheet.m in Sources */,
 				3527DF171DBDE3560097A085 /* XLsn0wMenuChooser.m in Sources */,
-				35D2C0D01DE3DFA50050107C /* XLsn0wTwoRowDater.m in Sources */,
+				3527DF331DBDE48F0097A085 /* XLsn0wPickerDater.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -586,7 +594,7 @@
 		};
 		3584E5B11DAB3BE300504539 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2FFE409C8837963A8187DC9B /* Pods-XLsn0wChooser.debug.xcconfig */;
+			baseConfigurationReference = 94C8E45D473FF92F97BDAD1A /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = XLsn0wChooser/Info.plist;
@@ -599,7 +607,7 @@
 		};
 		3584E5B21DAB3BE300504539 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 00C5F40F66AF9F543B5C1B8C /* Pods-XLsn0wChooser.release.xcconfig */;
+			baseConfigurationReference = 385E2A34D343E2ABF2B79496 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = XLsn0wChooser/Info.plist;

@@ -9,7 +9,7 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>Pods-XLsn0wChooser.xcscheme</key>
+		<key>Pods.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
@@ -22,17 +22,17 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>3730EA45C238749C09FAB49317A66A38</key>
+		<key>53480ED0BE09FF49E34B1702D485CAAB</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>9DC8D9E02903E93BD0B2FEC9D846EA20</key>
+		<key>8E2F695248ACC9CDAB40928984AC2E41</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>BC7E0D9735EFEDC2F2CF0F08D19CD4D2</key>
+		<key>ED327B853CF9B008129E6325D377A3EF</key>
 		<dict>
 			<key>primary</key>
 			<true/>

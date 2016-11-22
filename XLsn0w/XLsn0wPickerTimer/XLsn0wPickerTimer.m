@@ -184,7 +184,7 @@ CGFloat const STControlNormalHeight = 36;
     _titleColor        = [UIColor whiteColor];
     _borderButtonColor = RGB(205, 205, 205);
     _heightPicker      = 240;
-    _xlsn0wPickerButtonLocation = XLsn0wPickerButtonLocationBottom;
+    _contentMode       = Bottom;
     
     // 2.设置自身的属性
     self.bounds = [UIScreen mainScreen].bounds;
@@ -210,7 +210,7 @@ CGFloat const STControlNormalHeight = 36;
 - (void)layoutSubviews {
     [super layoutSubviews];
     
-    if (self.xlsn0wPickerButtonLocation == XLsn0wPickerButtonLocationBottom) {
+    if (self.contentMode == Bottom) {
     }else {
         self.buttonLeft.y = self.lineViewDown.bottom + STMarginSmall;
         self.buttonRight.y = self.lineViewDown.bottom + STMarginSmall;
@@ -234,7 +234,7 @@ CGFloat const STControlNormalHeight = 36;
     [self setCenter:[UIApplication sharedApplication].keyWindow.center];
     [[UIApplication sharedApplication].keyWindow bringSubviewToFront:self];
     
-    if (self.xlsn0wPickerButtonLocation == XLsn0wPickerButtonLocationBottom) {
+    if (self.contentMode == Bottom) {
         CGRect frameContent =  self.contentView.frame;
         frameContent.origin.y -= self.contentView.height;
         [UIView animateWithDuration:0.3 delay:0 options:UIViewAnimationOptionCurveEaseOut animations:^{
@@ -254,7 +254,7 @@ CGFloat const STControlNormalHeight = 36;
 }
 
 - (void)remove {
-    if (self.xlsn0wPickerButtonLocation == XLsn0wPickerButtonLocationBottom) {
+    if (self.contentMode == Bottom) {
         CGRect frameContent =  self.contentView.frame;
         frameContent.origin.y += self.contentView.height;
         [UIView animateWithDuration:0.3 delay:0 options:UIViewAnimationOptionCurveEaseOut animations:^{
@@ -307,13 +307,12 @@ CGFloat const STControlNormalHeight = 36;
     self.contentView.height = heightPicker;
 }
 
-- (void)setXlsn0wPickerButtonLocation:(XLsn0wPickerButtonLocation)xlsn0wPickerButtonLocation {
-    _xlsn0wPickerButtonLocation = xlsn0wPickerButtonLocation;
-    if (xlsn0wPickerButtonLocation == XLsn0wPickerButtonLocationCenter) {
+- (void)setContentMode:(XLsn0wPickerButtonContentMode)contentMode {
+    _contentMode = contentMode;
+    if (contentMode == Center) {
         self.contentView.height += STControlSystemHeight;
     }
 }
-
 #pragma mark - --- getters 属性 ---
 - (UIView *)contentView {
     if (!_contentView) {

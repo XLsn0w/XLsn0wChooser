@@ -9,7 +9,7 @@
  *                                                                                           *
  *********************************************************************************************/
 
-#import "XLsn0wTwoRowDater.h"
+#import "XLsn0wPickerDater.h"
 
 /**
  *  2.返回一个RGBA格式的UIColor对象
@@ -29,7 +29,7 @@
 static CGFloat const PickerViewHeight = 260;
 static CGFloat const PickerViewLabelWeight = 30;
 
-@interface XLsn0wTwoRowDater () <UIPickerViewDataSource, UIPickerViewDelegate>
+@interface XLsn0wPickerDater () <UIPickerViewDataSource, UIPickerViewDelegate>
 
 /** 1.选择器 */
 @property (nonatomic, strong, nullable)UIPickerView *pickerView;
@@ -43,11 +43,11 @@ static CGFloat const PickerViewLabelWeight = 30;
 
 @end
 
-@implementation XLsn0wTwoRowDater
+@implementation XLsn0wPickerDater
 
 #pragma mark - --- init 视图初始化 ---
 
-- (instancetype)initWithXLsn0wDelegate:(nullable id<XLsn0wTwoRowDaterDelegate>)xlsn0wDelegate {
+- (instancetype)initWithXLsn0wDelegate:(nullable id<XLsn0wPickerDaterDelegate>)xlsn0wDelegate {
     self = [self init];
     self.xlsn0wDelegate = xlsn0wDelegate;
     return self;
@@ -246,8 +246,8 @@ static CGFloat const PickerViewLabelWeight = 30;
 
 - (void)selectedOk {
 
-    if ([self.xlsn0wDelegate respondsToSelector:@selector(twoRowDater:selectedResult:)]) {
-         [self.xlsn0wDelegate twoRowDater:self selectedResult:_selectedResult];
+    if ([self.xlsn0wDelegate respondsToSelector:@selector(pickerDater:selectedResult:)]) {
+         [self.xlsn0wDelegate pickerDater:self selectedResult:_selectedResult];
     }
    
     [self remove];
