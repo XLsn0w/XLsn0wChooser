@@ -32,7 +32,7 @@
 		3584E5AC1DAB3BE300504539 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3584E5AA1DAB3BE300504539 /* LaunchScreen.storyboard */; };
 		3584E5CF1DAB3BFD00504539 /* XLsn0wChooser.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 3584E5C41DAB3BFD00504539 /* XLsn0wChooser.podspec */; };
 		3597ED1A1DB24A3B000770C2 /* area.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3597ED191DB24A3B000770C2 /* area.plist */; };
-		35D922161DC72CAF005B5D7F /* XLsn0wPickerTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = 35D922151DC72CAF005B5D7F /* XLsn0wPickerTimer.m */; };
+		35D2C0D81DE3F4770050107C /* XLsn0wPickerTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = 35D2C0D71DE3F4770050107C /* XLsn0wPickerTimer.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -80,8 +80,8 @@
 		3584E5C41DAB3BFD00504539 /* XLsn0wChooser.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = XLsn0wChooser.podspec; sourceTree = "<group>"; };
 		3597ED191DB24A3B000770C2 /* area.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = area.plist; sourceTree = "<group>"; };
 		35A78C031DAB7AA600D9D180 /* XLsn0wChooserKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLsn0wChooserKit.h; sourceTree = "<group>"; };
-		35D922141DC72CAF005B5D7F /* XLsn0wPickerTimer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLsn0wPickerTimer.h; sourceTree = "<group>"; };
-		35D922151DC72CAF005B5D7F /* XLsn0wPickerTimer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLsn0wPickerTimer.m; sourceTree = "<group>"; };
+		35D2C0D61DE3F4770050107C /* XLsn0wPickerTimer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLsn0wPickerTimer.h; sourceTree = "<group>"; };
+		35D2C0D71DE3F4770050107C /* XLsn0wPickerTimer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLsn0wPickerTimer.m; sourceTree = "<group>"; };
 		385E2A34D343E2ABF2B79496 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		4661867F18E551152C79CE55 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		94C8E45D473FF92F97BDAD1A /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
@@ -282,12 +282,12 @@
 			children = (
 				3584E5C41DAB3BFD00504539 /* XLsn0wChooser.podspec */,
 				35A78C031DAB7AA600D9D180 /* XLsn0wChooserKit.h */,
+				35D2C0D51DE3F4770050107C /* XLsn0wPickerTimer */,
 				3527DED31DBDA1D80097A085 /* XLsn0wChooser */,
 				3527DF1B1DBDE48F0097A085 /* XLsn0wTimeChooser */,
 				3527DF121DBDE3560097A085 /* XLsn0wMenuChooser */,
 				3527DEFE1DBDE2DC0097A085 /* XLsn0wAlertChooser */,
 				3527DF011DBDE2DC0097A085 /* XLsn0wActionSheet */,
-				35D922131DC72CAF005B5D7F /* XLsn0wPickerTimer */,
 				3527DF2A1DBDE48F0097A085 /* XLsn0wPickerDater */,
 				3527DF1E1DBDE48F0097A085 /* XLsn0wPickerSingler */,
 				3527DF211DBDE48F0097A085 /* XLsn0wPickerAreaer */,
@@ -312,11 +312,11 @@
 			path = Resources;
 			sourceTree = "<group>";
 		};
-		35D922131DC72CAF005B5D7F /* XLsn0wPickerTimer */ = {
+		35D2C0D51DE3F4770050107C /* XLsn0wPickerTimer */ = {
 			isa = PBXGroup;
 			children = (
-				35D922141DC72CAF005B5D7F /* XLsn0wPickerTimer.h */,
-				35D922151DC72CAF005B5D7F /* XLsn0wPickerTimer.m */,
+				35D2C0D61DE3F4770050107C /* XLsn0wPickerTimer.h */,
+				35D2C0D71DE3F4770050107C /* XLsn0wPickerTimer.m */,
 			);
 			path = XLsn0wPickerTimer;
 			sourceTree = "<group>";
@@ -475,7 +475,7 @@
 				3584E59E1DAB3BE300504539 /* main.m in Sources */,
 				3527DF301DBDE48F0097A085 /* XLsn0wPickerAreaer.m in Sources */,
 				3527DF161DBDE3560097A085 /* XLsn0wDropMenu.m in Sources */,
-				35D922161DC72CAF005B5D7F /* XLsn0wPickerTimer.m in Sources */,
+				35D2C0D81DE3F4770050107C /* XLsn0wPickerTimer.m in Sources */,
 				3527DF151DBDE3560097A085 /* XLsn0wPopMenu.m in Sources */,
 				3527DEE61DBDA1D80097A085 /* XLsn0wChooser.m in Sources */,
 				3527DF0A1DBDE2DC0097A085 /* XLsn0wActionSheet.m in Sources */,
