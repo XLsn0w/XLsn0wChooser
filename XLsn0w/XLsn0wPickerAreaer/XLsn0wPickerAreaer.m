@@ -328,6 +328,8 @@ static CGFloat const PickerViewLabelWeight = 32;
                                           okAction:@selector(selectedOk)];
         _toolbar.x = 0;
         _toolbar.y = CGRectGetHeight([UIScreen mainScreen].bounds);
+        _toolbar.buttonTitleColor = [UIColor whiteColor];
+        _toolbar.buttonBackgroundColor = [UIColor blueColor];
     }
     return _toolbar;
 }

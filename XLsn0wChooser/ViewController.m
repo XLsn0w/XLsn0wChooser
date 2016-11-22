@@ -16,7 +16,7 @@ static const float RealSrceenWidth =  375.0;
 #define AdaptationW(x) x/RealSrceenWidth*[[UIScreen mainScreen]bounds].size.width
 #define AdapationLabelFont(n) n*([[UIScreen mainScreen]bounds].size.width/375.0f)
 
-@interface ViewController () <XLsn0wChooserDelegate, XLsn0wPickerSinglerDelegate, XLsn0wCenterDatePickerDelegate, XLsn0wPickerTimerDelegate>
+@interface ViewController () <XLsn0wChooserDelegate, XLsn0wPickerSinglerDelegate, XLsn0wCenterDatePickerDelegate, XLsn0wPickerTimerDelegate, XLsn0wPickerAreaerDelegate, XLsn0wPickerDaterDelegate>
 
 @property (weak, nonatomic) XLsn0wCenterDatePicker *pikerView;
 
@@ -99,9 +99,18 @@ static const float RealSrceenWidth =  375.0;
     [singler show];
 }
 
+- (void)pickerSingler:(XLsn0wPickerSingler *)pickerSingler selectedTitle:(NSString *)selectedTitle selectedRow:(NSInteger)selectedRow {
+    NSLog(@"selectedTitle===%@", selectedTitle);
+    NSLog(@"selectedRow===%ld", selectedRow);
+}
 
 - (IBAction)dater:(id)sender {
+    XLsn0wPickerDater *dater = [[XLsn0wPickerDater alloc] initWithXLsn0wDelegate:self];
+    [dater show];
+}
 
+- (void)pickerDater:(XLsn0wPickerDater *)pickerDater selectedResult:(NSString *)selectedResult {
+    
 }
 
 - (IBAction)actionsheet:(id)sender {
@@ -116,7 +125,6 @@ static const float RealSrceenWidth =  375.0;
     
     
 //    NSArray *titlearr = @[@"微信朋友圈",@"微信好友",@"微信朋友圈",@"微信好友"];
-//    
 //    XLsn0wActionSheet *actionsheet = [[XLsn0wActionSheet alloc] initWithShareHeadOprationWith:titlearr andImageArry:@[] andProTitle:@"" and:ShowTypeIsActionSheetStyle];
 //    [actionsheet setBtnClick:^(NSInteger btnTag) {
 //        NSLog(@"\n点击第几行====%ld\n当前选中的按钮title====%@",btnTag,titlearr[btnTag]);
@@ -125,13 +133,13 @@ static const float RealSrceenWidth =  375.0;
 }
 
 - (IBAction)areaer:(id)sender {
+    XLsn0wPickerAreaer *areaer = [[XLsn0wPickerAreaer alloc] initWithDelegate:self];
+    [areaer show];
 }
 
-- (void)pickerSingler:(XLsn0wPickerSingler *)pickerSingler selectedTitle:(NSString *)selectedTitle selectedRow:(NSInteger)selectedRow {
-    NSLog(@"selectedTitle===%@", selectedTitle);
-    NSLog(@"selectedRow===%ld", selectedRow);
+- (void)pickerAreaer:(XLsn0wPickerAreaer *)pickerAreaer province:(NSString *)province city:(NSString *)city area:(NSString *)area {
+    
 }
-
 
 - (IBAction)centerDater:(id)sender {
     
