@@ -9,7 +9,7 @@
  *                                                                                           *
  *********************************************************************************************/
 
-#import "XLsn0wPickerDater.h"
+#import "XLsn0wIntervalDater.h"
 
 /**
  *  2.返回一个RGBA格式的UIColor对象
@@ -29,7 +29,7 @@
 static CGFloat const PickerViewHeight = 260;
 static CGFloat const PickerViewLabelWeight = 30;
 
-@interface XLsn0wPickerDater () <UIPickerViewDataSource, UIPickerViewDelegate>
+@interface XLsn0wIntervalDater () <UIPickerViewDataSource, UIPickerViewDelegate>
 
 /** 1.选择器 */
 @property (nonatomic, strong, nullable)UIPickerView *pickerView;
@@ -43,11 +43,11 @@ static CGFloat const PickerViewLabelWeight = 30;
 
 @end
 
-@implementation XLsn0wPickerDater
+@implementation XLsn0wIntervalDater
 
 #pragma mark - --- init 视图初始化 ---
 
-- (instancetype)initWithXLsn0wDelegate:(nullable id<XLsn0wPickerDaterDelegate>)xlsn0wDelegate {
+- (instancetype)initWithXLsn0wDelegate:(nullable id<XLsn0wIntervalDaterDelegate>)xlsn0wDelegate {
     self = [self init];
     self.xlsn0wDelegate = xlsn0wDelegate;
     return self;
@@ -144,14 +144,14 @@ static CGFloat const PickerViewLabelWeight = 30;
 }
 
 - (void)initSevenDaysArray {
-    //NSString *today = [NSString stringWithFormat:@"%ld-%ld-%ld", self.year, self.month, self.day+0];
+    NSString *today0 = [NSString stringWithFormat:@"%ld-%ld-%ld", self.year, self.month, self.day+0];
     NSString *today1 = [NSString stringWithFormat:@"%ld-%ld-%ld", (long)self.year, (long)self.month, (long)(self.day+1)];
     NSString *today2 = [NSString stringWithFormat:@"%ld-%ld-%ld", (long)self.year, (long)self.month, (long)(self.day+2)];
     NSString *today3 = [NSString stringWithFormat:@"%ld-%ld-%ld", (long)self.year, (long)self.month, (long)(self.day+3)];
     NSString *today4 = [NSString stringWithFormat:@"%ld-%ld-%ld", (long)self.year, (long)self.month, (long)(self.day+4)];
     NSString *today5 = [NSString stringWithFormat:@"%ld-%ld-%ld", (long)self.year, (long)self.month, (long)(self.day+5)];
     NSString *today6 = [NSString stringWithFormat:@"%ld-%ld-%ld", (long)self.year, (long)self.month, (long)(self.day+6)];
-    self.sevenDaysArray = @[@"今天", today1, today2, today3, today4, today5, today6];
+    self.sevenDaysArray = @[today0, today1, today2, today3, today4, today5, today6];
 }
 
 - (void)reInitTimeIntervalArray {
@@ -246,8 +246,8 @@ static CGFloat const PickerViewLabelWeight = 30;
 
 - (void)selectedOk {
 
-    if ([self.xlsn0wDelegate respondsToSelector:@selector(pickerDater:selectedResult:)]) {
-         [self.xlsn0wDelegate pickerDater:self selectedResult:_selectedResult];
+    if ([self.xlsn0wDelegate respondsToSelector:@selector(intervalDater:selectedResult:)]) {
+         [self.xlsn0wDelegate intervalDater:self selectedResult:_selectedResult];
     }
    
     [self remove];

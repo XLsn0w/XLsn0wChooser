@@ -16,7 +16,7 @@ static const float RealSrceenWidth =  375.0;
 #define AdaptationW(x) x/RealSrceenWidth*[[UIScreen mainScreen]bounds].size.width
 #define AdapationLabelFont(n) n*([[UIScreen mainScreen]bounds].size.width/375.0f)
 
-@interface ViewController () <XLsn0wChooserDelegate, XLsn0wPickerSinglerDelegate, XLsn0wPickerDaterDelegate, XLsn0wCenterDatePickerDelegate, XLsn0wPickerTimerDelegate>
+@interface ViewController () <XLsn0wChooserDelegate, XLsn0wPickerSinglerDelegate, XLsn0wIntervalDaterDelegate, XLsn0wCenterDatePickerDelegate, XLsn0wPickerTimerDelegate>
 
 @property (weak, nonatomic) XLsn0wCenterDatePicker *pikerView;
 
@@ -101,7 +101,7 @@ static const float RealSrceenWidth =  375.0;
 
 
 - (IBAction)dater:(id)sender {
-    XLsn0wPickerDater *datePicker = [[XLsn0wPickerDater alloc] initWithXLsn0wDelegate:self];
+    XLsn0wIntervalDater *datePicker = [[XLsn0wIntervalDater alloc] initWithXLsn0wDelegate:self];
     [datePicker show];
 }
 
@@ -133,7 +133,7 @@ static const float RealSrceenWidth =  375.0;
     NSLog(@"selectedRow===%ld", selectedRow);
 }
 
-- (void)pickerDater:(XLsn0wPickerDater *)pickerDater selectedResult:(NSString *)selectedResult {
+- (void)intervalDater:(XLsn0wIntervalDater *)intervalDater selectedResult:(NSString *)selectedResult {
     NSLog(@"selectedResult===%@", selectedResult);
 }
 
