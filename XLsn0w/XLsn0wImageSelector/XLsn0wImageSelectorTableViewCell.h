@@ -21,7 +21,6 @@
 
 @end
 
-
 @interface XLsn0wImageSelectorTableViewCell : UITableViewCell
 
 @property (nonatomic, strong) NSArray* imageArray;

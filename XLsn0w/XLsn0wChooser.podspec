@@ -1,8 +1,8 @@
 
 Pod::Spec.new do |s|
 
-  s.version      = "1.3.3"
-  s.summary      = "XLsn0w Custom A Good Chooser Kit"
+  s.version      = "1.3.5"
+  s.summary      = "A Better Chooser Library Born Of XLsn0w Kit"
 
   s.license      = "MIT"
   s.requires_arc = true
