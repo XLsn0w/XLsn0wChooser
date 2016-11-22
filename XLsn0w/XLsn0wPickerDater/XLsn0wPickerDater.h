@@ -15,17 +15,17 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@class XLsn0wIntervalDater;
+@class XLsn0wPickerDater;
 
-@protocol XLsn0wIntervalDaterDelegate<NSObject>
+@protocol XLsn0wPickerDaterDelegate<NSObject>
 
-- (void)intervalDater:(XLsn0wIntervalDater *)intervalDater selectedResult:(NSString *)selectedResult;
+- (void)pickerDater:(XLsn0wPickerDater *)pickerDater selectedResult:(NSString *)selectedResult;
 
 @end
 
-@interface XLsn0wIntervalDater : UIButton
+@interface XLsn0wPickerDater : UIButton
 
-@property(nonatomic, weak) id<XLsn0wIntervalDaterDelegate> xlsn0wDelegate;
+@property(nonatomic, weak) id<XLsn0wPickerDaterDelegate> xlsn0wDelegate;
 
 /** 2.工具器 */
 @property (nonatomic, strong, nullable) XLsn0wToolbar *toolbar;
@@ -41,7 +41,7 @@ NS_ASSUME_NONNULL_BEGIN
 - (void)reInitTimeIntervalArray;
 - (void)initSevenDaysArray;
 
-- (instancetype)initWithXLsn0wDelegate:(nullable id<XLsn0wIntervalDaterDelegate>)xlsn0wDelegate;
+- (instancetype)initWithXLsn0wDelegate:(nullable id<XLsn0wPickerDaterDelegate>)xlsn0wDelegate;
 
 - (void)show;
 @end
