@@ -45,7 +45,7 @@ static const float RealSrceenWidth =  375.0;
         NSLog(@"action3.title=== %@", action.title);
     }];
     
-    XLsn0wPopupMenu *popupMenu = [XLsn0wPopupMenu popoverView];
+    XLsn0wPopupMenu *popupMenu = [[XLsn0wPopupMenu alloc] init];
     popupMenu.style = XLsn0wPopupMenuStyleBlack;
     popupMenu.showShade = YES;
     [popupMenu showToView:sender withActions:@[action1, action2, action3]];

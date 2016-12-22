@@ -18,8 +18,6 @@
 @property (nonatomic, assign) BOOL showShade; ///< 是否显示阴影, 如果为YES则弹窗背景为半透明的阴影层, 否则为透明, 默认为NO.
 @property (nonatomic, assign) XLsn0wPopupMenuStyle style; ///< 弹出窗风格, 默认为 PopoverViewStyleDefault(白色).
 
-+ (instancetype)popoverView;
-
 /*! @brief 指向指定的View来显示弹窗
  *  @param pointView 箭头指向的View
  *  @param actions   动作对象集合<PopoverAction>
@@ -49,9 +47,7 @@ UIKIT_EXTERN float const PopoverViewCellHorizontalMargin; ///< 水平间距边�
 UIKIT_EXTERN float const PopoverViewCellVerticalMargin; ///< 垂直边距
 UIKIT_EXTERN float const PopoverViewCellTitleLeftEdge; ///< 标题左边边距
 
-@class PopoverAction;
-
-@interface PopoverViewCell : UITableViewCell
+@interface XLsn0wPopupActionCell : UITableViewCell
 
 @property (nonatomic, assign) XLsn0wPopupMenuStyle style;
 
@@ -63,7 +59,7 @@ UIKIT_EXTERN float const PopoverViewCellTitleLeftEdge; ///< 标题左边边距
  */
 + (UIColor *)bottomLineColorForStyle:(XLsn0wPopupMenuStyle)style;
 
-- (void)setAction:(PopoverAction *)action;
+- (void)setAction:(XLsn0wPopupAction *)action;
 
 - (void)showBottomLine:(BOOL)show;
 

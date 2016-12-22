@@ -16,7 +16,7 @@ static float const kPopoverViewCellHeight = 40.f; ///< cell指定高度
 static float const kPopoverViewArrowHeight = 13.f; ///< 箭头高度
 
 // convert degrees to radians
-float DegreesToRadians(float angle) {
+float XLsn0wPopupMenuDegreesToRadians(float angle) {
     return angle*M_PI/180;
 }
 
@@ -73,7 +73,7 @@ float DegreesToRadians(float angle) {
 
 - (void)setStyle:(XLsn0wPopupMenuStyle)style {
     _style = style;
-    _tableView.separatorColor = [PopoverViewCell bottomLineColorForStyle:_style];
+    _tableView.separatorColor = [XLsn0wPopupActionCell bottomLineColorForStyle:_style];
     if (_style == XLsn0wPopupMenuStyleDefault) {
         self.backgroundColor = [UIColor whiteColor];
     } else {
@@ -113,7 +113,7 @@ float DegreesToRadians(float angle) {
     _tableView.showsVerticalScrollIndicator = NO;
     _tableView.backgroundColor = [UIColor clearColor];
     _tableView.separatorStyle = UITableViewCellSeparatorStyleNone;
-    _tableView.separatorColor = [PopoverViewCell bottomLineColorForStyle:_style];
+    _tableView.separatorColor = [XLsn0wPopupActionCell bottomLineColorForStyle:_style];
     [self addSubview:_tableView];
 }
 
@@ -181,8 +181,8 @@ float DegreesToRadians(float angle) {
     [maskPath moveToPoint:CGPointMake(0, cornerRadius + maskTop)];
     [maskPath addArcWithCenter:CGPointMake(cornerRadius, cornerRadius + maskTop)
                         radius:cornerRadius
-                    startAngle:DegreesToRadians(180)
-                      endAngle:DegreesToRadians(270)
+                    startAngle:XLsn0wPopupMenuDegreesToRadians(180)
+                      endAngle:XLsn0wPopupMenuDegreesToRadians(270)
                      clockwise:YES];
     // 箭头向上时的箭头位置
     if (_isUpward) {
@@ -198,15 +198,15 @@ float DegreesToRadians(float angle) {
     [maskPath addLineToPoint:CGPointMake(currentW - cornerRadius, maskTop)];
     [maskPath addArcWithCenter:CGPointMake(currentW - cornerRadius, maskTop + cornerRadius)
                         radius:cornerRadius
-                    startAngle:DegreesToRadians(270)
-                      endAngle:DegreesToRadians(0)
+                    startAngle:XLsn0wPopupMenuDegreesToRadians(270)
+                      endAngle:XLsn0wPopupMenuDegreesToRadians(0)
                      clockwise:YES];
     // 右下圆角
     [maskPath addLineToPoint:CGPointMake(currentW, maskBottom - cornerRadius)];
     [maskPath addArcWithCenter:CGPointMake(currentW - cornerRadius, maskBottom - cornerRadius)
                         radius:cornerRadius
-                    startAngle:DegreesToRadians(0)
-                      endAngle:DegreesToRadians(90)
+                    startAngle:XLsn0wPopupMenuDegreesToRadians(0)
+                      endAngle:XLsn0wPopupMenuDegreesToRadians(90)
                      clockwise:YES];
     // 箭头向下时的箭头位置
     if (!_isUpward) {
@@ -222,8 +222,8 @@ float DegreesToRadians(float angle) {
     [maskPath addLineToPoint:CGPointMake(cornerRadius, maskBottom)];
     [maskPath addArcWithCenter:CGPointMake(cornerRadius, maskBottom - cornerRadius)
                         radius:cornerRadius
-                    startAngle:DegreesToRadians(90)
-                      endAngle:DegreesToRadians(180)
+                    startAngle:XLsn0wPopupMenuDegreesToRadians(90)
+                      endAngle:XLsn0wPopupMenuDegreesToRadians(180)
                      clockwise:YES];
     [maskPath closePath];
     // 截取圆角和箭头
@@ -260,7 +260,7 @@ float DegreesToRadians(float angle) {
 - (CGFloat)calculateMaxWidth {
     CGFloat maxWidth = 0.f, titleLeftEdge = 0.f, imageWidth = 0.f, imageMaxHeight = kPopoverViewCellHeight - PopoverViewCellVerticalMargin*2;
     CGSize imageSize = CGSizeZero;
-    UIFont *titleFont = [PopoverViewCell titleFont];
+    UIFont *titleFont = [XLsn0wPopupActionCell titleFont];
     for (XLsn0wPopupAction *action in self.actionArray) {
         imageWidth = 0.f;
         titleLeftEdge = 0.f;
@@ -311,13 +311,8 @@ float DegreesToRadians(float angle) {
     }];
 }
 
-#pragma mark - Public
-+ (instancetype)popoverView {
-    return [[self alloc] init];
-}
-
 /*! @brief 指向指定的View来显示弹窗 */
-- (void)showToView:(UIView *)pointView withActions:(NSArray<PopoverAction *> *)actions {
+- (void)showToView:(UIView *)pointView withActions:(NSArray<XLsn0wPopupAction *> *)actions {
     // 判断 pointView 是偏上还是偏下
     CGRect pointViewRect = [pointView.superview convertRect:pointView.frame toView:_keyWindow];
     CGFloat pointViewUpLength = CGRectGetMinY(pointViewRect);
@@ -340,7 +335,7 @@ float DegreesToRadians(float angle) {
 }
 
 /*! @brief 指向指定的点来显示弹窗 */
-- (void)showToPoint:(CGPoint)toPoint withActions:(NSArray<PopoverAction *> *)actions {
+- (void)showToPoint:(CGPoint)toPoint withActions:(NSArray<XLsn0wPopupAction *> *)actions {
     self.actionArray = [actions copy];
     // 计算箭头指向方向
     _isUpward = toPoint.y <= _windowHeight - toPoint.y;
@@ -358,9 +353,9 @@ float DegreesToRadians(float angle) {
 
 static NSString *kPopoverCellIdentifier = @"kPopoverCellIdentifier";
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
-    PopoverViewCell *cell = [tableView dequeueReusableCellWithIdentifier:kPopoverCellIdentifier];
+    XLsn0wPopupActionCell *cell = [tableView dequeueReusableCellWithIdentifier:kPopoverCellIdentifier];
     if (!cell) {
-        cell = [[PopoverViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:kPopoverCellIdentifier];
+        cell = [[XLsn0wPopupActionCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:kPopoverCellIdentifier];
     }
     
     [cell setAction:self.actionArray[indexPath.row]];
@@ -401,14 +396,14 @@ float const PopoverViewCellHorizontalMargin = 15.f; ///< 水平边距
 float const PopoverViewCellVerticalMargin = 3.f; ///< 垂直边距
 float const PopoverViewCellTitleLeftEdge = 8.f; ///< 标题左边边距
 
-@interface PopoverViewCell ()
+@interface XLsn0wPopupActionCell ()
 
 @property (nonatomic, strong) UIButton *button;
 @property (nonatomic, weak) UIView *bottomLine;
 
 @end
 
-@implementation PopoverViewCell
+@implementation XLsn0wPopupActionCell
 
 #pragma mark - Life Cycle
 - (instancetype)initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(NSString *)reuseIdentifier {
