@@ -28,9 +28,27 @@ static const float RealSrceenWidth =  375.0;
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
 }
--(void)xlsn0wChooser:(XLsn0wChooser *)xlsn0wChooser didSelectInfo:(NSDictionary *)Info{
-//    [_typeBtn setTitle:[dic objectForKey:@"name"] forState:0];
+
+-(void)xlsn0wChooser:(XLsn0wChooser *)xlsn0wChooser didSelectInfo:(NSDictionary *)Info {
     NSLog(@"%@",[Info objectForKey:@"name"]);
+}
+
+- (IBAction)showPopupMenu:(id)sender {
+    
+    XLsn0wPopupAction *action1 = [XLsn0wPopupAction actionWithTitle:@"高清" handler:^(XLsn0wPopupAction *action) {
+        NSLog(@"action1.title=== %@", action.title);//在此处回调 执行点击事件方法
+    }];
+    XLsn0wPopupAction *action2 = [XLsn0wPopupAction actionWithTitle:@"均衡" handler:^(XLsn0wPopupAction *action) {
+        NSLog(@"action2.title=== %@", action.title);
+    }];
+    XLsn0wPopupAction *action3 = [XLsn0wPopupAction actionWithTitle:@"流畅" handler:^(XLsn0wPopupAction *action) {
+        NSLog(@"action3.title=== %@", action.title);
+    }];
+    
+    XLsn0wPopupMenu *popupMenu = [XLsn0wPopupMenu popoverView];
+    popupMenu.style = XLsn0wPopupMenuStyleBlack;
+    popupMenu.showShade = YES;
+    [popupMenu showToView:sender withActions:@[action1, action2, action3]];
 }
 
 - (IBAction)show2:(id)sender {

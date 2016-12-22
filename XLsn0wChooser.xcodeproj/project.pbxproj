@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		351E3BF21E0B7307009A068A /* XLsn0wPopupAction.m in Sources */ = {isa = PBXBuildFile; fileRef = 351E3BEF1E0B7307009A068A /* XLsn0wPopupAction.m */; };
+		351E3BF31E0B7307009A068A /* XLsn0wPopupMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 351E3BF11E0B7307009A068A /* XLsn0wPopupMenu.m */; };
 		3527DEE61DBDA1D80097A085 /* XLsn0wChooser.m in Sources */ = {isa = PBXBuildFile; fileRef = 3527DEDD1DBDA1D80097A085 /* XLsn0wChooser.m */; };
 		3527DF091DBDE2DC0097A085 /* XLsn0wAlertChooser.m in Sources */ = {isa = PBXBuildFile; fileRef = 3527DF001DBDE2DC0097A085 /* XLsn0wAlertChooser.m */; };
 		3527DF0A1DBDE2DC0097A085 /* XLsn0wActionSheet.m in Sources */ = {isa = PBXBuildFile; fileRef = 3527DF031DBDE2DC0097A085 /* XLsn0wActionSheet.m */; };
@@ -35,6 +37,10 @@
 
 /* Begin PBXFileReference section */
 		16AAAFF04DBB18CF33F861C5 /* libPods-XLsn0wChooser.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-XLsn0wChooser.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		351E3BEE1E0B7307009A068A /* XLsn0wPopupAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLsn0wPopupAction.h; sourceTree = "<group>"; };
+		351E3BEF1E0B7307009A068A /* XLsn0wPopupAction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLsn0wPopupAction.m; sourceTree = "<group>"; };
+		351E3BF01E0B7307009A068A /* XLsn0wPopupMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLsn0wPopupMenu.h; sourceTree = "<group>"; };
+		351E3BF11E0B7307009A068A /* XLsn0wPopupMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLsn0wPopupMenu.m; sourceTree = "<group>"; };
 		3527DEDC1DBDA1D80097A085 /* XLsn0wChooser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLsn0wChooser.h; sourceTree = "<group>"; };
 		3527DEDD1DBDA1D80097A085 /* XLsn0wChooser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLsn0wChooser.m; sourceTree = "<group>"; };
 		3527DEFF1DBDE2DC0097A085 /* XLsn0wAlertChooser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLsn0wAlertChooser.h; sourceTree = "<group>"; };
@@ -93,6 +99,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		351E3BED1E0B7307009A068A /* XLsn0wPopupMenu */ = {
+			isa = PBXGroup;
+			children = (
+				351E3BF01E0B7307009A068A /* XLsn0wPopupMenu.h */,
+				351E3BF11E0B7307009A068A /* XLsn0wPopupMenu.m */,
+				351E3BEE1E0B7307009A068A /* XLsn0wPopupAction.h */,
+				351E3BEF1E0B7307009A068A /* XLsn0wPopupAction.m */,
+			);
+			path = XLsn0wPopupMenu;
+			sourceTree = "<group>";
+		};
 		3527DED31DBDA1D80097A085 /* XLsn0wChooser */ = {
 			isa = PBXGroup;
 			children = (
@@ -269,8 +286,9 @@
 				3527DF011DBDE2DC0097A085 /* XLsn0wActionSheet */,
 				3527DF241DBDE48F0097A085 /* XLsn0wCenterDatePicker */,
 				3527DF271DBDE48F0097A085 /* XLsn0wCenterDater */,
-				3527DF0C1DBDE3560097A085 /* XLsn0wPopMenu */,
 				3527DF0F1DBDE3560097A085 /* XLsn0wDropMenu */,
+				3527DF0C1DBDE3560097A085 /* XLsn0wPopMenu */,
+				351E3BED1E0B7307009A068A /* XLsn0wPopupMenu */,
 				3527DF181DBDE48F0097A085 /* XLsn0wToolbar */,
 				3597ED181DB24A3B000770C2 /* Resources */,
 			);
@@ -346,6 +364,7 @@
 				TargetAttributes = {
 					3584E5981DAB3BE300504539 = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = TJFMNSFT3H;
 					};
 				};
 			};
@@ -440,12 +459,14 @@
 				3527DF091DBDE2DC0097A085 /* XLsn0wAlertChooser.m in Sources */,
 				3527DF311DBDE48F0097A085 /* XLsn0wCenterDatePicker.m in Sources */,
 				3527DF2F1DBDE48F0097A085 /* XLsn0wPickerSingler.m in Sources */,
+				351E3BF31E0B7307009A068A /* XLsn0wPopupMenu.m in Sources */,
 				3584E5A11DAB3BE300504539 /* AppDelegate.m in Sources */,
 				3527DF321DBDE48F0097A085 /* XLsn0wCenterDater.m in Sources */,
 				3527DF2D1DBDE48F0097A085 /* XLsn0wToolbar.m in Sources */,
 				3527DF2E1DBDE48F0097A085 /* XLsn0wTimeChooser.m in Sources */,
 				3584E59E1DAB3BE300504539 /* main.m in Sources */,
 				3527DF301DBDE48F0097A085 /* XLsn0wPickerAreaer.m in Sources */,
+				351E3BF21E0B7307009A068A /* XLsn0wPopupAction.m in Sources */,
 				3527DF161DBDE3560097A085 /* XLsn0wDropMenu.m in Sources */,
 				35D2C0D81DE3F4770050107C /* XLsn0wPickerTimer.m in Sources */,
 				3527DF151DBDE3560097A085 /* XLsn0wPopMenu.m in Sources */,
@@ -569,6 +590,7 @@
 			baseConfigurationReference = AA9B50BC995E35CC5A78DCA4 /* Pods-XLsn0wChooser.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = TJFMNSFT3H;
 				INFOPLIST_FILE = XLsn0wChooser/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -582,6 +604,7 @@
 			baseConfigurationReference = 65C076E7B32C3C7C3DF576F7 /* Pods-XLsn0wChooser.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = TJFMNSFT3H;
 				INFOPLIST_FILE = XLsn0wChooser/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
